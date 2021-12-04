@@ -66,6 +66,7 @@ module Consul
       "so",
       "sr",
       "sv",
+      "th",
       "tr",
       "uk-UA",
       "val",
@@ -81,6 +82,7 @@ module Consul
       "it"    => "es",
       "oc"    => "fr",
       "pt-BR" => "es",
+      "th" => "en",
       "val"   => "es"
     }
 
