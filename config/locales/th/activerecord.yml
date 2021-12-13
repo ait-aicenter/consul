@@ -1,0 +1,608 @@
+---
+th:
+  activerecord:
+    attributes:
+      active_poll/translation:
+        description: "คำอธิบาย"
+      admin_notification:
+        body: "ข้อความ"
+        link: "ลิ้งก์"
+        segment_recipient: "ผู้รับ"
+        title: "ชื่อเรื่อง"
+      admin_notification/translation:
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
+      banner:
+        background_color: "สีพื้นหลัง"
+        font_color: "สีตัวหนังสือ"
+        post_ended_at: "โพสต์สิ้นสุดที่"
+        post_started_at: "เริ่มโพสต์ที่"
+        target_url: "ลิ้งก์"
+      banner/translation:
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+      budget:
+        currency_symbol: "สกุลเงิน"
+        description_accepting: "คำอธิบายระหว่างขั้นตอนการยอมรับ"
+        description_balloting: "คำอธิบายระหว่างขั้นตอนการลงคะแนน"
+        description_finished: "คำอธิบายเมื่อการจัดทำงบประมาณเสร็จสิ้น"
+        description_reviewing: "คำอธิบายระหว่างขั้นตอนการตรวจสอบ"
+        description_reviewing_ballots: "คำอธิบายระหว่างขั้นตอนการตรวจสอบการลงคะแนน"
+        description_selecting: "คำอธิบายระหว่างขั้นตอนการเลือก"
+        description_valuating: "คำอธิบายระหว่างขั้นตอนการประเมินค่า"
+        main_link_url: "นำคุณไปยังลิงค์ (เพิ่มลิงก์)"
+        name: "ชื่อ"
+        phase: "ระยะเวลาที่ใช้งาน"
+        voting_style: "รูปแบบการลงคะแนนครั้งสุดท้าย"
+        voting_style_approval: "การอนุมัติ"
+        voting_style_knapsack: "กระเป๋า"
+      budget/group:
+        max_votable_headings: "จำนวนชื่อเรื่องสูงสุดที่ผู้ใช้สามารถใช้เลือกกับโครงการได้"
+      budget/group/translation:
+        name: "ชื่อกลุ่ม"
+      budget/heading:
+        allow_custom_content: "อนุญาติการบล็อคเนื้อหา"
+        latitude: "ละติจูด (ทางเลือก)"
+        longitude: "ลองจิจูด(ทางเลือก)"
+        max_ballot_lines: "อนุญาติให้โหวตได้"
+        name: "ชื่อหัวเรื่อง"
+        population: "ประชากร(ทางเลือก)"
+        price: "จำนวนเงิน"
+      budget/heading/translation:
+        name: "ชื่อหัวเรื่อง"
+      budget/investment:
+        administrator_id: "ผู้ดูแลระบบ"
+        description: "คำอธิบาย"
+        duration: "ขอบเขตเวลา"
+        external_url: "ลิ้งก์ที่ไปยังเอกสารเพิ่มเติม"
+        feasibility_feasible: "เป็นไปได้"
+        feasibility_undecided: "ไม่ได้กำหนด"
+        feasibility_unfeasible: "เป็นไปไม่ได้"
+        heading_id: "หัวเรื่อง"
+        image: "ภาพลักษณะของข้อเสนอ"
+        image_title: "ชื่อภาพ"
+        incompatible: "ทำเครื่องหมายว่าเข้ากันไม่ได้"
+        location: "ข้อมูลสถานที่เพิ่มเติม"
+        milestone_tag_list: "แท็กเหตุการณ์สำคัญ"
+        organization_name: "หากคุณเสนอชื่อในนามของกลุ่ม/องค์กรหรือในนามของผู้คนจำนวนมากให้เขียนชื่อลงไป"
+        price_explanation: "คำอธิบายราคา"
+        selected: "ทำเครื่องหมายว่าเลือกแล้ว"
+        selected_false: "ไม่ถูกเลือก"
+        selected_true: "ถูกเลือก"
+        title: "ชื่อเรื่อง"
+        unfeasibility_explanation: "คำอธิบายความเป็นไปได้"
+        valuation_finished: "ประเมินเสร็จแล้ว"
+        valuation_tag_list: "แท็ก"
+        valuator_ids: "กลุ่ม"
+      budget/investment/translation:
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+      budget/phase:
+        enabled: "เปิดใช้งานระยะเวลา"
+        ends_at: "วันสิ้นสุด"
+        main_link_url: "ลิงค์ ที่นำคุณไปยัง (เพิ่มลิงค์)"
+        starts_at: "วันเริ่มต้น"
+      budget/phase/translation:
+        description: "คำอธิบาย"
+        main_link_text: "ข้อความบนลิ้งก์"
+        name: "ชื่อ"
+        summary: "สรุป"
+      budget/translation:
+        main_link_text: "ข้อความบนลิ้งก์"
+        name: "ชื่อ"
+      comment:
+        body: "ความคิดเห็น"
+        user: "ผู้ใช้งาน"
+      dashboard/action:
+        action_type: "ประเภท"
+        action_type_proposed_action: "การดำเนินการที่ถูกเสนอ"
+        action_type_resource: "แหล่งข้อมูล"
+        active: "กำลังทำงาน"
+        day_offset: "คุณต้องการให้เปิดใช้งานข้อเสนอภายในกี่วันหลังจากสร้างข้อเสนอแล้ว?"
+        description: "คำอธิบาย"
+        link: "การเชื่องโยงภายนอก"
+        order: "คุณสามารถเข้าถึงตำแหน่งที่การทำงานนี้จะถูกแสดงให้ผู้ใช้เห็นขณะใช้งาน"
+        published_proposal: "สำหรับข้อเสนอที่เผยแพร่?"
+        request_to_administrators: "รวมปุ่มเพื่อขอทรัพยากรจากผู้ดูแลระบบ"
+        required_supports: "ข้อเสนอต้องการการสนับสนุนมากเท่าไหนจึงเปิดใช้งานได้?"
+        short_description: "คำอธิบายโดยย่อ"
+        title: "ชื่อเรื่อง"
+      dashboard/administrator_task:
+        source: "แหล่งที่มา"
+        user: "ดำเนินการโดย"
+      debate:
+        author: "ผู้แต่ง"
+        description: "ความคิดเห็น"
+        tag_list: "หัวข้อ"
+        terms_of_service: "เงื่อนไขการให้บริการ"
+        title: "ชื่อเรื่อง"
+      debate/translation:
+        description: "ข้อความอภิปรายเบื้อต้น"
+        title: "หัวข้ออภิปราย"
+      direct_message:
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
+      document:
+        attachment: "เลือกเอกสาร"
+        title: "ชื่อเรื่อง"
+      geozone:
+        census_code: "รหัสข้อมูลประชากร (ทางเลือก)"
+        external_code: "รหัสภายนอก (ทางเลือก)"
+        html_map_coordinates: "เฮชทีเอ็มแอล <map> พิกัด (ทางเลือก)"
+        name: "ชื่อ"
+      image:
+        attachment: "เลือกภาพ"
+        title: "ชื่อเรื่อง"
+      legislation/annotation:
+        text: "ความคิดเห็น"
+      legislation/draft_version:
+        body: "ข้อความ"
+        changelog: "เปลี่ยน"
+        final_version: "เวอร์ชั่นสุดท้าย"
+        status: "สถานะ"
+        status_draft: "ร่าง"
+        status_published: "เป็นสาธารณะ"
+        title: "รุ่นของชื่อเรื่อง"
+      legislation/draft_version/translation:
+        body: "ข้อความ"
+        changelog: "เปลี่ยน"
+        title: "เวอร์ชั่นของชื่อเรื่อง"
+      legislation/process:
+        additional_info: "ข้อมูลเพิ่มเติม"
+        allegations_end_date: "สิ้นสุด"
+        allegations_start_date: "เริ่ม"
+        background_color: "สีพื้นหลัง"
+        debate_end_date: "สิ้นสุด"
+        debate_start_date: "เริ่ม"
+        description: "คำอธิบาย"
+        draft_end_date: "สิ้นสุด"
+        draft_publication_date: "วันที่ตีพิมพ์ฉบับร่าง"
+        draft_start_date: "เริ่ม"
+        end_date: "สิ้นสุด"
+        font_color: "สีตัวหนังสือ"
+        homepage_enabled: "เปิดใช้งานโฮมเพจ"
+        proposals_phase_end_date: "สิ้นสุด"
+        proposals_phase_start_date: "เริ่ม"
+        result_publication_date: "วันที่ประกาศผลวันสุดท้าย"
+        start_date: "เริ่ม"
+        summary: "ข้อสรุป"
+        title: "ชื่อกระบวนการ"
+      legislation/process/translation:
+        additional_info: "ข้อมูลเพิ่มเติม"
+        description: "คำอธิบาย"
+        homepage: "คำอธิบาย"
+        milestones_summary: "สรุป"
+        summary: "สรุป"
+        title: "ชื่อกระบวนการ"
+      legislation/proposal:
+        description: "ข้อความคำขอ"
+        summary: "การสรุปข้อเสนอ"
+        title: "ชื่อข้อเสนอ"
+        video_url: "ลิ้งก์ไปยังวิดิโอภายนอก"
+      legislation/question:
+        question_options: "ทางเลือก"
+        title: "ชื่อเรื่อง"
+      legislation/question/translation:
+        title: "คำถาม"
+      legislation/question_option:
+        value: "มูลค่า"
+      link:
+        label: "ชื่อเรื่อง"
+        url: "ยูอาร์แอล"
+      local_census_record:
+        date_of_birth: "วันเกิด"
+        document_number: "หมายเลขเอกสาร"
+        document_type: "รูปแบบของเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
+      milestone:
+        description: "คำอธิบาย (เป็นทางเลือกหากมีการกำหนดสถานะ)"
+        publication_date: "วันที่"
+        status_id: "สถานะปัจจุบัน(เป็นทางเลือก)"
+        title: "วันที่"
+      milestone/status:
+        description: "คำอธิบาย (ทางเลือก)"
+        name: "ชื่อ"
+      milestone/translation:
+        description: "คำอธิบาย"
+      newsletter:
+        body: "เนื้อหาของอีเมล"
+        from: "ที่ยู่อีเมลจะแสดงเป็นการส่งจดหมายข่าว"
+        segment_recipient: "ผู้รับ"
+        subject: "ชื่อเรื่อง"
+      organization:
+        name: "ชื่อขององค์กร"
+        responsible_name: "บุคคลที่รับผิดชอบในกลุ่ม"
+      poll:
+        description: "คำอธิบาย"
+        ends_at: "วันที่ปิด"
+        geozone_restricted: "ถูกจำกัดโดยเขตภูมิศาสตร์"
+        name: "ชื่อ"
+        starts_at: "วันที่เริ่ม"
+        summary: "สรุป"
+        title: "ชื่อ"
+      poll/ballot_sheet:
+        data: "ข้อมูลซีเอสวี"
+        officer_assignment_id: "การมอบหมายเจ้าหน้าที่"
+        poll_id: "สำรวจความคิดเห็น"
+      poll/booth:
+        location: "สถานที่"
+        name: "ชื่อ"
+      poll/question:
+        description: "คำอธิบาย"
+        external_url: "ลิ้งก์ไปที่เอกสารเพิ่มเติม"
+        poll_id: "สำรวจความคิดเห็น"
+        summary: "ข้อสรุป"
+        title: "คำถาม"
+      poll/question/answer:
+        description: "คำอธิบาย"
+        title: "คำถาม"
+      poll/question/answer/translation:
+        title: "คำถาม"
+        description: "คำอธิบาย"
+      poll/question/answer/video:
+        title: "ชื่อเรื่อง"
+        url: "วิดิโอภายนอก"
+      poll/question/translation:
+        title: "คำถาม"
+      poll/shift:
+        task: "งาน"
+      poll/translation:
+        name: "ชื่อ"
+        summary: "ข้อสรุป"
+        description: "คำอธิบาย"
+      progress_bar:
+        kind: "ชนิด"
+        title: "ชื่อเรื่อง"
+        percentage: "ความคืบหน้าปัจจุบัน"
+      progress_bar/kind:
+        primary: "หลัก"
+        secondary: "รอง"
+      proposal:
+        author: "ผู้แต่ง"
+        title: "ชื่อเรื่อง"
+        question: "คำถาม"
+        description: "คำอธิบาย"
+        responsible_name: "ชื่อเต็มของผู้ยื่นข้อเสนอ"
+        retired_reason: "เหตุผลในการยกเลิกข้อเสนอ"
+        selected: "ทำสัญลักษณ์ว่าถูกเลือก"
+        terms_of_service: "เงื่อนไขการให้บริการ"
+        video_url: "ยูอาร์แอล วิดิโอภายนอก"
+      proposal/translation:
+        description: "ตัวหนังสือข้อเสนอ"
+        retired_explanation: "คำอธิบาย"
+        summary: "สรุปข้อเสนอ"
+        title: "ชื่อข้อเสนอ"
+      proposal_notification:
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
+      sdg/goal:
+        code: "โค้ด"
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+      sdg/local_target:
+        code: "โค้ด"
+        target_id: "เป้าหมาย"
+        title: "ชื่อเรื่อง"
+      sdg/local_target/translation:
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+      sdg/phase/kind:
+        monitoring: "การสังเกตการณ์"
+        planning: "การวางแผน"
+        sensitization: "ความไวต่อความรู้สึก(เซนสิทิเซชั่น)"
+      sdg/target:
+        code: "โค้ด"
+        title: "ชื่อเรื่อง"
+      signature_sheet:
+        document_numbers: "หมายเลขเอกสาร"
+        signable_id: "ไอดีที่เซ็นได้"
+        signable_type: "แบบที่สามารถเซ็นได้"
+        title: "ชื่อเรื่อง"
+      site_customization/content_block:
+        body: "ลำตัว"
+        locale: "สถานที่"
+        name: "ชื่อ"
+      site_customization/image:
+        image: "ภาพ"
+        name: "ชื่อ"
+      site_customization/page:
+        content: "เนื้อหา"
+        created_at: "สร้างที่"
+        locale: "ภาษา"
+        more_info_flag: "แสดงในหน้าช่วยเหลือ"
+        print_content_flag: "ปุ่มสั่งพิมเนื้อหา"
+        slug: "สลั๊ก"
+        status: "สถานะ"
+        status_draft: "ร่าง"
+        status_published: "เป็นสาธารณะ"
+        subtitle: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+        updated_at: "อัพเดตที่"
+      site_customization/page/translation:
+        title: "ชื่อเรื่อง"
+        subtitle: "คำบรรยาย"
+        content: "เนื้อหา"
+      tag:
+        name: "พิมชื่อของหัวข้อ"
+      topic:
+        description: "ข้อความเริ่มต้น"
+        title: "ชื่อเรื่อง"
+      user:
+        current_password: "รหัสผ่านปัจจุบัน"
+        email: "อีเมล"
+        email_digest: "ได้รับคำแจ้งเตือนเกี่ยวกับการสรุปข้อเสนอ"
+        email_on_comment: "แจ้งเตือนฉันทางอีเมลหากมีใครแสดงความคิดเห็นบนข้อเสนอหรือการอภิปรายของฉัน"
+        email_on_comment_reply: "แจ้งเตือนฉันในอีเมลเมื่อมีใครตอบกลับความคิดเห็น"
+        email_on_direct_message: "ได้รับอีเมลเกี่ยวกับข้อความโดยตรง"
+        login: "อีเมลหรือชื่อผู้ใช้"
+        newsletter: "รับข้อมูลเว็บไซต์ที่เกี่ยวข้องทางอีเมล"
+        official_level: "ระดับที่เป็นทางการ"
+        official_position: "ตำแหน่งที่เป็นทางการ"
+        official_position_badge: "แสดงตราประจำตำแหน่ง"
+        password: "รหัสผ่าน"
+        password_confirmation: "การยืนยันรหัสผ่าน"
+        phone_number: "เบอร์โทรศัพท์"
+        public_activity: "เก็บรายการกิจกรรมของฉันไว้เป็นสาธารณะ"
+        public_interests: "เก็บองค์ประกอบที่ฉันติดตามไว้เป็นสาธารณะ"
+        recommended_debates: "แสดงการอภิปรายที่แนะนำ"
+        recommended_proposals: "แสดงข้อเสนอที่แนะนำ"
+        redeemable_code: "รหัสยืนยันที่ได้รับทางอีเมล"
+        username: "ชื่อผู้ใช้"
+      valuator:
+        can_comment: "สามารถแสดงความเห็นได้"
+        can_edit_dossier: "แก้ไขเอกสารได้"
+        description: "คำอธิบาย"
+        valuator_group_id: "กลุ่มผู้ประเมินค่า"
+      valuator_group:
+        name: "ชื่อกลุ่ม"
+      widget/card:
+        columns: "เลขคอลัม"
+        description: "คำอธิบาย"
+        label: "ป้าย (ทางเลือก)"
+        link_text: "ลิ้งก์ข้อความ"
+        link_url: "ลิ้งก์ ยูอาร์แอล"
+        title: "ชื่อเรื่อง"
+      widget/card/translation:
+        description: "คำอธิบาย"
+        label: "ป้าย (ทางเลือก)"
+        link_text: "ลิ้งก์ข้อความ"
+        title: "ชื่อเรื่อง"
+      widget/feed:
+        limit: "จำนวนรายการ"
+    errors:
+      messages:
+        another_poll_active: "มีการสำรวจความคิดเห็นอื่นกำลังทำงานในเวลาที่กำหนด"
+        record_invalid: "การตรวจสอบความถูกต้องล้มเหลว: %{errors}"
+        restrict_dependent_destroy:
+          has_many:  "ไม่สามารถลบบันทึกได้เนื่องจากผู้ใช้ %{record} คงอยู่"
+          has_one: "ไม่สามารถลบบันทึกได้เนื่องจากผู้ใช้ %{record} คงอยู่"
+        translations_too_short: "มีความจำเป็นต้องจัดเตรียมการแปลอย่างน้อยหนึ่งฉบับ"
+      models:
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "กลุ่มผู้รับมีส่วนที่ไม่ถูกต้อง"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: "คุณไม่สามารถแสดงความคิดเห็นบนแบบประเมินได้"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "คุณมีข้อความส่วนตัวถึงจำนวนสูงสุดต่อวันแล้ว"
+        image:
+          attributes:
+            attachment:
+              min_image_width: "รูปภาพต้องมีความกว้างอย่างน้อย %{required_min_width}px"
+              min_image_height: "รูปภาพต้องมีความสูงอย่างน้อย %{required_min_height}px"
+        legislation/process:
+          attributes:
+            allegations_end_date:
+              invalid_date_range: "ต้องอยู่ภายในวันที่เริ่มความคิดเห็นเป็นต้นไป"
+            debate_end_date:
+              invalid_date_range: "ต้องอยู่ภายในวันที่การอภิปรายเริ่มเป็นต้นไป"
+            draft_end_date:
+              invalid_date_range: "ต้องอยู่ภายในหรือหลังวันที่เริ่มต้นฉบับร่างเป็นต้นไป"
+            end_date:
+              invalid_date_range: "ต้องอยู่ภายในวันที่เริ่มเป็นต้นไป"
+        local_census_record:
+          attributes:
+            document_type:
+              inclusion: "ไม่รวมอยู่ในรายการ ค่าที่อนุญาตคือ 1.สำหรับ DNI. 2.สำหรับหนังสือเดินทาง และ 3.สำหรับบัตรประจำตัวผู้อยู่อาศัย"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "กลุ่มผู้รับของผู้ใช้งานไม่ถูกต้อง"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "เอกสารไม่อยู่ในการเก็บรวบรวมข้อมูลประชากร"
+            user_id:
+              has_voted: "ผู้ใช้งานได้โหวตไปแล้ว"
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "คุณต้องรออย่างน้อย %{interval} วันระหว่างการแจ้งเตือน"
+        remote_translation:
+          attributes:
+            locale:
+              already_translated: "ข้อมูลได้ถูกแปลเรียบร้อย"
+        sdg/local_target:
+          attributes:
+            code:
+              invalid: "จะต้องเริ่มด้วยโค้ดเดียวกันที่เป้าหมายต้องตามด้วยจุดและจบด้วยตัวเลข"
+        signature:
+          attributes:
+            document_number:
+              already_voted: "โหวตข้อเสนอนี้แล้ว"
+              not_in_census: "ไม่ได้รับการยืนยันจากการรวบรวมข้อมูลประชากร"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "ความกว้างต้องเป็น %{required_width}px"
+              image_height: "ความสูงต้องเป็น %{required_height}px"
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "จะต้องเป็นตัวหนังสือหรือหมายเลข, _ และ -"
+        user:
+          attributes:
+            email:
+              password_already_set: "ผู้ใช้งานนี้มีรหัสผ่านแล้ว"
+    models:
+      activity:
+        one: "กิจกรรม"
+        other: "กิจกรรม"
+      administrator:
+        one: "ผู้ดูแลระบบ"
+        other: "ผู้ดูแลระบบ"
+      budget:
+        one: "งบประมาณ"
+        other: "งบประมาณ"
+      budget/investment:
+        one: "ข้อเสนองบประมาณ"
+        other: "ข้อเสนองบประมาณ"
+      comment:
+        one: "ความคิดเห็น"
+        other: "ความคิดเห็น"
+      dashboard/action:
+        one: "การดำเนินการข้อเสนอในแดชบอร์ด"
+        other: "การดำเนินการข้อเสนอในแดชบอร์ด"
+      dashboard/administrator_task:
+        one: "งาน"
+        other: "งาน"
+      debate:
+        one: "อภิปราย"
+        other: "อภิปราย"
+      document:
+        one: "เอกสาร"
+        other: "เอกสาร"
+      documents:
+        one: "เอกสาสาร"
+        other: "เอกสาร"
+      images:
+        one: "ภาพ"
+        other: "ภาพ"
+      legislation/answers:
+        one: "คำตอบ"
+        other: "คำตอบ"
+      legislation/draft_versions:
+        one: "ฉบับร่าง"
+        other: "ฉบับร่าง"
+      legislation/process:
+        one: "กระบวนการ"
+        other: "กระบวนการ"
+      legislation/proposal:
+        one: "ข้อเสนอ"
+        other: "ข้อเสนอ"
+      legislation/question_options:
+        one: "ตัวเลือกคำถาม"
+        other: "ตัวเลือกคำถาม"
+      legislation/questions:
+        one: "คำถาม"
+        other: "คำถาม"
+      link:
+        one: "ลิ้งก์"
+        other: "ลิ้งก์"
+      local_census_record:
+        one: "บันทึกการรวบรวมข้อมูลประชากร"
+        other: "บันทึกการรวบรวมข้อมูลประชากรท้องถิ่น"
+      manager:
+        one: "ผู้จัดการ"
+        other: "คณะผู้จัดการ"
+      milestone:
+        one: "เหตุการณ์สำคัญ"
+        other: "เหตุการณ์สำคัญ"
+      milestone/status:
+        one: "สถานะเหตุการณ์สำคัญ"
+        other: "สถานะเหตุการณ์สำคัญ"
+      moderator:
+        one: "ผู้ดำเนินรายการ"
+        other: "ผู้ดูแล"
+      newsletter:
+        one: "จดหมายขข่าว"
+        other: "จดหมายข่าว"
+      organization:
+        one: "องค์กร"
+        other: "องค์กร"
+      poll:
+        one: "สำรวจความคิดเห็น"
+        other: "สำรวจความคิดเห็น"
+      poll/ballot_sheet:
+        one: "บัตรลงคะแนน"
+        other: "บัตรลงคะแนน"
+      poll/booth:
+        one: "ซุ้ม"
+        other: "ซุ้ม"
+      poll/officer:
+        one: "เจ้าหน้าที่"
+        other: "เจ้าหน้าที่"
+      progress_bar:
+        one: "ตัวชี้วัดความคืบหน้า"
+        other: "ตัวชี้วัดความคืบหน้า"
+      proposal:
+        one: "ข้อเสนอของพลเมือง"
+        other: "ข้อเสนอของพลเมือง"
+      proposal_notification:
+        one: "การแจ้งเตือนข้อเสนอ"
+        other: "การแจ้งเตือนข้อเสนอ"
+      sdg/goal:
+        one: "จุดมุ่งหมาย"
+        other: "จุดมุ่งหมาย"
+      sdg/local_target:
+        one: "เป้าหมายในท้องถิ่น"
+        other: "เป้าหมายในท้องถิ่น"
+      sdg/manager:
+        one: "ผู้จัดการเอสดีจี"
+        other: "ผู้จัดการเอสดีจี"
+      sdg/target:
+        one: "เป้าหมาย"
+        other: "เป้าหมาย"
+      site_customization/content_block:
+        one: "บล็อคเนื้อหาที่กำหนดเอง"
+        other: "บล็อคเนื้อหาที่กำหนดเอง"
+      site_customization/image:
+        one: "ภาพที่กำหนดเอง"
+        other: "ภาพที่กำหนดเอง"
+      site_customization/page:
+        one: "หน้าที่กำหนดเอง"
+        other: "หน้าที่กำหนดเอง"
+      tag:
+        one: "แท็ก"
+        other: "แท็ก"
+      topic:
+        one: "ชื่อเรื่อง"
+        other: "ชื่อเรื่อง"
+      user:
+        one: "ผู้ใช้งาน"
+        other: "ผู้ใช้งาน"
+      valuator:
+        one: "ผู้ประเมิน"
+        other: "ผู้ประเมิน"
+      valuator_group:
+        one: "กลุ่มผู้ประเมิน"
+        other: "กลุ่มผู้ประเมิน"
+      vote:
+        one: "โหวต"
+        other: "โหวต"
+  attributes:
+    advanced_stats_enabled: "แสดงสถิติขั้นสูง"
+    description: "คำอธิบาย"
+    email: "อีเมล"
+    geozone_id: "ขอบเขตการดำเนินงาน"
+    name: "ชื่อ"
+    related_sdg_list: "จุดมุ่งหมายและเป้าหมาย"
+    results_enabled: "แสดงผลลัพธ์"
+    stats_enabled: "แสดงสถิติ"

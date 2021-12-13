@@ -1,0 +1,18 @@
+---
+th:
+  images:
+    actions:
+      destroy:
+        alert: "ไม่สามารุรูปภาพ"
+        notice: "ลบรูปภาพเรียบร้อย"
+    errors:
+      messages:
+        in_between: "ต้องอยู่ระหว่าง %{min} ถึง %{max}"
+        wrong_content_type: "ประเภทเนื้อหา %{content_type} ไม่ตรงกับประเภทเนื้อหาที่ยอมรับ %{accepted_content_types}"
+    form:
+      add_new_image: "เพิ่มภาพ"
+      delete_button: "ลบภาพ"
+      note: "คุณสามารถอัปโหลดรูปภาพประเภทเนื้อหาต่อไปนี้ได้หนึ่งภาพ: %{accepted_content_types} สูงสุด %{max_file_size} MB."
+      title: "คำบรรยายภาพ"
+      title_placeholder: "เพิ่มคำอธิบายสำหรับรูปภาพ"
+    remove_image: "ลบภาพ"

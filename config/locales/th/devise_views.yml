@@ -1,0 +1,117 @@
+---
+th:
+  devise_views:
+    confirmations:
+      new:
+        submit: "ส่งคำแนะนำอีกครั้ง"
+        title: "ส่งคำแนะนำการยืนยันอีกครั้ง"
+      show:
+        instructions: "ยืนยันบัญชีด้วยที่อยู่อีเมล %{email}"
+        new_password_confirmation_label: "ทำซ้ำรหัสผ่านของคุณ"
+        new_password_label: "รหัสผ่านใหม่"
+        please_set_password: "ตั้งรหัสผ่านใหม่ของคุณ (สำหรับที่อยู่อีเมลด้านบน)"
+        submit: "ยืนยัน"
+        title: "ยืนยันบัญชีของฉัน"
+    mailer:
+      confirmation_instructions:
+        confirm_link: "ยืนยันบัญชีของฉัน"
+        text: "ยืนยันที่อยู่อีเมลของคุณด้วยลิงก์ต่อไปนี้:"
+        title: "ยินดีต้อนรับ"
+        welcome: "ยินดีต้อนรับ"
+      reset_password_instructions:
+        change_link: "เปลี่ยนรหัสผ่านของฉัน"
+        hello: "สวัสดี"
+        ignore_text: "ละเว้นอีเมลนี้ เว้นแต่คุณจะขอรหัสผ่านใหม่"
+        info_text: "คุณต้องใช้ลิงก์เพื่อเปลี่ยนรหัสผ่านของคุณ"
+        text: "เราได้รับคำขอให้เปลี่ยนรหัสผ่านของคุณแล้ว คุณสามารถทำได้โดยใช้ลิงก์ต่อไปนี้:"
+        title: "เปลี่ยนรหัสผ่านของคุณ"
+      unlock_instructions:
+        hello: "สวัสดี"
+        info_text: "บัญชีของคุณถูกบล็อกเนื่องจากความล้มเหลวในการพยายามเข้าสู่ระบบจำนวนมากเกินไป"
+        instructions_text: "คลิกที่ลิงค์เพื่อปลดล็อกบัญชีของคุณ:"
+        title: "บัญชีของคุณถูกล็อค"
+        unlock_link: "ปลดล็อกบัญชีของฉัน"
+    menu:
+      login_items:
+        login: "เข้าสู่ระบบ"
+        logout: "ออกจากระบบ"
+        signup: "ลงทะเบียน"
+    organizations:
+      registrations:
+        new:
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          responsible_name_note: "นี่คือบุคคลที่เป็นตัวแทนขององค์กร / กลุ่มที่อยู่เบื้องหลังข้อเสนอ"
+          submit: "ลงทะเบียน"
+          title: "ลงทะเบียนเป็นองค์กรหรือกลุ่ม"
+        success:
+          back_to_index: "ฉันเข้าใจ; กลับหน้าแรก"
+          instructions_1: "<strong>เราจะติดต่อคุณในไม่ช้า</strong> เพื่อยืนยันว่าคุณเป็นตัวแทนของกลุ่มนี้"
+          instructions_2: "ในขณะที่ <strong>ที่อยู่อีเมลของคุณกำลังได้รับการตรวจสอบ</strong> เราได้ส่งลิงก์ <strong>เพื่อยืนยันบัญชีของคุณ</strong>"
+          instructions_3: "เมื่อการยืนยันเสร็จสมบูรณ์ คุณสามารถเริ่มเข้าร่วมเป็นกลุ่มที่ไม่ได้รับการยืนยัน"
+          thank_you: "ขอบคุณสำหรับการลงทะเบียนกลุ่มบนเว็บไซต์ ขณะนี้ <strong>กำลังรอการตรวจสอบ</strong>"
+          title: "การลงทะเบียนองค์กร / กลุ่ม"
+    passwords:
+      edit:
+        change_submit: "เปลี่ยนรหัสผ่านของฉัน"
+        password_confirmation_label: "ยืนยันรหัสผ่านใหม่ของคุณ"
+        password_label: "รหัสผ่านใหม่"
+        title: "เปลี่ยนรหัสผ่านของคุณ"
+      new:
+        send_submit: "ส่งคำแนะนำ"
+        title: "ลืมรหัสผ่าน?"
+    sessions:
+      new:
+        remember_me: "จำฉันไว้"
+        submit: "เข้าไป"
+        title: "เข้าสู่ระบบ"
+    shared:
+      links:
+        login: "เข้าไป"
+        new_confirmation: "ไม่ได้รับคำแนะนำในการเปิดใช้งานบัญชีของคุณใช่หรือไม่?"
+        new_password: "ลืมรหัสผ่าน?"
+        new_unlock: "ไม่ได้รับคำแนะนำในการปลดล็อกบัญชีของคุณใช่หรือไม่?"
+        signin_with_provider: "เข้าสู่ระบบด้วย %{provider}"
+        signup: "ไม่มีบัญชี? %{signup_link}"
+        signup_link: "ลงทะเบียน"
+    unlocks:
+      new:
+        email_label: "อีเมล"
+        submit: "ได้ส่งคำแนะนำในการปลดล็อคบัญชีอีกครั้ง"
+        title: "ได้ส่งคำแนะนำในการปลดล็อคบัญชี"
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: "เหตุผล"
+          info: "การดำเนินการนี้ไม่สามารถยกเลิกได้ ตรวจสอบให้แน่ใจว่านี่คือสิ่งที่คุณต้องการ"
+          info_reason: "หากคุณต้องการ คุณสามารถเขียนเหตุผล (เป็นทางเลือก)"
+          submit: "ลบบัญชีของฉัน"
+          title: "ลบบัญชี"
+        edit:
+          current_password_label: "รหัสผ่านปัจจุบัน"
+          edit: "แก้ไข"
+          email_label: "อีเมล"
+          leave_blank: "เว้นว่างไว้หากคุณไม่ต้องการเปลี่ยน"
+          need_current: "เราต้องการรหัสผ่านปัจจุบันของคุณเพื่อยืนยันการเปลี่ยนแปลง"
+          password_confirmation_label: "ยืนยันรหัสผ่านใหม่"
+          password_label: "รหัสผ่านใหม่"
+          update_submit: "อัปเดต"
+          waiting_for: "รอการยืนยันของ:"
+        new:
+          cancel: "ยกเลิกการเข้าสู่ระบบ"
+          organization_signup: "คุณเป็นตัวแทนขององค์กรหรือกลุ่มหรือไม่? %{signup_link}"
+          organization_signup_link: "ลงทะเบียนที่นี่"
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          submit: "ลงทะเบียน"
+          terms: "โดยการลงทะเบียน คุณยอมรับ %{terms}"
+          terms_link: "เงื่อนไขการใช้งาน"
+          terms_title: "การลงทะเบียนแสดงว่าคุณยอมรับเงื่อนไขการใช้งาน"
+          title: "ลงทะเบียน"
+          username_is_available: "ชื่อผู้ใช้สามารถใช้ได้"
+          username_is_not_available: "ชื่อผู้ใช้ไม่ว่าง"
+          username_note: "ชื่อที่ปรากฏในโพสต์ของคุณ"
+        success:
+          back_to_index: "ฉันเข้าใจ; กลับหน้าแรก"
+          instructions_1: "<b>ตรวจสอบที่อยู่อีเมลของคุณ</b> - เราได้ส่งลิงก์ <b>เพื่อยืนยันบัญชีของคุณ</b>"
+          instructions_2: "เมื่อบัญชีของคุณได้รับการยืนยันแล้ว คุณสามารถเริ่มเข้าร่วมได้"
+          thank_you: "ขอบคุณสำหรับการลงทะเบียนสำหรับเว็บไซต์! ตอนนี้คุณต้อง <b>ยืนยันที่อยู่อีเมลของคุณ</b>"
+          title: "ยืนยันที่อยู่อีเมลของคุณ"

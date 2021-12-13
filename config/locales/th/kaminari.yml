@@ -1,0 +1,23 @@
+---
+th:
+  helpers:
+    page_entries_info:
+      entry:
+        zero: "รายการ"
+        one: "รายการ"
+        other: "รายการ"
+      more_pages:
+        display_entries: "กำลังแสดง <strong>%{first}&nbsp;-&nbsp;%{last}</strong> จาก <strong>%{total} %{entry_name}</strong>"
+      one_page:
+        display_entries:
+          zero: "ไม่พบ %{entry_name}"
+          one: "มี <strong>1 %{entry_name}</strong>"
+          other: "มี <strong>%{count} %{entry_name}</strong>"
+  views:
+    pagination:
+      current: "คุณอยู่ที่หน้า"
+      first: "แรก"
+      last: "สุดท้าย"
+      next: "ถัดไป"
+      previous: "ก่อนหน้า"
+      truncate: "&hellip;"

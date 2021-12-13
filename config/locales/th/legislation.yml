@@ -1,0 +1,150 @@
+---
+th:
+  legislation:
+    annotations:
+      comments:
+        cancel: "ยกเลิก"
+        comments_count:
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+        publish_comment: "เผยแพร่ความคิดเห็น"
+        replies_count:
+          one: "%{count} ตอบกลับ"
+          other: "%{count} ตอบกลับ"
+        see_all: "ดูทั้งหมด"
+        see_complete: "ดูแบบเต็ม"
+      form:
+        phase_not_open: "เฟสนี้ไม่เปิด"
+      index:
+        comments_about: "ความคิดเห็นเกี่ยวกับ"
+        comments_count:
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+        see_in_context: "ดูในบริบท"
+        title: "ความคิดเห็น"
+      show:
+        title: "ความคิดเห็น"
+      version_chooser:
+        see_text: "ดูร่างข้อความ"
+        seeing_version: "ความคิดเห็นสำหรับเวอร์ชั่น"
+    draft_versions:
+      changes:
+        see_text: "ดูข้อความแบบร่าง"
+        seeing_changelog_version: "สรุปการแก้ไขการเปลี่ยนแปลง"
+        title: "การเปลี่ยนแปลง"
+      show:
+        loading_comments: "กำลังโหลดความคิดเห็น"
+        see_changes: "ดูสรุปการเปลี่ยนแปลง"
+        see_comments: "ดูความคิดเห็นทั้งหมด"
+        seeing_version: "คุณกำลังดูเวอร์ชันร่าง"
+        select_draft_version: "เลือกแบบร่าง"
+        select_version_submit: "ดู"
+        text_body: "ข้อความ"
+        text_comments: "ความคิดเห็น"
+        text_toc: "สารบัญ"
+        updated_at: "อัปเดตเมื่อ %{date}"
+    processes:
+      debate:
+        empty_questions: "ไม่มีคำถามใดๆ"
+        participate: "เข้าร่วมการอภิปราย"
+      header:
+        additional_info: "ข้อมูลเพิ่มเติม"
+        description: "คำอธิบาย"
+        more_info: "ข้อมูลเพิ่มเติมและบริบท"
+      index:
+        filter: "ตัวกรอง"
+        filters:
+          open: "เปิดกระบวนการ"
+          past: "อดีต"
+        no_open_processes: "ไม่มีกระบวนการที่เปิดอยู่"
+        no_past_processes: "ไม่มีกระบวนการที่ผ่านมา"
+        section_footer:
+          description: "เข้าร่วมในการอภิปรายและกระบวนการก่อนที่จะได้รับการอนุมัติกฎระเบียบหรือกลยุทธ์ใหม่ ความคิดเห็นของคุณจะได้รับการพิจารณา"
+        title: "ควาสช่วยเหลือเกี่ยวกับกฎหมายความร่วมมือ"
+        section_header:
+          help: "ความช่วยเหลือเกี่ยวกับความร่วมมือด้านกฎหมาย"
+          icon_alt: "สัญลักษณ์ของกฎหมายความร่วมมือ"
+          title: "ทางกฎหมายความร่วมมือ"
+      phase_empty:
+        empty: "ยังไม่มีการเผยแพร่"
+      phase_not_open:
+        not_open: "ช่วงเวลานี้ยังไม่เปิด"
+      process:
+        see_latest_comments: "ดูความคิดเห็นล่าสุด"
+        see_latest_comments_title: "แสดงความคิดเห็นในกระบวนการนี้"
+      proposals:
+        empty_proposals: "ไม่มีข้อเสนอ"
+        filters:
+          random: "สุ่ม"
+          winners: "เลือกแล้ว"
+      shared:
+        allegations_dates: "ความคิดเห็น"
+        debate_dates: "อภิปราย"
+        draft_publication_date: "สิ่งตีพิมพ์ฉบับร่าง"
+        homepage: "หน้าแรก"
+        key_dates: "ขั้นตอนการเข้าร่วม"
+        milestones_date: "กำลังติดตาม"
+        proposals_dates: "ข้อเสนอ"
+        result_publication_date: "ผลสุดท้ายสิ่งพิมพ์"
+    proposals:
+      form:
+        tags_label: "หมวดหมู่"
+      not_verified: "สำหรับข้อเสนอการโหวต %{verify_account}"
+      process_title: "กระบวนการทางกฎหมายร่วมกัน"
+    questions:
+      comments:
+        comment_button: "เผยแพร่คำตอบ"
+        comments_closed: "ปิดช่วงเวลา"
+        comments_title: "เปิดคำตอบ"
+        form:
+          leave_comment: "ฝากคำตอบของคุณเอาไว้"
+      participation:
+        debate_phase_not_open: "ช่วงเวลาการอภิปรายจบลงแล้วและไม่ได้รับคำตอบอีกต่อไป"
+        organizations: "ไม่อนุญาตให้องค์กรเข้าร่วมการอภิปราย"
+        phase_not_open: "ช่วงเวลานี้ไม่เปิด"
+        unauthenticated: "คุณต้อง %{signin} หรือ %{signup} เพื่อเข้าร่วม"
+        verified_only: "เฉพาะผู้ใช้ที่ได้รับการยืนยันเท่านั้นที่สามารถเข้าร่วม %{verify_account}"
+      question:
+        comments:
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+          zero: "ไม่แสดงความคิดเห็น"
+        debate: "อภิปราย"
+      show:
+        answer_question: "ส่งคำตอบ"
+        first_question: "คำถามแรก"
+        next_question: "คำถามต่อไป"
+        share: "แบ่งปัน"
+        title: "การร่วมกันในกระบวนการทางกฎหมาย"
+    shared:
+      share: "แบ่งปัน"
+      share_comment: "ความคิดเห็นเกี่ยวกับ %{version_name} จากร่างกระบวนการ %{process_name}"
+    summary:
+      allegations_phase: "ระยะเวลาในการแดสงความคิดเห็น"
+      comments:
+        one: "%{count} ความคิดเห็น"
+        other: "%{count} ความคิดเห็น"
+        zero: "ไม่มีความคิดเห็น"
+      debate_phase: "ช่วงเวลาการอภิปราย"
+      debates:
+        one: "%{count} อภิปราย"
+        other: "%{count} อภิปราย"
+        zero: "ไม่มีการอภิปราย"
+      download: "สรุปการดาวน์โหลด"
+      most_voted_comments: "ความคิดเห็นที่ถูกโหวตมากที่สุด"
+      no_allegation: "ไม่มีความคิดเห็น"
+      process_empty: "กระบวนการนี้ไม่มีขั้นตอนการมีส่วนร่วม"
+      proposals:
+        one: "%{count} ข้อเสนอ"
+        other: "%{count} ข้อเสนอ"
+        zero: "ไม่มีข้อเสนอ"
+      proposals_phase: "ช่วงเวลาของข้อเสนอ"
+      title: "สรุป"
+      top_comments:
+        one: "%{count} ความคิดเห็น"
+        other: "ความคิดเห็นยอดนิยม"
+        zero: "ไม่แสดงความคิดเห็น"
+      votes:
+        one: "%{count} โหวต"
+        other: "%{count} โหวต"
+        zero: "%{count} โหวต"

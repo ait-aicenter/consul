@@ -1,0 +1,51 @@
+---
+th:
+  sdg_management:
+    actions:
+      edit: "จัดการจุดมุ่งหมายและเป้าหมาย"
+    header:
+      title: "เนื้อหาเอสดีจี"
+    homepage:
+      create_card: "สร้างการ์ด %{phase} ใบ"
+      header:
+        create: "สร้างหัวเรื่อง"
+        no_cards: "ไม่มีหัวเรื่อง"
+        title: "หัวเรื่อง"
+      no_cards: "ไม่มีการ์ดสำหรับช่วงเวลานี้"
+      title: "การกำหนดค่าหน้าแรก"
+    local_targets:
+      create:
+        notice: "สร้างเป้าหมายท้องถิ่นสำเร็จแล้ว"
+      destroy:
+        notice: "ลบเป้าหมายในเครื่องเรียบร้อยแล้ว"
+      edit:
+        title: "แก้ไขเป้าหมายในพื้นที่"
+      form:
+        code: "รหัสต้องเริ่มต้นด้วยรหัสเป้าหมายที่เลือกตามด้วยจุด"
+        description: "คำอธิบายนี้จะแสดงเพื่อช่วยผู้ใช้"
+      index:
+        new: ": สร้างเป้าหมายในพื้นที่"
+      new:
+        title: "เป้าหมายท้องถิ่นใหม่"
+      update:
+        notice: "ป้าหมายท้องถิ่นอัปเดตสำเร็จแล้ว"
+    menu:
+      budget_investments: "งบประมาณแบบมีส่วนร่วม"
+      debates: " อภิปราย"
+      legislation_processes: "กระบวนการทางกฎหมาย"
+      legislation_proposals: "ข้อเสนอกฎหมาย"
+      polls: "โพล"
+      proposals: "ข้อเสนอ"
+      sdg_content: "จุดมุ่งหมายและเป้าหมาย"
+      sdg_homepage: "หน้าแรกของเอสดีจี"
+    relations:
+      index:
+        filter: "ตัวกรอง"
+        filters:
+          all: "ทั้งหมด"
+          pending_sdg_review: "กำลังดำเนินการ"
+          sdg_reviewed: "ทำเครื่องหมายว่าตรวจทานแล้ว"
+      update:
+        notice: "อัปเดต %{relatable} สำเร็จแล้ว"
+      update_and_review:
+        notice: "ประกาศ: %{relatable} อัปเดตสำเร็จและทำเครื่องหมายว่าตรวจทานแล้ว"

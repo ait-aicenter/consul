@@ -1,0 +1,48 @@
+---
+th:
+  activemodel:
+    attributes:
+      local_census_records/import:
+        file: "ไฟล์"
+      officing/residence:
+        document_number: "เลขที่เอกสาร (รวมถึงตัวอักษร)"
+        document_type: "ประเภทของเอกสาร"
+        year_of_birth: "ปีเกิด"
+      verification:
+        email:
+          recipient: "อีเมล"
+        residence:
+          date_of_birth: "วันเกิด"
+          document_number: "เลขที่เอกสาร (รวมถึงตัวอักษร)"
+          document_type: "ประเภทของเอกสาร"
+          postal_code: "รหัสไปรษณีย์"
+        sms:
+          confirmation_code: "ยืนยันรหัสผ่าน"
+          phone: "โทรศัพท์"
+      verification/letter:
+        email: "อีเมล"
+        password: "พาสเวิร์ด"
+        verification_code: "คุณจะได้รับรหัสผ่านเป็นตัวอักษร"
+      verification/management/document:
+        document_number: "เลขที่เอกสาร"
+        document_type: 'ประเภทของเอกสาร:'
+      verification/residence:
+        date_of_birth: "วันเกิด"
+        document_type: "ประเภทของเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
+      verification/sms:
+        confirmation_code: "ยืนยันรหัสผ่านที่คุณได้รับทางมือถือ"
+    errors:
+      models:
+        local_census_records/import:
+          attributes:
+            file:
+              extension: "รูปแบบของไฟล์ที่ระบุไม่ถูกต้อง. รูปแบบของไฟล์ที่ได้รับอนุญาติคือ: %{valid_extensions}."
+              headers: "ระบุหัวข้อของไฟล์ไม่ถูกต้อง. หัวข้อของไฟล์ที่ถูกต้อง ต้องตามด้วยชื่อ: %{required_headers}."
+    models:
+      local_census_records/import:
+        one: "นำเข้าบันทึกในทะเบียนที่อยู่ในท้องถิ่น"
+        other: "นำเข้าทะเบียนที่อยู่ในท้องถิ่น"
+      verification:
+        residence: "ที่อยู่อาศัย"
+        sms:  "เอสเอ็มเอส"

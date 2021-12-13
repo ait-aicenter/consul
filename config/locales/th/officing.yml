@@ -1,0 +1,90 @@
+---
+th:
+  officing:
+    booth:
+      new:
+        title: "เลือกบูธของคุณ"
+    dashboard:
+      index:
+        info: "คุณสามารถตรวจสอบเอกสารผู้ใช้และจัดเก็บผลการลงคะแนนได้ที่นี่"
+        no_shifts: "วันนี้คุณไม่มีกะที่ทำงาน"
+        title: "สำนักงานสำรวจความคิดเห็น"
+    header:
+      title: "การสำรวจความคิดเห็น"
+    menu:
+      total_recounts: "การนับอีกและผลลัพธ์ทั้งหมด"
+      voters: "ตรวจสอบเอกสาร"
+    poll_budgets:
+      index:
+        ballot_sheet: "บัตรลงคะแนน %{id}"
+        ballot_sheet_author: "ผู้แต่ง"
+        ballot_sheet_creation_date: "วันที่สร้าง"
+        ballot_sheet_name: "ชื่อ"
+        empty_results: "ยังไม่มีใบลงคะแนนสำหรับแบบสำรวจนี้"
+        title: "รายการบัตรลงคะแนน"
+      new:
+        booth: "บูธ"
+        csv_data: "ข้อมูลซีเอสวี"
+        select_booth: "เลือกบูธ"
+        submit: "เซฟ"
+        title: "%{poll_budget} - ใบลงคะแนนใหม่"
+      see_ballot_sheets: "ดูรายชื่อบัตรลงคะแนน"
+      show:
+        author: "ผู้แต่ง"
+        created_at: "วันที่สร้าง"
+        data: "ข้อมูลซีเอสวี"
+    polls:
+      final:
+        add_results: "เพิ่มผลลัพธ์"
+        no_polls: "คุณไม่ได้ทำการนับครั้งสุดท้ายในแบบสำรวจความเห็นใด ๆ ที่ใช้งานอยู่"
+        select_poll: "เลือกแบบสำรวจ"
+        title: "แบบสำรวจพร้อมสำหรับการนับครั้งสุดท้าย"
+    residence:
+      flash:
+        create: "เอกสารยืนยันด้วยการสำรวจประชากร"
+        not_allowed: "วันนี้คุณไม่มีกะที่ทำงาน"
+      new:
+        error_verifying_census: "สำมะโนไม่สามารถตรวจสอบเอกสารนี้ได้"
+        form_errors: "ถูกขัดขวางการตรวจสอบเอกสารนี้"
+        submit: "ตรวจสอบเอกสาร"
+        title: "ตรวจสอบเอกสาร"
+    results:
+      flash:
+        create: "บันทึกผลลัพธ์แล้ว"
+        error_create: "ไม่ได้บันทึกผลลัพธ์ เกิดข้อผิดพลาดในข้อมูล"
+        error_wrong_booth: "ผิดบูธ. ผลลัพธ์ไม่ถูกบันทึก"
+      index:
+        no_results: "ไม่มีผลลัพธ์"
+        results: "ผลลัพธ์"
+        table_answer: "คำตอบ"
+        table_nulls: "บัตรลงคะแนนไม่ถูกต้อง"
+        table_total: "บัตรลงคะแนนที่ถูกต้อง"
+        table_votes: "โหวต"
+        table_whites: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
+      new:
+        ballots_null: "บัตรลงคะแนนไม่ถูกต้อง"
+        ballots_total: "บัตรลงคะแนนที่ถูกต้อง"
+        ballots_white: "บัตรลงคะแนนเปล่าทั้งหมด"
+        booth: "บูธ"
+        date: "วันที่"
+        not_allowed: "คุณไม่ได้รับอนุญาตให้เพิ่มผลลัพธ์สำหรับการสำรวจความคิดเห็นนี้"
+        results_list: "ผลลัพธ์ของคุณ"
+        see_results: "ดูผลลัพธ์"
+        select_booth: "เลือกบูธ"
+        submit: "บันทึก"
+        title: "%{poll} - เพิ่มผลลัพธ์"
+    voters:
+      can_vote:
+        submit_disable_with: "รอ ยืนยันการโหวต..."
+      new:
+        not_to_vote: "คนที่ตัดสินใจที่จะไม่ลงคะแนนในขณะนี้"
+        table_actions: "การกระทำ"
+        table_poll: "การสำรวจความคิด"
+        table_status: "สถานะการสำรวจความคิด"
+        title: "การสำรวจความคิด"
+      show:
+        can_vote: "โหวตได้"
+        cannot_vote: "คนที่ไม่สามารถลงคะแนนได้เนื่องจากไม่ได้ลงทะเบียนในเขตที่มีการลงคะแนน"
+        error_already_voted: "ได้เข้าร่วมการสำรวจนี้แล้ว"
+        submit: "ยืนยันการโหวต"
+        success: "โหวตแนะนำ!"

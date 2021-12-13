@@ -1,0 +1,133 @@
+---
+th:
+  management:
+    account:
+      alert:
+        unverified_user: "ยังไม่มีผู้ใช้ที่ยืนยันการเข้าสู่ระบบแล้ว"
+      edit:
+        back: "กลับ"
+        password:
+          password: "รหัสผ่าน"
+          print: "พิมพ์รหัสผ่าน"
+          print_help: "คุณจะสามารถพิมพ์รหัสผ่านเมื่อมีการบันทึก"
+          random: "สร้างรหัสผ่านแบบสุ่ม"
+          reset_email_send: "ส่งอีเมลอย่างถูกต้อง"
+          reseted: "รีเซ็ตรหัสผ่านสำเร็จแล้ว"
+          save: "บันทึกรหัสผ่าน"
+          send_email: "ส่งอีเมลรีเซ็ตรหัสผ่าน"
+        title: "แก้ไขบัญชีผู้ใช้: รีเซ็ตรหัสผ่าน"
+      menu:
+        reset_password_email: "รีเซ็ตรหัสผ่านทางอีเมล"
+        reset_password_manually: "รีเซ็ตรหัสผ่านด้วยตนเอง"
+      show:
+        title: "บัญชีผู้ใช้"
+    account_info:
+      change_user: "เปลี่ยนผู้ใช้"
+      document_number_label: "หมายเลขเอกสาร:"
+      document_type_label: "ประเภทเอกสาร:"
+      email_label: "อีเมล:"
+      identified_label: "ระบุเป็น:"
+      username_label: "ชื่อผู้ใช้"
+    budget_investments:
+      alert:
+        unverified_user: "ผู้ใช้ยังไม่ได้รับการยืนยัน"
+      create: "สร้างการลงทุนงบประมาณ"
+      edit: "แก้ไขการลงทุนงบประมาณ"
+      filters:
+        heading: "แนวคิด"
+        unfeasible: "การลงทุนที่ไม่สามารถทำได้"
+      print:
+        print_button: "พิมพ์"
+      search_results:
+        one: " มีคำว่า '%{search_term}'"
+        other: " มีคำว่า '%{search_term}'"
+    budgets:
+      create_new_investment: "สร้างการลงทุนด้านงบประมาณ"
+      no_budgets: "ไม่มีงบประมาณสำหรับการมีส่วนร่วมที่ใช้งานอยู่"
+      print_investments: "พิมพ์การลงทุนด้านงบประมาณ"
+      support_investments: "สนับสนุนการลงทุนด้านงบประมาณ"
+      table_actions: "การกระทำ"
+      table_name: "ชื่อ"
+      table_phase: "ช่วงเวลา"
+    check: "ตรวจสอบเอกสาร"
+    dashboard:
+      index:
+        info: "คุณสามารถจัดการผู้ใช้ผ่านการดำเนินการทั้งหมดที่ระบุไว้ในเมนูด้านซ้ายได้ที่นี่"
+        title: "การจัดการ"
+    date_of_birth: "วันเดือนปีเกิด"
+    document_verifications:
+      already_verified: "ญชีผู้ใช้นี้ได้รับการยืนยันแล้ว"
+      has_no_account: "ในการสร้างบัญชี ไปที่ %{link} แล้วคลิกใน <b>\"ลงทะเบียน\"</b> ที่ด้านซ้ายบนของหน้าจอ"
+      in_census_has_following_permissions: "ผู้ใช้รายนี้สามารถเข้าร่วมในเว็บไซต์ได้ด้วยการอนุญาตดังต่อไปนี้:"
+      link: "กงสุล"
+      not_in_census: "เอกสารนี้ไม่ได้ลงทะเบียน"
+      not_in_census_info: "พลเมืองที่ไม่ได้อยู่ในสำมะโนสามารถเข้าร่วมในเว็บไซต์ได้ด้วยการอนุญาตดังต่อไปนี้:"
+      please_check_account_data: "โปรดตรวจสอบว่าข้อมูลบัญชีด้านบนถูกต้อง"
+      title: "การจัดการผู้ใช้"
+      under_age: "คุณไม่มีอายุที่กำหนดเพื่อยืนยันบัญชีของคุณ"
+      verify: "ยืนยัน"
+    email_verifications:
+      already_verified: "บัญชีผู้ใช้นี้ได้รับการยืนยันแล้ว"
+      choose_options: "โปรดเลือกหนึ่งในตัวเลือกต่อไปนี้:"
+      document_found_in_census: "พบเอกสารนี้ในสำมะโน แต่ไม่มีบัญชีผู้ใช้ที่เกี่ยวข้อง"
+      document_mismatch: "อีเมลนี้เป็นของผู้ใช้ที่มี ID ที่เกี่ยวข้องอยู่แล้ว: %{document_number}(%{document_type})"
+      email_sent_instructions: "เพื่อยืนยันผู้ใช้รายนี้อย่างสมบูรณ์ ผู้ใช้จำเป็นต้องคลิกลิงก์ที่เราส่งไปยังที่อยู่อีเมลด้านบน ขั้นตอนนี้จำเป็นเพื่อยืนยันว่าที่อยู่นั้นเป็นของเขา"
+      if_existing_account: "หากบุคคลนั้นมีบัญชีผู้ใช้อยู่แล้วในเว็บไซต์"
+      if_no_existing_account: "หากบุคคลนี้ยังไม่ได้สร้างบัญชี"
+      introduce_email: "โปรดแนะนำอีเมลที่ใช้ในบัญชี:"
+      send_email: "ส่งอีเมลยืนยัน"
+    menu:
+      create_budget_investment: "สร้างการลงทุนด้านงบประมาณ"
+      create_proposal: "สร้างข้อเสนอ"
+      print_budget_investments: "พิมพ์การลงทุนงบประมาณ"
+      print_proposals: "พิมพ์ข้อเสนอ"
+      select_user: "เลือกผู้ใช้"
+      support_budget_investments: "สนับสนุนการลงทุนด้านงบประมาณ"
+      support_proposals: "สนับสนุนข้อเสนอ"
+      user_invites: "ส่งคำเชิญ"
+      users: "การจัดการผู้ใช้"
+    permissions:
+      create_proposals: "สร้างข้อเสนอ"
+      debates: "มีส่วนร่วมในการอภิปราย"
+      support_proposals: "สนับสนุนข้อเสนอ"
+      vote_proposals: "โหวตข้อเสนอ"
+    print:
+      budget_investments_info: "เข้าร่วมได้ที่ http://url.consul"
+      proposals_info: "สร้างข้อเสนอของคุณใน http://url.consul"
+      proposals_title: "ข้อเสนอ:"
+    print_info: "พิมพ์ข้อมูลนี้"
+    proposals:
+      alert:
+        unverified_user: "ผู้ใช้ไม่ได้รับการยืนยัน"
+      create_proposal: "สร้างข้อเสนอ"
+      index:
+        title: "สนับสนุนข้อเสนอ"
+      print:
+        print_button: "พิมพ์"
+    sessions:
+      need_managed_user: "ในการดำเนินการนี้ คุณต้องเลือกผู้ใช้"
+      signed_out: "ออกจากระบบเรียบร้อยแล้ว"
+      signed_out_managed_user: "เซสชันผู้ใช้ออกจากระบบเรียบร้อยแล้ว"
+    user_invites:
+      create:
+        success: "<strong>%{count} ข้อความเชิญ</strong> ถูกส่งไปแล้ว"
+        title: "ส่งคำเชิญ"
+      new:
+        info: "ป้อนอีเมลที่คั่นด้วยเครื่องหมายจุลภาค (',')"
+        label: "อีเมล"
+        submit: "ส่งคำเชิญ"
+        title: "ส่งคำเชิญ"
+    username_label: "ชื่อผู้ใช้"
+    users:
+      autogenerated_password: "รหัสผ่านที่สร้างอัตโนมัติคือ <b>%{password}</b> คุณสามารถเปลี่ยนได้ในส่วน 'บัญชีของฉัน' ของเว็บ"
+      create_user: "สร้างบัญชีใหม่"
+      create_user_info: "เราจะสร้างบัญชีด้วยข้อมูลต่อไปนี้"
+      create_user_submit: "สร้างผู้ใช้"
+      create_user_success: "เราได้ส่งอีเมลไปยังที่อยู่อีเมล <b>%{email}</b> เพื่อยืนยันว่าเป็นของผู้ใช้รายนี้ มันมีลิงค์ที่พวกเขาต้องคลิก จากนั้นพวกเขาจะต้องตั้งรหัสผ่านการเข้าถึงก่อนจึงจะสามารถเข้าสู่ระบบเว็บไซต์ได้"
+      email_optional_label: "อีเมล (ตัวเลือก)"
+      erase_account_confirm: "คุณแน่ใจหรือว่าต้องการลบบัญชี? การดำเนินการนี้ไม่สามารถยกเลิกได้"
+      erase_account_link: "ลบผู้ใช้"
+      erase_submit: "ลบบัญชี"
+      erase_warning: "การกระทำนี้ไม่สามารถยกเลิกได้ โปรดตรวจสอบว่าคุณต้องการลบบัญชีนี้"
+      erased_by_manager: "ลบโดยผู้จัดการ: %{manager}"
+      erased_notice: "บัญชีผู้ใช้ถูกลบ"

@@ -1,0 +1,54 @@
+th:
+  seeds:
+    settings:
+      official_level_1_name: "ตำแหน่งทางการ 1"
+      official_level_2_name: "ตำแหน่งทางการ 2"
+      official_level_3_name: "ตำแหน่งทางการ 3"
+      official_level_4_name: "ตำแหน่งทางการ 4"
+      official_level_5_name: "ตำแหน่งทางการ 5"
+    geozones:
+      north_district: "เขตเหนือ"
+      west_district: "เขตใต้"
+      east_district: "เขตตะวันออก"
+      central_district: "เขตกลาง"
+    organizations:
+      human_rights: "สิทธิมนุษยชน"
+      neighborhood_association: "สมาคมเพื่อนบ้าน"
+    categories:
+      associations: "สมาคม"
+      culture: "วัฒนธรรม"
+      sports: "กีฬา"
+      social_rights: "สิทธิทางสังคม"
+      economy: "เศรษฐกิจ"
+      employment: "การจ้างงาน"
+      equity: "ทุน"
+      sustainability: "ความยั่งยืน"
+      participation: "การมีส่วนร่วม"
+      mobility: "ความคล่องตัว"
+      media: "สื่อ"
+      health: "สุขภาพ"
+      transparency: "ความโปร่งใส"
+      security_emergencies: "การรักษาความปลอดภัยและเหตุฉุกเฉิน"
+      environment: "สิ่งแวดล้อม"
+    budgets:
+      budget: "งบประมาณแบบมีส่วนร่วม"
+      currency: "€"
+      groups:
+        all_city: "ทุกเมือง"
+        districts: "อำเภอ"
+      valuator_groups:
+        culture_and_sports: "วัฒนธรรมและกีฬา"
+        gender_and_diversity: "นโยบายทางเพศและความหลากหลาย"
+        urban_development: "การพัฒนาเมืองอย่างยั่งยืน"
+        equity_and_employment: "ทุน & การจ้างงาน"
+      statuses:
+        studying_project: "กำลังศึกษาโครงการ"
+        bidding: "ประมูล"
+        executing_project: "กำลังดำเนินการโครงการ"
+        executed: "ดำเนินการ"
+    polls:
+      current_poll: "การสำรวจความเห็นปัจจุบัน"
+      current_poll_geozone_restricted: "เขตภูมิศาสตร์ของการสำรวจความเห็นปัจจุบันถูกจำกัด"
+      recounting_poll: "แบบสำรวจความคิดเห็น"
+      expired_poll_without_stats: "แบบสำรวจความเห็นหมดอายุโดยไม่มีสถิติและผลลัพธ์"
+      expired_poll_with_stats: "แบบสำรวจความเห็นหมดอายุพร้อมสถิติและผลลัพธ์"
