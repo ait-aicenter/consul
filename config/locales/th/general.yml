@@ -926,17 +926,17 @@ th:
     feed:
       most_active:
         debates: "การอภิปรายที่มีความเคลื่อนไหวมากที่สุด"
-        proposal: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
-        process: "กระบวนการต่อเนื่อง"
+        proposals: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
+        processes: "กระบวนการต่อเนื่อง"
       no_items:
         debates: "ไม่มีการโต้วาทีในขณะนี้"
-        proposal: "ขณะนี้ยังไม่มีข้อเสนอ"
+        proposals: "ขณะนี้ยังไม่มีข้อเสนอ"
         processes: "ไม่มีกระบวนการที่เปิดอยู่ในขณะนี้"
       process_label: "กระบวนการ"
       see_all:
         debates: "ดูการอภิปรายทั้งหมด"
-        proposal: "ดูข้อเสนอทั้งหมด"
-        process: "ดูกระบวนการทั้งหมด"
+        proposals: "ดูข้อเสนอทั้งหมด"
+        processes: "ดูกระบวนการทั้งหมด"
       see_process: "ดูกระบวนการ"
     recommended:
       budget_investments:
