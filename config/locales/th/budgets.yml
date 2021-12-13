@@ -3,232 +3,232 @@ th:
   budgets:
     ballots:
       reasons_for_not_balloting:
-        casted_offline: You have already participated offline
-        change_ballot: change your votes
-        different_heading_assigned: 'You have already voted a different heading: %{heading_link}'
-        no_ballots_allowed: Selecting phase is closed
-        not_enough_available_votes: You have reached the maximum number of votes allowed
-        not_enough_money: You have already assigned the available budget.<br><small>Remember you can %{change_ballot} at any time</small>
-        not_logged_in: You must %{signin} or %{signup} to continue.
-        not_selected: Unselected investment projects can not be supported
-        not_verified: Only verified users can vote on investments; %{verify_account}.
-        organization: Organizations are not permitted to vote
+        casted_offline: "คุณได้เข้าร่วมในโหมดออฟไลน์แล้ว"
+        change_ballot: "เปลี่ยนการโหวตของคุณ"
+        different_heading_assigned: "คุณได้ลงคะแนนในพื้นที่อื่นแล้ว: %{heading_link}"
+        no_ballots_allowed: "ปิดขั้นตอนการคัดเลือก"
+        not_enough_available_votes: "คุณได้ทำการโหวตถึงจำนวนสูงสุดที่อนุญาตแล้ว"
+        not_enough_money: "คุณใช้งบประมาณทั้งหมดไปแล้ว <br><small>จำไว้ว่าคุณสามารถ %{change_ballot} ได้ตลอดเวลา</small>"
+        not_logged_in: "คุณต้องมี %{signin} หรือ %{signup} เพื่อดำเนินการต่อ"
+        not_selected: "ไม่รองรับข้อเสนองบประมาณที่ไม่ได้เลือก"
+        not_verified: "เฉพาะผู้ใช้ที่ได้รับการยืนยันเท่านั้นที่สามารถลงคะแนนข้อเสนองบประมาณได้ %{verify_account}."
+        organization: "องค์กรไม่สามารถลงคะแนนได้"
       show:
         amount_available:
           approval:
-            one: You can still cast <span>%{count}</span> vote.
-            other: You can still cast <span>%{count}</span> votes.
-            zero: You can still cast <span>%{count}</span> votes.
-          knapsack: Still available to you <span>%{count}</span>
+            one: "คุณยังสามารถลงคะแนน <span>%{count}</span> ได้"
+            other: "คุณยังสามารถลงคะแนนได้ <span>%{count}</span> โหวต"
+            zero: "คุณยังสามารถลงคะแนนได้ <span>%{count}</span> โหวต"
+          knapsack: "คุณยังใช้งานได้ <span>%{count}</span>"
         amount_limit:
           approval:
-            one: You can vote <span>1</span> project
-            other: You can vote up to <span>%{count}</span> projects
-          knapsack: Total budget <span>%{count}</span>
+            one: "สามารถโหวตได้ <span>1</span> โครงการ"
+            other: "คุณสามารถลงคะแนนใน <span>%{count}</span> โครงการ"
+          knapsack: "งบประมาณทั้งหมด <span>%{count}</span>"
         amount_progress: "%{amount_spent} / %{amount_limit}"
         amount_spent:
           approval:
-            one: 'Votes cast: <span>%{count}</span>'
-            other: 'Votes cast: <span>%{count}</span>'
-            zero: 'Votes cast: <span>%{count}</span>'
-          knapsack: Amount spent <span>%{count}</span>
-        no_balloted_group_yet: You have not voted on this group yet, go vote!
-        remove: Remove vote
-        title: Your ballot
+            zero: "ผู้โหวต: <span>%{count} </span>"
+            one: "ผู้ลงคะแนน: <span>%{count}</span>"
+            other: "ผู้โหวต: <span>%{count}</span>"
+          knapsack: "จำนวนที่ใช้ <span>%{count}</span>"
+        no_balloted_group_yet: "คุณยังไม่ได้ลงคะแนนในส่วนนี้ของงบประมาณ โหวตตอนนี้เลย!"
+        remove: "ลบโหวต"
+        title: "บัตรลงคะแนนของคุณ"
         voted:
-          one: You have voted <span>one</span> investment.
-          other: You have voted <span>%{count}</span> investments.
-        voted_info: Your ballot is confirmed!
-        voted_info_2: But you can change your vote at any time until this phase is closed.
-        zero: You have not voted any investment project.
+          one: "คุณได้ลงคะแนนให้ <span>1</span> ข้อเสนองบประมาณ"
+          other: "คุณโหวตให้ <span>%{count}</span> ข้อเสนองบประมาณ"
+        voted_info: "การโหวตของคุณได้รับการยืนยันแล้ว!"
+        voted_info_2: "แต่คุณสามารถเปลี่ยนการโหวตของคุณได้ตลอดเวลาจนกว่าเฟสนี้จะปิด"
+        zero: "คุณยังไม่ได้โหวตโครงการลงทุนใดๆ"
     executions:
       filters:
         milestone_tag:
-          all: All (%{count})
-          label: Milestone tag
+          all: "ทั้งหมด (%{count})"
+          label: "เหตุการณ์สำคัญ"
         status:
-          all: All (%{count})
-          label: Project's current state
-      heading: Participatory budget Milestones
-      heading_selection_title: By district
-      link: Milestones
-      no_winner_investments: No winner investments in this state
-      page_title: "%{budget} - Milestones"
+          label: "สถานะปัจจุบันของโครงการ"
+          all: "ทั้งหมด (%{count})"
+      heading: "เหตุการณ์สำคัญของงบประมาณที่มีส่วนร่วม"
+      heading_selection_title: "แยกตามเขต"
+      link: "เหตุการณ์สำคัญ"
+      no_winner_investments: "ไม่มีข้อเสนอที่ชนะในเขตนี้"
+      page_title: "%{budget} - เหตุการณ์สำคัญ"
     groups:
       show:
-        title: Select a heading
-        unfeasible: See unfeasible investments
-        unfeasible_title: Unfeasible investments
-        unselected: See investments not selected for balloting phase
-        unselected_title: Investments not selected for balloting phase
+        title: "เลือกตัวเลือก"
+        unfeasible_title: "ข้อเสนองบประมาณที่นำไปปฏิบัติได้เป็นไปไม่ได้:แสดงข้เสนองบประมาณที่ใช้งานไม่ได้"
+        unfeasible: "แสดงข้อเสนองบประมาณที่ใช้การไม่ได้"
+        unselected_title: "ข้อเสนอด้านงบประมาณไม่ลงคะแนนเสียง"
+        unselected: "ดูข้อเสนองบประมาณที่ยังไม่ได้ลงคะแนน"
     index:
-      all_phases: Participatory budgets phases
-      current_phase: Current phase
-      empty_budgets: There are no budgets.
-      finished_budgets: Finished participatory budgets
-      map: Budget investments' proposals located geographically
-      milestones: Milestones
-      next_phase: Next phase
-      prev_phase: Previous phase
+      all_phases: "ขั้นตอนงบประมาณของพลเมือง"
+      current_phase: "เฟสปัจจุบัน"
+      empty_budgets: "ไม่มีงบประมาณ"
+      finished_budgets: "งบประมาณพลเมืองที่เสร็จสมบูรณ์"
+      map: "ข้อเสนองบประมาณทางภูมิศาสตร์"
+      milestones: "เหตุการณ์สำคัญ"
+      next_phase: "เฟสต่อไป"
+      prev_phase: "เฟสก่อนหน้า"
       section_footer:
-        description: With the participatory budgets the citizens decide to which projects is destined a part of the budget.
-        title: Help with participatory budgets
+        description: "ด้วยงบประมาณแบบมีส่วนร่วม พลเมืองจะตัดสินใจว่าโครงการใดถูกกำหนดให้เป็นส่วนหนึ่งของงบประมาณ"
+        title: "ช่วยเรื่องงบประมาณพลเมือง"
       section_header:
-        help: Help with participatory budgets
-        icon_alt: Participatory budgets icon
-        title: Participatory budgets
-      see_results: See results
-      title: Participatory budgets
+        icon_alt: "สัญลักษณ์งบประมาณของพลเมือง"
+        title: "งบประมาณของพลเมือง"
+        help: "ช่วยเหลือด้านงบประมาณพลเมือง"
+      see_results: "แสดงผล"
+      title: "งบประมาณการมีส่วนร่วม"
     investments:
       form:
-        map_location: Map location
-        map_location_instructions: Navigate the map to the location and place the marker.
-        map_remove_marker: Remove map marker
+        map_location: "ตำแหน่งแผนที่"
+        map_location_instructions: "นำทางไปยังตำแหน่งบนแผนที่และวางเคอร์เซอร์"
+        map_remove_marker: "ลบเครื่องหมายบนแผนที่"
         subtitle: "%{heading} (%{price})"
-        tag_category_label: Categories
-        tags_instructions: Tag this proposal. You can choose from proposed categories or add your own
-        tags_label: Tags
-        tags_placeholder: Enter the tags you would like to use, separated by commas (',')
-        title: Create a budget investment
+        tag_category_label: "หมวดหมู่"
+        tags_instructions: "แท็กข้อเสนอนี้ คุณสามารถเลือกจากหมวดหมู่ที่เสนอหรือเพิ่มของคุณเอง"
+        tags_label: "แท็ก"
+        tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
+        title: "สร้างงบประมาณการลงทุน"
       header:
-        change_ballot: If you change your mind you can remove your votes in %{check_ballot} and start again.
-        check_ballot: Submit my ballot
-        check_ballot_link: submit my ballot
-        different_heading_assigned: 'You have active votes in another heading: %{heading_link}'
-        price: Total budget
+        change_ballot: "หากคุณเปลี่ยนใจ คุณสามารถลบการโหวตของคุณใน %{check_ballot} และเริ่มใหม่ได้"
+        check_ballot: "ส่งคะแนนของฉัน"
+        check_ballot_link: "ส่งคะแนนของฉัน"
+        different_heading_assigned: "คุณกำลังลงคะแนนในพื้นที่อื่นแล้ว: %{heading_link}"
+        price: "ไซต์นี้มีงบประมาณ"
       index:
-        by_heading: 'Investment projects with scope: %{heading}'
-        filter: Filtering projects by
+        by_heading: "โครงการลงทุนที่มีขอบเขต: %{heading}"
+        filter: "คัดกรองโปรเจ็กต์โดย"
         filters:
-          not_unfeasible: Not unfeasible
-          selected: Selected
-          unfeasible: Unfeasible
-          unselected: Unselected
-          winners: Winners
+          not_unfeasible: "เป็นไปไม่ได้"
+          selected: "เลือกแล้ว"
+          unfeasible: "เป็นไปไม่ได้"
+          unselected: "ไม่ได้เลือก"
+          winners: "ผู้ชนะ"
         orders:
-          confidence_score: highest rated
-          price: by price
-          random: random
+          random: "สุ่มลำดับ"
+          confidence_score: "เป็นที่นิยม"
+          price: "ตามราคา"
         search_form:
-          button: Search
-          placeholder: Search investment projects...
-          title: Search
+          button: "ค้นหา"
+          placeholder: "ค้นหาข้อเสนองบประมาณ ..."
+          title: "ค้นหา"
         search_results:
-          one: " containing the term <strong>'%{search_term}'</strong>"
-          other: " containing the term <strong>'%{search_term}'</strong>"
+          one: "มี <strong>'%{search_term}'</strong>"
+          other: "มี <strong>'%{search_term}'</strong>"
         sidebar:
-          change_ballot: If you change your mind you can remove your votes in %{check_ballot} and start again.
+          change_ballot: "หากคุณเปลี่ยนใจ คุณสามารถลบการโหวตของคุณใน %{check_ballot} และเริ่มใหม่ได้"
           change_vote_info:
-            approval: You can %{link} at any time until %{phase_end_date}.
-            knapsack: You can %{link} at any time until %{phase_end_date}. No need to spend all the money available.
-          change_vote_link: change your vote
-          check_ballot_link: submit my ballot
-          create: Create a budget investment
-          different_heading_assigned: 'You have active votes in another heading: %{heading_link}'
-          my_ballot: My ballot
-          not_logged_in: To create a new budget investment you must %{sign_in} or %{sign_up}.
-          verified_only: To create a new budget investment %{verify}.
+            knapsack: "คุณสามารถ %{link} ได้ตลอดเวลาจนถึง %{phase_end_date} คุณไม่จำเป็นต้องใช้งบประมาณทั้งหมด"
+            approval: "คุณสามารถ %{link} ได้ตลอดเวลาจนกว่าจะสิ้นสุดระยะนี้"
+          change_vote_link: "เปลี่ยนเสียงของคุณ"
+          check_ballot_link: "ส่งคะแนนของฉัน"
+          create: "Create a budget investment"
+          different_heading_assigned: "คุณกำลังลงคะแนนในพื้นที่อื่นแล้ว: %{heading_link}"
+          my_ballot: "คะแนนโหวตของฉัน"
+          not_logged_in: "ในการสร้างข้อเสนองบประมาณใหม่ คุณต้องม ี%{sign_in} หรือ %{sign_up}"
+          verified_only: "ในการสร้างข้อเสนองบประมาณใหม่ คุณต้อง %{verify}"
           voted_info:
             approval:
-              one: "<strong>You voted one proposal</strong>"
-              other: "<strong>You voted %{count} proposals</strong>"
+              one: "<strong>คุณโหวตข้อเสนอ</strong>"
+              other: "<strong>คุณโหวตให้ %{count} ข้อเสนอแนะ</strong>"
             knapsack:
-              one: "<strong>You voted one proposal with a cost of %{amount_spent}</strong>"
-              other: "<strong>You voted %{count} proposals with a cost of %{amount_spent}</strong>"
-          zero: You have not voted any investment project in this group.
-        title: Participatory budgeting
-        unfeasible: Unfeasible investment projects
-        unfeasible_text: The investments must meet a number of criteria (legality, concreteness, not exceed the limit of the budget) to be declared viable and reach the stage of final vote. All investments don't meet these criteria are marked as unfeasible and published in the following list, along with its report of infeasibility.
+              one: "<strong>คุณโหวตให้ข้อเสนอโดยมีค่าใช้จ่าย %{amount_spent}</strong>"
+              other: "<strong> คุณโหวตให ้%{count} ข้อเสนอในราคา %{amount_spent}</strong>"
+          zero: "คุณยังไม่ได้ลงคะแนนข้อเสนอด้านงบประมาณในส่วนนี้ของงบประมาณ"
+        title: "งบประมาณแบบมีส่วนร่วม"
+        unfeasible: "ข้อเสนองบประมาณที่นำไปปฏิบัติได้"
+        unfeasible_text: "ข้อเสนองบประมาณต้องเป็นไปตามเกณฑ์บางอย่าง (ถูกต้องตามกฎหมาย, เป็นไปได้, ไม่เกินงบประมาณ) จึงจะประกาศว่าถูกต้องและได้รับการโหวตขั้นสุดท้าย ข้อเสนองบประมาณที่ไม่ตรงตามเกณฑ์จะถูกทำเครื่องหมายว่าไม่สามารถทำได้และแสดงในรายการต่อไปนี้ พร้อมทั้งคำอธิบายของการประเมิน"
       investment:
-        add: Vote
-        already_added: You have already added this investment project
-        support_title: Support this project
+        add: "โหวต"
+        already_added: "คุณได้สร้างข้อเสนองบประมาณนี้แล้ว"
+        support_title: "สนับสนุนโครงการ"
         supports:
-          one: 1 support
-          other: "%{count} supports"
-          zero: No supports
+          zero: "ไม่รองรับ"
+          one: "1 การสนับสนุน"
+          other: "%{count} การสนับสนุน"
       share:
-        message: I created the investment project %{title} in %{handle}. Create an investment project too!
+        message: "ฉันสร้างโครงการลงทุน %{title} ใน %{handle} แล้ว สร้างโครงการลงทุนด้วย!"
       show:
-        author: Author
-        author_deleted: User deleted
-        code: 'Investment project code: <strong>%{code}</strong>'
-        comments_tab: Comments
-        location: 'Location: <strong>%{location}</strong>'
-        milestones_tab: Milestones
-        organization_name: 'Proposed on behalf of: <strong>%{name}</strong>'
-        price: Price
-        price_explanation: Price explanation
-        project_not_selected: This investment project <strong>has not been selected</strong> for balloting phase.
-        project_selected: This investment project <strong>has been selected</strong> for balloting phase.
-        project_unfeasible: This investment project <strong>has been marked as not feasible</strong> and will not go to balloting phase.
-        project_winner: Winning investment project
-        see_price_explanation: See price explanation
-        share: Share
-        supports: Supports
-        title: Investment project
-        unfeasibility_explanation: Unfeasibility explanation
-        votes: Votes
+        author: "ผู้แต่ง"
+        author_deleted: "ผู้ใช้ถูกลบ"
+        code: "รหัสข้อเสนองบประมาณ: <strong>%{code}</strong>"
+        comments_tab: "ความคิดเห็น"
+        location: "ตำแหน่ง: <strong>%{location}</strong>"
+        milestones_tab: "เหตุการณ์สำคัญ"
+        organization_name: "แนะนำในนามของ: <strong>%{name}</strong>"
+        price: "ค่าใช้จ่าย"
+        price_explanation: "งบต้นทุน"
+        project_unfeasible: "งบประมาณร่างนี้ <strong>ถูกทำเครื่องหมายว่าใช้การไม่ได้</strong> และจะไม่ถูกนำไปลงคะแนน"
+        project_selected: "งบประมาณร่างนี้ <strong>ได้ไป</strong> ในการลงคะแนน"
+        project_winner: "ข้อเสนองบประมาณที่ชนะ"
+        project_not_selected: "งบประมาณร่างนี้ <strong>ไม่ผ่าน</strong> โหวต"
+        see_price_explanation: "งบต้นทุน"
+        share: "แบ่งปัน"
+        supports: "รองรับ"
+        title: "ข้อเสนองบประมาณ"
+        unfeasibility_explanation: "อธิบายว่าเหตุใดจึงไม่สามารถทำได"
+        votes: "โหวต"
       votes:
-        already_supported: You have already supported this investment project. Share it!
+        already_supported: "คุณสนับสนุนข้อเสนองบประมาณนี้แล้ว แบ่งปัน!"
         confirm_group:
-          one: You can only support investments in %{count} district. If you continue you cannot change the election of your district. Are you sure?
-          other: You can only support investments in %{count} districts. If you continue you cannot change the election of your district. Are you sure?
-        remove_support: Remove your support
-        remove_support_label: Remove your support to %{investment}
-        support: Support
-        support_label: Support %{investment}
-      wrong_price_format: Only integer numbers
+          one: "คุณสามารถสนับสนุนข้อเสนองบประมาณได้เฉพาะใน %{count} เขต หากดำเนินการต่อ คุณจะไม่สามารถเปลี่ยนการเลือกเขตได้ คุณต้องการดำเนินการต่อหรือไม่?"
+          other: "คุณสามารถสนับสนุนโครงการในละแวกใกล้เคียง %{count} แห่งเท่านั้น หากคุณดำเนินการต่อ คุณจะไม่สามารถเปลี่ยนการเลือกพื้นที่ใกล้เคียง คุณต้องการดำเนินการต่อหรือไม่?"
+        remove_support: "ลบการสนับสนุนของคุณ"
+        remove_support_label: "ลบการสนับสนุนของคุณไปที %{investment}"
+        support: "การสนับสนุน"
+        support_label: "การสนับสนุน %{investment}"
+      wrong_price_format: "เฉพาะตัวเลขจำนวนเต็ม"
     investments_list:
       investment:
-        price: Price
-        read_more: Read more
-        supports: Supports
-      see_all: See all investments
-      title: List of investments
+        price: "ราคา"
+        read_more: "อ่านเพิ่มเติม"
+        supports: "การสนับสนุน"
+      see_all: "ดูการลงทุนทั้งหมด"
+      title: "รายการการลงทุน"
     phase:
-      accepting: Accepting projects
-      balloting: Voting projects
-      drafting: Draft (Not visible to the public)
-      finished: Finished budget
-      informing: Information
-      publishing_prices: Publishing projects prices
-      reviewing: Reviewing projects
-      reviewing_ballots: Reviewing voting
-      selecting: Selecting projects
-      valuating: Valuating projects
+      drafting: "ร่าง (ไม่ปรากฏต่อสาธารณะ)"
+      informing: "ข้อมูล"
+      accepting: "การส่งข้อเสนอ"
+      reviewing: "ทบทวนข้อเสนอ"
+      selecting: "การเลือก"
+      valuating: "การคำนวนต้นทุน"
+      publishing_prices: "ค่าใช้จ่ายในการเผยแพร่"
+      balloting: "การลงคะแนนเสียง"
+      reviewing_ballots: "ทบทวนการโหวต"
+      finished: "งบประมาณที่เสร็จแล้ว"
     phases:
       errors:
-        dates_range_invalid: Start date can't be equal or later than End date
-        next_phase_dates_invalid: End date must be earlier than the end date of the next enabled phase (%{phase_name})
-        prev_phase_dates_invalid: Start date must be later than the start date of the previous enabled phase (%{phase_name})
+        dates_range_invalid: "วันที่เริ่มต้นต้องไม่เหมือนกับหรือหลังวันที่สิ้นสุด"
+        prev_phase_dates_invalid: "วันที่เริ่มต้นต้องช้ากว่าวันที่เริ่มต้นของเฟสที่เปิดใช้งานก่อนหน้านี้ (%{phase_name})"
+        next_phase_dates_invalid: "วันที่สิ้นสุดต้องเร็วกว่าวันที่สิ้นสุดของเฟสที่เปิดใช้งานถัดไป (%{phase_name})"
     results:
-      accepted: 'Accepted investment: '
-      amount_available: Available budget
-      ballot_lines_count: Votes
-      discarded: 'Discarded investment: '
-      heading: Participatory budget results
-      heading_selection_title: By district
-      hide_discarded_link: Hide discarded
-      incompatibles: Incompatibles
-      investment_proyects: List of all investment projects
-      investment_title: Project title
-      link: Results
-      not_selected_investment_proyects: List of all investment projects not selected for balloting
-      page_title: "%{budget} - Results"
-      price: Price
-      show_all_link: Show all
-      unfeasible_investment_proyects: List of all unfeasible investment projects
+      accepted: "ข้อเสนองบประมาณที่ได้รับอนุมัติ:"
+      amount_available: "งบประมาณที่ใช้ได้"
+      ballot_lines_count: "เสียง"
+      discarded: "ข้อเสนองบประมาณที่ถูกปฏิเสธ:"
+      heading: "ผลงบประมาณของราษฎร"
+      heading_selection_title: "ตามพื้นที่ใกล้เคียง"
+      hide_discarded_link: "ซ่อนการปฏิเสธ"
+      incompatibles: "เข้ากันไม่ได้"
+      investment_proyects: "รายการข้อเสนองบประมาณ"
+      investment_title: "ชื่อโครงการ"
+      link: "ผลลัพธ์"
+      not_selected_investment_proyects: "รายการข้อเสนองบประมาณที่ยังไม่ได้ลงคะแนน"
+      page_title: "%{budget} - ผลลัพธ์"
+      price: "ค่าใช้จ่าย"
+      show_all_link: "แสดงทั้งหมด"
+      unfeasible_investment_proyects: "รายการข้อเสนองบประมาณที่ใช้การไม่ได้"
     show:
-      see_results: See results
+      see_results: "แสดงผล"
     supports_info:
-      different: You may support on as many different projects as you would like.
-      next: Support the projects you would like to see move on to the next phase.
-      scrolling: Keep scrolling to see all ideas
-      share: You can share the projects you have supported on through social media and attract more attention and support to them!
+      different: "คุณสามารถสนับสนุนโครงการต่างๆ ได้มากเท่าที่คุณต้องการ"
+      next: "สนับสนุนโครงการที่คุณต้องการดำเนินการในขั้นต่อไป"
+      scrolling: "เลื่อนไปเรื่อย ๆ เพื่อดูแนวคิดทั้งหมด"
+      share: "คุณสามารถแชร์โปรเจ็กต์ที่คุณสนับสนุนผ่านโซเชียลมีเดียและดึงดูดความสนใจและสนับสนุนพวกเขาได้มากขึ้น!"
       supported:
-        one: So far you've supported <strong>1 project</strong>.
-        other: So far you've supported <strong>%{count} projects</strong>.
-      supported_not_logged_in: Log in to start <strong>supporting projects</strong>.
-      time: There's still time until %{phase_end_date} to support projects.
-      title: It's time to <strong>support</strong> projects!
+        one: "จนถึงตอนนี้ คุณได้สนับสนุน <strong>1 โครงการ</strong>"
+        other: "จนถึงตอนนี้ คุณได้สนับสนุน <strong>%{count} โครงการ</strong>"
+      supported_not_logged_in: "เข้าสู่ระบบเพื่อเริ่ม<strong>สนับสนุนโครงการ</strong>"
+      time: "ยังมีเวลาจนถึง %{phase_end_date} เพื่อสนับสนุนโครงการ"
+      title: "ได้เวลา<strong>สนับสนุน</strong>โครงการแล้ว!"

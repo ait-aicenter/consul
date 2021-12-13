@@ -3,67 +3,67 @@ th:
   valuation:
     budget_investments:
       edit:
-        dossier: Dossier
-        feasibility: Feasibility
-        not_feasible_alert: An email will be sent immediately to the author of the project with the report of unfeasibility.
-        price: Price (%{currency})
-        price_first_year: Cost during the first year (%{currency}) <small>(optional, data not public)</small>
-        save: Save changes
-        valuation_finished_alert: Are you sure you want to mark this report as completed? If you do it, it can no longer be modified.
+        dossier: "เอกสาร"
+        feasibility: "ความเป็นไปได้"
+        not_feasible_alert: "อีเมลจะถูกส่งไปยังผู้เขียนโครงการทันทีพร้อมรายงานความไม่สามารถทำได้"
+        price: "ราคา (%{currency})"
+        price_first_year: "ค่าใช้จ่ายระหว่างปีแรก (%{currency}) <small>(ตัวเลือก ข้อมูลไม่เป็นสาธารณะ)</small>"
+        save: "บันทึกการเปลี่ยนแปลง"
+        valuation_finished_alert: "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายรายงานนี้ว่าเสร็จสมบูรณ์ หากทำแล้วจะไม่สามารถแก้ไขได้อีกต่อไป"
       index:
-        assigned_to: Assigned to %{valuator}
-        edit: Edit dossier
+        assigned_to: "มอบหมายให้ %{valuator}"
+        edit: "แก้ไขเอกสาร"
         filters:
-          valuating: Under valuation
-          valuation_finished: Valuation finished
-          valuation_open: Open
-        headings_filter_all: All headings
-        no_investments: There are no investment projects.
-        table_actions: Actions
-        table_heading_name: Heading name
-        table_id: ID
-        table_title: Title
-        title: Investment projects
-      not_in_valuating_phase: Investments can only be valuated when Budget is in valuating phase
+          valuating: "อยู่ระหว่างการประเมินค่า"
+          valuation_finished: "ประเมินราคาเสร็จแล้ว"
+          valuation_open: "เปิด"
+        headings_filter_all: "หัวเรื่องทั้งหมด"
+        no_investments: "ไม่มีโครงการลงทุน"
+        table_actions: "การกระทำ"
+        table_heading_name: "ชื่อหัวเรื่อง"
+        table_id: "ไอดี"
+        table_title: "ชื่อเรื่อง"
+        title: "โครงการลงทุน"
+      not_in_valuating_phase: "การลงทุนสามารถประเมินได้เฉพาะเมื่องบประมาณอยู่ในขั้นตอนการประเมิน"
       notice:
-        valuate: Dossier updated
+        valuate: "อัพเดทเอกสารแล้ว"
       show:
-        assigned_admin: Assigned admin
-        assigned_valuators: Assigned valuators
-        back: Back
-        by: Sent by
-        currency: "€"
-        dossier: Dossier
-        duration: Time scope
-        edit_dossier: Edit dossier
-        feasibility: Feasibility
-        feasible: Feasible
-        heading: Heading
-        info: Author info
-        preview: Investment preview
-        price: Price
-        price_first_year: Cost during the first year
-        responsibles: Responsibles
-        sent: Sent at
-        title: Investment project
-        undefined: Undefined
-        unfeasible: Unfeasible
-        valuation_finished: Valuation finished
-      valuation_comments: Valuation comments
+        assigned_admin: "ผู้ดูแลระบบที่ได้รับมอบหมาย"
+        assigned_valuators: "ผู้ประเมินที่ได้รับมอบหมาย"
+        back: "กลับ"
+        by: "ส่งโดย"
+        currency: "THB"
+        dossier: "เอกสาร"
+        duration: "ระยะเวลา"
+        edit_dossier: "แก้ไขเอกสาร"
+        feasibility: "ความเป็นไปได้"
+        feasible: "เป็นไปได้"
+        heading: "หัวเรื่อง"
+        info: "ข้อมูลผู้แต่ง"
+        preview: "ตัวอย่างการลงทุน"
+        price: "ราคา"
+        price_first_year: "ค่าใช้จ่ายระหว่างปีแรก"
+        responsibles: "ความรับผิดชอบ"
+        sent: "ส่งที่"
+        title: "โครงการลงทุน"
+        undefined: "ไม่ได้กำหนด"
+        unfeasible: "ไม่สามารถทำได้"
+        valuation_finished: "ประเมินราคาเสร็จแล้ว"
+      valuation_comments: "ความคิดเห็นเกี่ยวกับการประเมินค่า"
     budgets:
       index:
-        evaluate: Evaluate
+        evaluate: "ประเมิน"
         filters:
-          current: Open
-          finished: Finished
-        no_budgets: There are no budgets
-        table_actions: Actions
-        table_assigned_investments_valuation_open: Investment projects assigned with valuation open
-        table_name: Name
-        table_phase: Phase
-        title: Participatory budgets
+          current: "เปิด"
+          finished: "เสร็จสิ้น"
+        no_budgets: "ไม่มีงบประมาณ"
+        table_actions: "การกระทำ"
+        table_assigned_investments_valuation_open: "โครงการลงทุนที่กำหนดด้วยการประเมินมูลค่าเปิด"
+        table_name: "ชื่อ"
+        table_phase: "ช่วงเวลา"
+        title: "งบประมาณแบบมีส่วนร่วม"
     header:
-      title: Valuation
+      title: "การประเมินค่า"
     menu:
-      budgets: Participatory budgets
-      title: Valuation
+      budgets: "งบประมาณแบบมีส่วนร่วม"
+      title: "การประเมินค่า"

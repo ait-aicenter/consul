@@ -2,8 +2,8 @@
 th:
   milestones:
     index:
-      no_milestones: Don't have defined milestones
-      progress: Progress
+      no_milestones: "ไม่ได้กำหนดเหตุการณ์สำคัญ"
+      progress: "ความคืบหน้า"
     show:
-      publication_date: Published %{publication_date}
-      status_changed: Status changed to
+      publication_date: "เผยแพร่ %{publication_date}"
+      status_changed: "สถานะเปลี่ยนเป็น"

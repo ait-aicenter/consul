@@ -1,4 +1,4 @@
 ---
 th:
   date:
-    order: "[:year, :month, :day]"
+    order: "[:ปี, :เดือน, :วัน]"

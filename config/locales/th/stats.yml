@@ -1,44 +1,44 @@
 ---
 th:
   stats:
-    advanced: Advanced statistics
-    age: Age
-    age_more_than: "%{start} years old and older"
-    age_range: "%{start} - %{finish} years old"
+    advanced: "สถิติขั้นสูง"
+    age: "อายุ"
+    age_more_than: "%{start} ปีขึ้นไป"
+    age_range: "%{start} - %{finish} ปี"
     budgets:
-      by_heading: Participants by phase and heading
-      by_phase: Participants by phase
-      heading: Heading
-      heading_disclaimer: "*** Data about headings refer to the heading where each user voted, not necessarily the one that person is registered on."
-      investments_sent: Investment proposals sent
-      link: Stats
-      page_title: "%{budget} - Participation stats"
-      participants_every_phase: Total participants
-      participants_support_phase: Participants support phase
-      participants_vote_phase: Participants voting phase
-      participatory_disclaimer: "** The numbers of total participants refer to persons that created, supported or voted investment proposals."
-      percent_heading_census: "% Heading census"
-      percent_total_participants: "% Total participants"
-      total: Total
-      total_investments: Total investment projects
-      total_selected_investments: Projects in final voting phase
-      total_unfeasible_investments: Unfeasible projects
-    by_age: Participants by age
-    by_gender: Participants by gender
-    by_geozone: Participants by district
-    geozone: District
-    men_percentage: "%{percentage} Men"
+      by_heading: "ผู้เข้าร่วมตามระยะเวลาและหัวข้อ"
+      by_phase: "ผู้เข้าร่วมโดยระยะเวลา"
+      heading: "หัวเรื่อง"
+      heading_disclaimer: "*** ข้อมูลเกี่ยวกับหัวข้ออ้างอิงถึงหัวข้อที่ผู้ใช้แต่ละคนโหวต ไม่จำเป็นต้องเป็นชื่อที่ลงทะเบียนไว้"
+      investments_sent: "ส่งข้อเสนอการลงทุนแล้ว"
+      link: "สถิติ"
+      page_title: "%{budget} - สถิติการเข้าร่วม"
+      participants_every_phase: "ผู้เข้าร่วมทั้งหมด"
+      participants_support_phase: "ผู้เข้าร่วมสนับสนุนระยะเวลา"
+      participants_vote_phase: "ขั้นตอนการลงคะแนนผู้เข้าร่วม"
+      participatory_disclaimer: "** จำนวนผู้เข้าร่วมทั้งหมดหมายถึงบุคคลที่สร้าง สนับสนุน หรือโหวตข้อเสนอการลงทุน"
+      percent_heading_census: "% หัวเรื่องการสำรวจประชากร"
+      percent_total_participants: "% ผู้เข้าร่วมทั้งหมด"
+      total: "ทั้งหมด"
+      total_investments: "โครงการลงทุนทั้งหมด"
+      total_selected_investments: "โครงการที่อยู่ในขั้นตอนการลงคะแนนเสียงขั้นสุดท้าย"
+      total_unfeasible_investments: "โครงการที่ไม่สามารถทำได้"
+    by_age: "ผู้เข้าร่วมตามอายุ"
+    by_gender: "ผู้เข้าร่วมตามเพศ"
+    by_geozone: "ผู้เข้าร่วมแบ่งตามเขต"
+    geozone: "เขต"
+    men_percentage: "%{percentage} ผู้ชาย"
     no_demographic_data:
-      one: "* There is no demographic data for 1 participant."
-      other: "* There is no demographic data for %{count} participants."
-      zero: Zero
+      one: "* ไม่มีข้อมูลประชากรสำหรับผู้เข้าร่วม 1 คน"
+      other: "* ไม่มีข้อมูลประชากรสำหรับผู้เข้าร่วม %{count} คน"
+      zero: "ศูนย์"
     polls:
-      booth_percentage: "%{percentage} Booths"
-      by_channel: Participants by channel
-      letter_percentage: "%{percentage} Mail"
-      vote_by_channel: Vote type by channel
-      web_percentage: "%{percentage} Web"
-    title: Participation data
-    total: Total
-    total_participants: Participants
-    women_percentage: "%{percentage} Women"
+      booth_percentage: "%{percentage} บูธ"
+      by_channel: "ผู้เข้าร่วมโดย channel"
+      letter_percentage: "%{percentage} จดหมาย"
+      vote_by_channel: "ประเภทที่โหวตตามช่อง"
+      web_percentage: "%{percentage} เว็บ"
+    title: "ข้อมูลการเข้าร่วม"
+    total: "ทั้งหมด"
+    total_participants: "ผู้เข้าร่วม"
+    women_percentage: "%{percentage} ผู้หญิง"

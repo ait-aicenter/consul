@@ -3,110 +3,110 @@ th:
   moderation:
     budget_investments:
       index:
-        block_authors: Block authors
-        confirm: Are you sure?
-        filter: Filter
+        block_authors: "ผู้เขียนบล็อก"
+        confirm: "คุณแน่ใจไหม?"
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          pending_flag_review: Pending
-          with_ignored_flag: Marked as viewed
+          all: "ทั้งหมด"
+          pending_flag_review: "กำลังดำเนินการ"
+          with_ignored_flag: "ทำเครื่องหมายว่าดูแล้ว"
         headers:
-          budget_investment: Budget investment
-          moderate: Moderate
-        hide: Hide budget investments
-        ignore_flags: Mark as viewed
+          budget_investment: "การลงทุนด้านงบประมาณ"
+          moderate: "ปานกลาง"
+        hide: "ซ่อนการลงทุนด้านงบประมาณ"
+        ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
-          created_at: Most recent
-          flags: Most flagged
-        title: Budget investments
+          created_at: "ล่าสุด"
+          flags: "ถูกจับตามองมากที่สุด"
+        title: "การลงทุนด้านงบประมาณ"
     comments:
       index:
-        block_authors: Block authors
-        confirm: Are you sure?
-        filter: Filter
+        block_authors: "ผู้เขียนบล็อก"
+        confirm: "คุณแน่ใจไหม?"
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          pending_flag_review: Pending
-          with_ignored_flag: Marked as viewed
+          all: "ทั้งหมด"
+          pending_flag_review: "กำลังดำเนินการ"
+          with_ignored_flag: "ทำเครื่องหมายว่าดูแล้ว"
         headers:
-          comment: Comment
-          moderate: Moderate
-        hide: Hide comments
-        ignore_flags: Mark as viewed
+          comment: "ความคิดเห็น"
+          moderate: "ปานกลาง"
+        hide: "ซ่อนความคิดเห็น"
+        ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
-          flags: Most flagged
-          newest: Newest
-        title: Comments
+          flags: "ถูกจับตามองมากที่สุด"
+          newest: "ใหม่ล่าสุด"
+        title: "ความคิดเห็น"
     dashboard:
       index:
-        title: Moderation
+        title: "การกลั่นกรอง"
     debates:
       index:
-        block_authors: Block authors
-        confirm: Are you sure?
-        filter: Filter
+        block_authors: "ผู้เขียนบล็อก"
+        confirm: "คุณแน่ใจไหม?"
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          pending_flag_review: Pending
-          with_ignored_flag: Marked as viewed
+          all: "ทั้งหมด"
+          pending_flag_review: "กำลังดำเนินการ"
+          with_ignored_flag: "ทำเครื่องหมายว่าดูแล้ว"
         headers:
-          debate: Debate
-          moderate: Moderate
-        hide: Hide debates
-        ignore_flags: Mark as viewed
+          debate: "อภิปราย"
+          moderate: "ปานกลาง"
+        hide: "ซ่อนความคิดเห็น"
+        ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
-          created_at: Newest
-          flags: Most flagged
-        title: Debates
+          created_at: "ใหม่ล่าสุด"
+          flags: "ถูกจับตามองมากที่สุด"
+        title: "อภิปราย"
     header:
-      title: Moderation
+      title: "การกลั่นกรอง"
     menu:
-      flagged_comments: Comments
-      flagged_debates: Debates
-      flagged_investments: Budget investments
-      proposal_notifications: Proposals notifications
-      proposals: Proposals
-      users: Block users
+      flagged_comments: "ความคิดเห็น"
+      flagged_debates: "อภิปราย"
+      flagged_investments: "การลงทุนด้านงบประมาณ"
+      proposal_notifications: "การแจ้งเตือนข้อเสนอ"
+      proposals: "ข้อเสนอ"
+      users: "บล็อกผู้ใช้"
     proposal_notifications:
       index:
-        block_authors: Block authors
-        confirm: Are you sure?
-        filter: Filter
+        block_authors: "ผู้เขียนบล็อก"
+        confirm: "คุณแน่ใจไหม?"
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          ignored: Mark as viewed
-          pending_review: Pending review
+          all: "ทั้งหมด"
+          ignored: "ทำเครื่องหมายว่าดูแล้ว"
+          pending_review: "อยู่ระหว่างการพิจารณา"
         headers:
-          moderate: Moderate
-          proposal_notification: Proposal notification
-        hide: Hide proposals
-        ignore_flags: Mark as viewed
+          moderate:  "ปานกลาง"
+          proposal_notification: "การแจ้งเตือนข้อเสนอ"
+        hide: "ซ่อนข้อเสนอ"
+        ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
-          created_at: Most recent
-          moderated: Moderated
-        title: Proposal notifications
+          created_at: "ล่าสุด"
+          moderated: "กลั่นกรอง"
+        title: "การแจ้งเตือนข้อเสนอ"
     proposals:
       index:
-        block_authors: Block authors
-        confirm: Are you sure?
-        filter: Filter
+        block_authors: "ผู้เขียนบล็อก"
+        confirm: "คุณแน่ใจไหม?"
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          pending_flag_review: Pending review
-          with_ignored_flag: Mark as viewed
+          all: "ทั้งหมด"
+          pending_flag_review: "อยู่ระหว่างการพิจารณา"
+          with_ignored_flag: "ทำเครื่องหมายว่าดูแล้ว"
         headers:
-          moderate: Moderate
-          proposal: Proposal
-        hide: Hide proposals
-        ignore_flags: Mark as viewed
+          moderate: "ปานกลาง"
+          proposal: "ข้อเสนอ"
+        hide: "ซ่อนข้อเสนอ"
+        ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
-          created_at: Most recent
-          flags: Most flagged
-        title: Proposals
+          created_at: "ล่าสุด"
+          flags: "ถูกจับตามองมากที่สุด"
+        title: "ข้อเสนอ"
     users:
       index:
-        hidden: Blocked
-        hide: Block
+        hidden: "ถูกบล็อก"
+        hide: "บล็อก"
         search_placeholder: email or name of user
-        title: Block users
+        title: "บล็อกผู้ใช้"
       notice_hide: User blocked. All of this user's debates and comments have been hidden.

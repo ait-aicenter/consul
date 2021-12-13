@@ -3,46 +3,46 @@ th:
   activemodel:
     attributes:
       local_census_records/import:
-        file: File
+        file: "ไฟล์"
       officing/residence:
-        document_number: Document number (including letters)
-        document_type: Document type
-        year_of_birth: Year born
+        document_number: "เลขที่เอกสาร (รวมถึงตัวอักษร)"
+        document_type: "ประเภทของเอกสาร"
+        year_of_birth: "ปีเกิด"
       verification:
         email:
-          recipient: Email
+          recipient: "อีเมล"
         residence:
-          date_of_birth: Date of birth
-          document_number: Document number (including letters)
-          document_type: Document type
-          postal_code: Postcode
+          date_of_birth: "วันเกิด"
+          document_number: "เลขที่เอกสาร (รวมถึงตัวอักษร)"
+          document_type: "ประเภทของเอกสาร"
+          postal_code: "รหัสไปรษณีย์"
         sms:
-          confirmation_code: Confirmation code
-          phone: Telephone
+          confirmation_code: "ยืนยันรหัสผ่าน"
+          phone: "โทรศัพท์"
       verification/letter:
-        email: Email
-        password: Password
-        verification_code: Code you received in letter
+        email: "อีเมล"
+        password: "พาสเวิร์ด"
+        verification_code: "คุณจะได้รับรหัสผ่านเป็นตัวอักษร"
       verification/management/document:
-        document_number: Document number
-        document_type: 'Document type:'
+        document_number: "เลขที่เอกสาร"
+        document_type: 'ประเภทของเอกสาร:'
       verification/residence:
-        date_of_birth: Date of birth
-        document_type: Document type
-        postal_code: Postcode
+        date_of_birth: "วันเกิด"
+        document_type: "ประเภทของเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
       verification/sms:
-        confirmation_code: Enter the code you received on your mobile
+        confirmation_code: "ยืนยันรหัสผ่านที่คุณได้รับทางมือถือ"
     errors:
       models:
         local_census_records/import:
           attributes:
             file:
-              extension: 'Given file format is wrong. The allowed file format is: %{valid_extensions}.'
-              headers: 'Given file headers are wrong. The file headers must have the following names: %{required_headers}.'
+              extension: "รูปแบบของไฟล์ที่ระบุไม่ถูกต้อง. รูปแบบของไฟล์ที่ได้รับอนุญาติคือ: %{valid_extensions}."
+              headers: "ระบุหัวข้อของไฟล์ไม่ถูกต้อง. หัวข้อของไฟล์ที่ถูกต้อง ต้องตามด้วยชื่อ: %{required_headers}."
     models:
       local_census_records/import:
-        one: Local census record import
-        other: Local census records imports
+        one: "นำเข้าบันทึกในทะเบียนที่อยู่ในท้องถิ่น"
+        other: "นำเข้าทะเบียนที่อยู่ในท้องถิ่น"
       verification:
-        residence: Residence
-        sms: SMS
+        residence: "ที่อยู่อาศัย"
+        sms:  "เอสเอ็มเอส"

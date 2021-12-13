@@ -3,595 +3,606 @@ th:
   activerecord:
     attributes:
       active_poll/translation:
-        description: Description
+        description: "คำอธิบาย"
       admin_notification:
-        body: Text
-        link: Link
-        segment_recipient: Recipients
-        title: Title
+        body: "ข้อความ"
+        link: "ลิ้งก์"
+        segment_recipient: "ผู้รับ"
+        title: "ชื่อเรื่อง"
       admin_notification/translation:
-        body: Text
-        title: Title
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
       banner:
-        background_color: Background color
-        font_color: Font color
-        post_ended_at: Post ended at
-        post_started_at: Post started at
-        target_url: Link
+        background_color: "สีพื้นหลัง"
+        font_color: "สีตัวหนังสือ"
+        post_ended_at: "โพสต์สิ้นสุดที่"
+        post_started_at: "เริ่มโพสต์ที่"
+        target_url: "ลิ้งก์"
       banner/translation:
-        description: Description
-        title: Title
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
       budget:
-        currency_symbol: Currency
-        description_accepting: Description during Accepting phase
-        description_balloting: Description during Balloting phase
-        description_finished: Description when the budget is finished
-        description_reviewing: Description during Reviewing phase
-        description_reviewing_ballots: Description during Reviewing Ballots phase
-        description_selecting: Description during Selecting phase
-        description_valuating: Description during Valuating phase
-        main_link_url: The link takes you to (add a link)
-        name: Name
-        phase: Active phase
-        voting_style: Final voting style
-        voting_style_approval: Approval
-        voting_style_knapsack: Knapsack
+        currency_symbol: "สกุลเงิน"
+        description_accepting: "คำอธิบายระหว่างขั้นตอนการยอมรับ"
+        description_balloting: "คำอธิบายระหว่างขั้นตอนการลงคะแนน"
+        description_finished: "คำอธิบายเมื่อการจัดทำงบประมาณเสร็จสิ้น"
+        description_reviewing: "คำอธิบายระหว่างขั้นตอนการตรวจสอบ"
+        description_reviewing_ballots: "คำอธิบายระหว่างขั้นตอนการตรวจสอบการลงคะแนน"
+        description_selecting: "คำอธิบายระหว่างขั้นตอนการเลือก"
+        description_valuating: "คำอธิบายระหว่างขั้นตอนการประเมินค่า"
+        main_link_url: "นำคุณไปยังลิงค์ (เพิ่มลิงก์)"
+        name: "ชื่อ"
+        phase: "ระยะเวลาที่ใช้งาน"
+        voting_style: "รูปแบบการลงคะแนนครั้งสุดท้าย"
+        voting_style_approval: "การอนุมัติ"
+        voting_style_knapsack: "กระเป๋า"
       budget/group:
-        max_votable_headings: Maximum number of headings in which a user can select projects
+        max_votable_headings: "จำนวนชื่อเรื่องสูงสุดที่ผู้ใช้สามารถใช้เลือกกับโครงการได้"
       budget/group/translation:
-        name: Group name
+        name: "ชื่อกลุ่ม"
       budget/heading:
-        allow_custom_content: Allow content block
-        latitude: Latitude (optional)
-        longitude: Longitude (optional)
-        max_ballot_lines: Votes allowed
-        name: Heading name
-        population: Population (optional)
-        price: Money amount
+        allow_custom_content: "อนุญาติการบล็อคเนื้อหา"
+        latitude: "ละติจูด (ทางเลือก)"
+        longitude: "ลองจิจูด(ทางเลือก)"
+        max_ballot_lines: "อนุญาติให้โหวตได้"
+        name: "ชื่อหัวเรื่อง"
+        population: "ประชากร(ทางเลือก)"
+        price: "จำนวนเงิน"
       budget/heading/translation:
-        name: Heading name
+        name: "ชื่อหัวเรื่อง"
       budget/investment:
-        administrator_id: Administrator
-        description: Description
-        duration: Time scope
-        external_url: Link to additional documentation
-        feasibility_feasible: Feasible
-        feasibility_undecided: Undefined
-        feasibility_unfeasible: Unfeasible
-        heading_id: Heading
-        image: Proposal descriptive image
-        image_title: Image title
-        incompatible: Mark as incompatible
-        location: Location additional info
-        milestone_tag_list: Milestone tags
-        organization_name: If you are proposing in the name of a collective/organization, or on behalf of more people, write its name
-        price_explanation: Price explanation
-        selected: Mark as selected
-        selected_false: Not selected
-        selected_true: Selected
-        title: Title
-        unfeasibility_explanation: Feasibility explanation
-        valuation_finished: Valuation finished
-        valuation_tag_list: Tags
-        valuator_ids: Groups
+        administrator_id: "ผู้ดูแลระบบ"
+        description: "คำอธิบาย"
+        duration: "ขอบเขตเวลา"
+        external_url: "ลิ้งก์ที่ไปยังเอกสารเพิ่มเติม"
+        feasibility_feasible: "เป็นไปได้"
+        feasibility_undecided: "ไม่ได้กำหนด"
+        feasibility_unfeasible: "เป็นไปไม่ได้"
+        heading_id: "หัวเรื่อง"
+        image: "ภาพลักษณะของข้อเสนอ"
+        image_title: "ชื่อภาพ"
+        incompatible: "ทำเครื่องหมายว่าเข้ากันไม่ได้"
+        location: "ข้อมูลสถานที่เพิ่มเติม"
+        milestone_tag_list: "แท็กเหตุการณ์สำคัญ"
+        organization_name: "หากคุณเสนอชื่อในนามของกลุ่ม/องค์กรหรือในนามของผู้คนจำนวนมากให้เขียนชื่อลงไป"
+        price_explanation: "คำอธิบายราคา"
+        selected: "ทำเครื่องหมายว่าเลือกแล้ว"
+        selected_false: "ไม่ถูกเลือก"
+        selected_true: "ถูกเลือก"
+        title: "ชื่อเรื่อง"
+        unfeasibility_explanation: "คำอธิบายความเป็นไปได้"
+        valuation_finished: "ประเมินเสร็จแล้ว"
+        valuation_tag_list: "แท็ก"
+        valuator_ids: "กลุ่ม"
       budget/investment/translation:
-        description: Description
-        title: Title
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
       budget/phase:
-        enabled: Phase enabled
-        ends_at: End date
-        main_link_url: The link takes you to (add a link)
-        starts_at: Start date
+        enabled: "เปิดใช้งานระยะเวลา"
+        ends_at: "วันสิ้นสุด"
+        main_link_url: "ลิงค์ ที่นำคุณไปยัง (เพิ่มลิงค์)"
+        starts_at: "วันเริ่มต้น"
       budget/phase/translation:
-        description: Description
-        main_link_text: Text on the link
-        name: Name
-        summary: Summary
+        description: "คำอธิบาย"
+        main_link_text: "ข้อความบนลิ้งก์"
+        name: "ชื่อ"
+        summary: "สรุป"
       budget/translation:
-        main_link_text: Text on the link
-        name: Name
+        main_link_text: "ข้อความบนลิ้งก์"
+        name: "ชื่อ"
       comment:
-        body: Comment
-        user: User
+        body: "ความคิดเห็น"
+        user: "ผู้ใช้งาน"
       dashboard/action:
-        action_type: Type
-        action_type_proposed_action: Proposed action
-        action_type_resource: Resource
-        active: Active
-        day_offset: How many days after the creation of the proposal do you want it to be activated?
-        description: Description
-        link: External link
-        order: You can enter the position where this action will be shown to the user in the list of actions
-        published_proposal: For published proposals?
-        request_to_administrators: Include in the resource a button to request the resource from administrators
-        required_supports: How much supports does the proposal have to get in order to be activated?
-        short_description: Short description
-        title: Title
+        action_type: "ประเภท"
+        action_type_proposed_action: "การดำเนินการที่ถูกเสนอ"
+        action_type_resource: "แหล่งข้อมูล"
+        active: "กำลังทำงาน"
+        day_offset: "คุณต้องการให้เปิดใช้งานข้อเสนอภายในกี่วันหลังจากสร้างข้อเสนอแล้ว?"
+        description: "คำอธิบาย"
+        link: "การเชื่องโยงภายนอก"
+        order: "คุณสามารถเข้าถึงตำแหน่งที่การทำงานนี้จะถูกแสดงให้ผู้ใช้เห็นขณะใช้งาน"
+        published_proposal: "สำหรับข้อเสนอที่เผยแพร่?"
+        request_to_administrators: "รวมปุ่มเพื่อขอทรัพยากรจากผู้ดูแลระบบ"
+        required_supports: "ข้อเสนอต้องการการสนับสนุนมากเท่าไหนจึงเปิดใช้งานได้?"
+        short_description: "คำอธิบายโดยย่อ"
+        title: "ชื่อเรื่อง"
       dashboard/administrator_task:
-        source: Source
-        user: Executed by
+        source: "แหล่งที่มา"
+        user: "ดำเนินการโดย"
       debate:
-        author: Author
-        description: Opinion
-        tag_list: Topics
-        terms_of_service: Terms of service
-        title: Title
+        author: "ผู้แต่ง"
+        description: "ความคิดเห็น"
+        tag_list: "หัวข้อ"
+        terms_of_service: "เงื่อนไขการให้บริการ"
+        title: "ชื่อเรื่อง"
       debate/translation:
-        description: Initial debate text
-        title: Debate title
+        description: "ข้อความอภิปรายเบื้อต้น"
+        title: "หัวข้ออภิปราย"
       direct_message:
-        body: Message
-        title: Title
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
       document:
-        attachment: Choose document
-        title: Title
+        attachment: "เลือกเอกสาร"
+        title: "ชื่อเรื่อง"
       geozone:
-        census_code: Census code (optional)
-        external_code: External code (optional)
-        html_map_coordinates: HTML <map> Coordinates (optional)
-        name: Name
+        census_code: "รหัสข้อมูลประชากร (ทางเลือก)"
+        external_code: "รหัสภายนอก (ทางเลือก)"
+        html_map_coordinates: "เฮชทีเอ็มแอล <map> พิกัด (ทางเลือก)"
+        name: "ชื่อ"
       image:
-        attachment: Choose image
-        title: Title
+        attachment: "เลือกภาพ"
+        title: "ชื่อเรื่อง"
       legislation/annotation:
-        text: Comment
+        text: "ความคิดเห็น"
       legislation/draft_version:
-        body: Text
-        changelog: Changes
-        final_version: Final version
-        status: Status
-        status_draft: Draft
-        status_published: Published
-        title: Version title
+        body: "ข้อความ"
+        changelog: "เปลี่ยน"
+        final_version: "เวอร์ชั่นสุดท้าย"
+        status: "สถานะ"
+        status_draft: "ร่าง"
+        status_published: "เป็นสาธารณะ"
+        title: "รุ่นของชื่อเรื่อง"
       legislation/draft_version/translation:
-        body: Text
-        changelog: Changes
-        title: Version title
+        body: "ข้อความ"
+        changelog: "เปลี่ยน"
+        title: "เวอร์ชั่นของชื่อเรื่อง"
       legislation/process:
-        additional_info: Additional info
-        allegations_end_date: End
-        allegations_start_date: Start
-        background_color: Background color
-        debate_end_date: End
-        debate_start_date: Start
-        description: Description
-        draft_end_date: End
-        draft_publication_date: Draft publication date
-        draft_start_date: Start
-        end_date: End
-        font_color: Font color
-        homepage_enabled: Homepage enabled
-        proposals_phase_end_date: End
-        proposals_phase_start_date: Start
-        result_publication_date: Final result publication date
-        start_date: Start
-        summary: Summary
-        title: Process Title
+        additional_info: "ข้อมูลเพิ่มเติม"
+        allegations_end_date: "สิ้นสุด"
+        allegations_start_date: "เริ่ม"
+        background_color: "สีพื้นหลัง"
+        debate_end_date: "สิ้นสุด"
+        debate_start_date: "เริ่ม"
+        description: "คำอธิบาย"
+        draft_end_date: "สิ้นสุด"
+        draft_publication_date: "วันที่ตีพิมพ์ฉบับร่าง"
+        draft_start_date: "เริ่ม"
+        end_date: "สิ้นสุด"
+        font_color: "สีตัวหนังสือ"
+        homepage_enabled: "เปิดใช้งานโฮมเพจ"
+        proposals_phase_end_date: "สิ้นสุด"
+        proposals_phase_start_date: "เริ่ม"
+        result_publication_date: "วันที่ประกาศผลวันสุดท้าย"
+        start_date: "เริ่ม"
+        summary: "ข้อสรุป"
+        title: "ชื่อกระบวนการ"
       legislation/process/translation:
-        additional_info: Additional info
-        description: Description
-        homepage: Description
-        milestones_summary: Summary
-        summary: Summary
-        title: Process Title
+        additional_info: "ข้อมูลเพิ่มเติม"
+        description: "คำอธิบาย"
+        homepage: "คำอธิบาย"
+        milestones_summary: "สรุป"
+        summary: "สรุป"
+        title: "ชื่อกระบวนการ"
       legislation/proposal:
-        description: Proposal text
-        summary: Proposal summary
-        title: Proposal title
-        video_url: Link to external video
+        description: "ข้อความคำขอ"
+        summary: "การสรุปข้อเสนอ"
+        title: "ชื่อข้อเสนอ"
+        video_url: "ลิ้งก์ไปยังวิดิโอภายนอก"
       legislation/question:
-        question_options: Options
-        title: Title
+        question_options: "ทางเลือก"
+        title: "ชื่อเรื่อง"
       legislation/question/translation:
-        title: Question
+        title: "คำถาม"
       legislation/question_option:
-        value: Value
+        value: "มูลค่า"
       link:
-        label: Title
-        url: URL
+        label: "ชื่อเรื่อง"
+        url: "ยูอาร์แอล"
       local_census_record:
-        date_of_birth: Date of birth
-        document_number: Document number
-        document_type: Document type
-        postal_code: Postal code
+        date_of_birth: "วันเกิด"
+        document_number: "หมายเลขเอกสาร"
+        document_type: "รูปแบบของเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
       milestone:
-        description: Description (optional if there's an status assigned)
-        publication_date: Date
-        status_id: Current status (optional)
-        title: Title
+        description: "คำอธิบาย (เป็นทางเลือกหากมีการกำหนดสถานะ)"
+        publication_date: "วันที่"
+        status_id: "สถานะปัจจุบัน(เป็นทางเลือก)"
+        title: "วันที่"
       milestone/status:
-        description: Description (optional)
-        name: Name
+        description: "คำอธิบาย (ทางเลือก)"
+        name: "ชื่อ"
       milestone/translation:
-        description: Description
+        description: "คำอธิบาย"
       newsletter:
-        body: Email content
-        from: E-mail address that will appear as sending the newsletter
-        segment_recipient: Recipients
-        subject: Subject
+        body: "เนื้อหาของอีเมล"
+        from: "ที่ยู่อีเมลจะแสดงเป็นการส่งจดหมายข่าว"
+        segment_recipient: "ผู้รับ"
+        subject: "ชื่อเรื่อง"
       organization:
-        name: Name of organisation
-        responsible_name: Person responsible for the group
+        name: "ชื่อขององค์กร"
+        responsible_name: "บุคคลที่รับผิดชอบในกลุ่ม"
       poll:
-        description: Description
-        ends_at: Closing Date
-        geozone_restricted: Restricted by geozone
-        name: Name
-        starts_at: Start Date
-        summary: Summary
-        title: Name
+        description: "คำอธิบาย"
+        ends_at: "วันที่ปิด"
+        geozone_restricted: "ถูกจำกัดโดยเขตภูมิศาสตร์"
+        name: "ชื่อ"
+        starts_at: "วันที่เริ่ม"
+        summary: "สรุป"
+        title: "ชื่อ"
       poll/ballot_sheet:
-        data: CSV data
-        officer_assignment_id: Officer assignment
-        poll_id: Poll
+        data: "ข้อมูลซีเอสวี"
+        officer_assignment_id: "การมอบหมายเจ้าหน้าที่"
+        poll_id: "สำรวจความคิดเห็น"
       poll/booth:
-        location: Location
-        name: Name
+        location: "สถานที่"
+        name: "ชื่อ"
       poll/question:
-        description: Description
-        external_url: Link to additional documentation
-        poll_id: Poll
-        summary: Summary
-        title: Question
+        description: "คำอธิบาย"
+        external_url: "ลิ้งก์ไปที่เอกสารเพิ่มเติม"
+        poll_id: "สำรวจความคิดเห็น"
+        summary: "ข้อสรุป"
+        title: "คำถาม"
       poll/question/answer:
-        description: Description
-        title: Answer
+        description: "คำอธิบาย"
+        title: "คำถาม"
       poll/question/answer/translation:
-        description: Description
-        title: Answer
+        title: "คำถาม"
+        description: "คำอธิบาย"
       poll/question/answer/video:
-        title: Title
-        url: External video
+        title: "ชื่อเรื่อง"
+        url: "วิดิโอภายนอก"
       poll/question/translation:
-        title: Question
+        title: "คำถาม"
       poll/shift:
-        task: Task
+        task: "งาน"
       poll/translation:
-        description: Description
-        name: Name
-        summary: Summary
+        name: "ชื่อ"
+        summary: "ข้อสรุป"
+        description: "คำอธิบาย"
       progress_bar:
-        kind: Type
-        percentage: Current progress
-        title: Title
+        kind: "ชนิด"
+        title: "ชื่อเรื่อง"
+        percentage: "ความคืบหน้าปัจจุบัน"
       progress_bar/kind:
-        primary: Primary
-        secondary: Secondary
+        primary: "หลัก"
+        secondary: "รอง"
       proposal:
-        author: Author
-        description: Description
-        question: Question
-        responsible_name: Full name of the person submitting the proposal
-        retired_reason: Reason to retire the proposal
-        selected: Mark as selected
-        terms_of_service: Terms of service
-        title: Title
-        video_url: External video URL
+        author: "ผู้แต่ง"
+        title: "ชื่อเรื่อง"
+        question: "คำถาม"
+        description: "คำอธิบาย"
+        responsible_name: "ชื่อเต็มของผู้ยื่นข้อเสนอ"
+        retired_reason: "เหตุผลในการยกเลิกข้อเสนอ"
+        selected: "ทำสัญลักษณ์ว่าถูกเลือก"
+        terms_of_service: "เงื่อนไขการให้บริการ"
+        video_url: "ยูอาร์แอล วิดิโอภายนอก"
       proposal/translation:
-        description: Proposal text
-        retired_explanation: Explanation
-        summary: Proposal summary
-        title: Proposal title
+        description: "ตัวหนังสือข้อเสนอ"
+        retired_explanation: "คำอธิบาย"
+        summary: "สรุปข้อเสนอ"
+        title: "ชื่อข้อเสนอ"
       proposal_notification:
-        body: Message
-        title: Title
+        body: "ข้อความ"
+        title: "ชื่อเรื่อง"
       sdg/goal:
-        code: Code
-        description: Description
-        title: Title
+        code: "โค้ด"
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
       sdg/local_target:
-        code: Code
-        target_id: Target
-        title: Title
+        code: "โค้ด"
+        target_id: "เป้าหมาย"
+        title: "ชื่อเรื่อง"
       sdg/local_target/translation:
-        description: Description
-        title: Title
+        description: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
       sdg/phase/kind:
-        monitoring: Monitoring
-        planning: Planning
-        sensitization: Sensitization
+        monitoring: "การสังเกตการณ์"
+        planning: "การวางแผน"
+        sensitization: "ความไวต่อความรู้สึก(เซนสิทิเซชั่น)"
       sdg/target:
-        code: Code
-        title: Title
+        code: "โค้ด"
+        title: "ชื่อเรื่อง"
       signature_sheet:
-        document_numbers: Documents numbers
-        signable_id: Signable ID
-        signable_type: Signable type
-        title: Title
+        document_numbers: "หมายเลขเอกสาร"
+        signable_id: "ไอดีที่เซ็นได้"
+        signable_type: "แบบที่สามารถเซ็นได้"
+        title: "ชื่อเรื่อง"
       site_customization/content_block:
-        body: Body
-        locale: locale
-        name: Name
+        body: "ลำตัว"
+        locale: "สถานที่"
+        name: "ชื่อ"
       site_customization/image:
-        image: Image
-        name: Name
+        image: "ภาพ"
+        name: "ชื่อ"
       site_customization/page:
-        content: Content
-        created_at: Created at
-        locale: Language
-        more_info_flag: Show in help page
-        print_content_flag: Print content button
-        slug: Slug
-        status: Status
-        status_draft: Draft
-        status_published: Published
-        subtitle: Subtitle
-        title: Title
-        updated_at: Updated at
+        content: "เนื้อหา"
+        created_at: "สร้างที่"
+        locale: "ภาษา"
+        more_info_flag: "แสดงในหน้าช่วยเหลือ"
+        print_content_flag: "ปุ่มสั่งพิมเนื้อหา"
+        slug: "สลั๊ก"
+        status: "สถานะ"
+        status_draft: "ร่าง"
+        status_published: "เป็นสาธารณะ"
+        subtitle: "คำอธิบาย"
+        title: "ชื่อเรื่อง"
+        updated_at: "อัพเดตที่"
       site_customization/page/translation:
-        content: Content
-        subtitle: Subtitle
-        title: Title
+        title: "ชื่อเรื่อง"
+        subtitle: "คำบรรยาย"
+        content: "เนื้อหา"
       tag:
-        name: Type the name of the topic
+        name: "พิมชื่อของหัวข้อ"
       topic:
-        description: Initial text
-        title: Title
+        description: "ข้อความเริ่มต้น"
+        title: "ชื่อเรื่อง"
       user:
-        current_password: Current password
-        email: Email
-        email_digest: Receive a summary of proposal notifications
-        email_on_comment: Notify me by email when someone comments on my proposals or debates
-        email_on_comment_reply: Notify me by email when someone replies to my comments
-        email_on_direct_message: Receive emails about direct messages
-        login: Email or username
-        newsletter: Receive by email website relevant information
-        official_level: Official level
-        official_position: Official position
-        official_position_badge: Show official position badge
-        password: Password
-        password_confirmation: Password confirmation
-        phone_number: Phone number
-        public_activity: Keep my list of activities public
-        public_interests: Keep the elements I follow public
-        recommended_debates: Show debates recommendations
-        recommended_proposals: Show proposals recommendations
-        redeemable_code: Verification code received via email
-        username: Username
+        current_password: "รหัสผ่านปัจจุบัน"
+        email: "อีเมล"
+        email_digest: "ได้รับคำแจ้งเตือนเกี่ยวกับการสรุปข้อเสนอ"
+        email_on_comment: "แจ้งเตือนฉันทางอีเมลหากมีใครแสดงความคิดเห็นบนข้อเสนอหรือการอภิปรายของฉัน"
+        email_on_comment_reply: "แจ้งเตือนฉันในอีเมลเมื่อมีใครตอบกลับความคิดเห็น"
+        email_on_direct_message: "ได้รับอีเมลเกี่ยวกับข้อความโดยตรง"
+        login: "อีเมลหรือชื่อผู้ใช้"
+        newsletter: "รับข้อมูลเว็บไซต์ที่เกี่ยวข้องทางอีเมล"
+        official_level: "ระดับที่เป็นทางการ"
+        official_position: "ตำแหน่งที่เป็นทางการ"
+        official_position_badge: "แสดงตราประจำตำแหน่ง"
+        password: "รหัสผ่าน"
+        password_confirmation: "การยืนยันรหัสผ่าน"
+        phone_number: "เบอร์โทรศัพท์"
+        public_activity: "เก็บรายการกิจกรรมของฉันไว้เป็นสาธารณะ"
+        public_interests: "เก็บองค์ประกอบที่ฉันติดตามไว้เป็นสาธารณะ"
+        recommended_debates: "แสดงการอภิปรายที่แนะนำ"
+        recommended_proposals: "แสดงข้อเสนอที่แนะนำ"
+        redeemable_code: "รหัสยืนยันที่ได้รับทางอีเมล"
+        username: "ชื่อผู้ใช้"
       valuator:
-        can_comment: Can create comments
-        can_edit_dossier: Can edit dossiers
-        description: Description
-        valuator_group_id: Valuator group
+        can_comment: "สามารถแสดงความเห็นได้"
+        can_edit_dossier: "แก้ไขเอกสารได้"
+        description: "คำอธิบาย"
+        valuator_group_id: "กลุ่มผู้ประเมินค่า"
       valuator_group:
-        name: Group name
+        name: "ชื่อกลุ่ม"
       widget/card:
-        columns: Number of columns
-        description: Description
-        label: Label (optional)
-        link_text: Link text
-        link_url: Link URL
-        title: Title
+        columns: "เลขคอลัม"
+        description: "คำอธิบาย"
+        label: "ป้าย (ทางเลือก)"
+        link_text: "ลิ้งก์ข้อความ"
+        link_url: "ลิ้งก์ ยูอาร์แอล"
+        title: "ชื่อเรื่อง"
       widget/card/translation:
-        description: Description
-        label: Label (optional)
-        link_text: Link text
-        title: Title
+        description: "คำอธิบาย"
+        label: "ป้าย (ทางเลือก)"
+        link_text: "ลิ้งก์ข้อความ"
+        title: "ชื่อเรื่อง"
       widget/feed:
-        limit: Number of items
+        limit: "จำนวนรายการ"
     errors:
       messages:
-        another_poll_active: There is another poll active for the given period
-        record_invalid: 'Validation failed: %{errors}'
+        another_poll_active: "มีการสำรวจความคิดเห็นอื่นกำลังทำงานในเวลาที่กำหนด"
+        record_invalid: "การตรวจสอบความถูกต้องล้มเหลว: %{errors}"
         restrict_dependent_destroy:
-          has_many: Cannot delete record because dependent %{record} exist
-          has_one: Cannot delete record because a dependent %{record} exists
-        translations_too_short: Is mandatory to provide one translation at least
+          has_many:  "ไม่สามารถลบบันทึกได้เนื่องจากผู้ใช้ %{record} คงอยู่"
+          has_one: "ไม่สามารถลบบันทึกได้เนื่องจากผู้ใช้ %{record} คงอยู่"
+        translations_too_short: "มีความจำเป็นต้องจัดเตรียมการแปลอย่างน้อยหนึ่งฉบับ"
       models:
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: The user recipients segment is invalid
+              invalid: "กลุ่มผู้รับมีส่วนที่ไม่ถูกต้อง"
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: tags must be less than or equal to %{count}
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: You cannot comment a valuation
+              cannot_comment_valuation: "คุณไม่สามารถแสดงความคิดเห็นบนแบบประเมินได้"
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: tags must be less than or equal to %{count}
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "คุณมีข้อความส่วนตัวถึงจำนวนสูงสุดต่อวันแล้ว"
         image:
           attributes:
             attachment:
-              min_image_height: Image Height must be at least %{required_min_height}px
-              min_image_width: Image Width must be at least %{required_min_width}px
+              min_image_width: "รูปภาพต้องมีความกว้างอย่างน้อย %{required_min_width}px"
+              min_image_height: "รูปภาพต้องมีความสูงอย่างน้อย %{required_min_height}px"
         legislation/process:
           attributes:
             allegations_end_date:
-              invalid_date_range: must be on or after the comments start date
+              invalid_date_range: "ต้องอยู่ภายในวันที่เริ่มความคิดเห็นเป็นต้นไป"
             debate_end_date:
-              invalid_date_range: must be on or after the debate start date
+              invalid_date_range: "ต้องอยู่ภายในวันที่การอภิปรายเริ่มเป็นต้นไป"
             draft_end_date:
-              invalid_date_range: must be on or after the draft start date
+              invalid_date_range: "ต้องอยู่ภายในหรือหลังวันที่เริ่มต้นฉบับร่างเป็นต้นไป"
             end_date:
-              invalid_date_range: must be on or after the start date
+              invalid_date_range: "ต้องอยู่ภายในวันที่เริ่มเป็นต้นไป"
         local_census_record:
           attributes:
             document_type:
-              inclusion: is not included in the list, allowed values are 1 for DNI, 2 for passport and 3 for residence card.
+              inclusion: "ไม่รวมอยู่ในรายการ ค่าที่อนุญาตคือ 1.สำหรับ DNI. 2.สำหรับหนังสือเดินทาง และ 3.สำหรับบัตรประจำตัวผู้อยู่อาศัย"
         newsletter:
           attributes:
             segment_recipient:
-              invalid: The user recipients segment is invalid
+              invalid: "กลุ่มผู้รับของผู้ใช้งานไม่ถูกต้อง"
         poll/voter:
           attributes:
             document_number:
-              not_in_census: Document not in census
+              not_in_census: "เอกสารไม่อยู่ในการเก็บรวบรวมข้อมูลประชากร"
             user_id:
-              has_voted: User has already voted
+              has_voted: "ผู้ใช้งานได้โหวตไปแล้ว"
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: tags must be less than or equal to %{count}
+              less_than_or_equal_to: "แท็กต้องน้อยกว่าหรือเท่ากับ %{count}"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "คุณต้องรออย่างน้อย %{interval} วันระหว่างการแจ้งเตือน"
         remote_translation:
           attributes:
             locale:
-              already_translated: Already translated resource
+              already_translated: "ข้อมูลได้ถูกแปลเรียบร้อย"
         sdg/local_target:
           attributes:
             code:
-              invalid: must start with the same code as its target followed by a dot and end with a number
+              invalid: "จะต้องเริ่มด้วยโค้ดเดียวกันที่เป้าหมายต้องตามด้วยจุดและจบด้วยตัวเลข"
         signature:
           attributes:
             document_number:
-              already_voted: Already voted this proposal
-              not_in_census: Not verified by Census
+              already_voted: "โหวตข้อเสนอนี้แล้ว"
+              not_in_census: "ไม่ได้รับการยืนยันจากการรวบรวมข้อมูลประชากร"
         site_customization/image:
           attributes:
             image:
-              image_height: Height must be %{required_height}px
-              image_width: Width must be %{required_width}px
+              image_width: "ความกว้างต้องเป็น %{required_width}px"
+              image_height: "ความสูงต้องเป็น %{required_height}px"
         site_customization/page:
           attributes:
             slug:
-              slug_format: must be letters, numbers, _ and -
+              slug_format: "จะต้องเป็นตัวหนังสือหรือหมายเลข, _ และ -"
         user:
           attributes:
             email:
-              password_already_set: This user already has a password
+              password_already_set: "ผู้ใช้งานนี้มีรหัสผ่านแล้ว"
     models:
       activity:
-        one: activity
-        other: activities
+        one: "กิจกรรม"
+        other: "กิจกรรม"
       administrator:
-        one: Administrator
-        other: Administrators
+        one: "ผู้ดูแลระบบ"
+        other: "ผู้ดูแลระบบ"
       budget:
-        one: Budget
-        other: Budgets
+        one: "งบประมาณ"
+        other: "งบประมาณ"
       budget/investment:
-        one: Investment
-        other: Investments
+        one: "ข้อเสนองบประมาณ"
+        other: "ข้อเสนองบประมาณ"
       comment:
-        one: Comment
-        other: Comments
+        one: "ความคิดเห็น"
+        other: "ความคิดเห็น"
       dashboard/action:
-        one: Proposal dashboard action
-        other: Proposal dashboard actions
+        one: "การดำเนินการข้อเสนอในแดชบอร์ด"
+        other: "การดำเนินการข้อเสนอในแดชบอร์ด"
       dashboard/administrator_task:
-        one: Task
-        other: Tasks
+        one: "งาน"
+        other: "งาน"
       debate:
-        one: Debate
-        other: Debates
+        one: "อภิปราย"
+        other: "อภิปราย"
       document:
-        one: Document
-        other: Documents
+        one: "เอกสาร"
+        other: "เอกสาร"
       documents:
-        one: Document
-        other: Documents
+        one: "เอกสาสาร"
+        other: "เอกสาร"
       images:
-        one: Image
-        other: Images
+        one: "ภาพ"
+        other: "ภาพ"
       legislation/answers:
-        one: Answer
-        other: Answers
+        one: "คำตอบ"
+        other: "คำตอบ"
       legislation/draft_versions:
-        one: Draft version
-        other: Draft versions
+        one: "ฉบับร่าง"
+        other: "ฉบับร่าง"
       legislation/process:
-        one: Process
-        other: Processes
+        one: "กระบวนการ"
+        other: "กระบวนการ"
       legislation/proposal:
-        one: Proposal
-        other: Proposals
+        one: "ข้อเสนอ"
+        other: "ข้อเสนอ"
       legislation/question_options:
-        one: Question option
-        other: Question options
+        one: "ตัวเลือกคำถาม"
+        other: "ตัวเลือกคำถาม"
       legislation/questions:
-        one: Question
-        other: Questions
+        one: "คำถาม"
+        other: "คำถาม"
       link:
-        one: Link
-        other: Links
+        one: "ลิ้งก์"
+        other: "ลิ้งก์"
       local_census_record:
-        one: Local census record
-        other: Local census records
+        one: "บันทึกการรวบรวมข้อมูลประชากร"
+        other: "บันทึกการรวบรวมข้อมูลประชากรท้องถิ่น"
       manager:
-        one: Manager
-        other: Managers
+        one: "ผู้จัดการ"
+        other: "คณะผู้จัดการ"
       milestone:
-        one: milestone
-        other: milestones
+        one: "เหตุการณ์สำคัญ"
+        other: "เหตุการณ์สำคัญ"
       milestone/status:
-        one: Milestone Status
-        other: Milestone Statuses
+        one: "สถานะเหตุการณ์สำคัญ"
+        other: "สถานะเหตุการณ์สำคัญ"
       moderator:
-        one: Moderator
-        other: Moderators
+        one: "ผู้ดำเนินรายการ"
+        other: "ผู้ดูแล"
       newsletter:
-        one: Newsletter
-        other: Newsletters
+        one: "จดหมายขข่าว"
+        other: "จดหมายข่าว"
       organization:
-        one: Organisation
-        other: Organisations
+        one: "องค์กร"
+        other: "องค์กร"
       poll:
-        one: Poll
-        other: Polls
+        one: "สำรวจความคิดเห็น"
+        other: "สำรวจความคิดเห็น"
       poll/ballot_sheet:
-        one: Ballot sheet
-        other: Ballot sheets
+        one: "บัตรลงคะแนน"
+        other: "บัตรลงคะแนน"
       poll/booth:
-        one: booth
-        other: booths
+        one: "ซุ้ม"
+        other: "ซุ้ม"
       poll/officer:
-        one: officer
-        other: officers
+        one: "เจ้าหน้าที่"
+        other: "เจ้าหน้าที่"
       progress_bar:
-        one: Progress bar
-        other: Progress bars
+        one: "ตัวชี้วัดความคืบหน้า"
+        other: "ตัวชี้วัดความคืบหน้า"
+      proposal:
+        one: "ข้อเสนอของพลเมือง"
+        other: "ข้อเสนอของพลเมือง"
       proposal_notification:
-        one: Proposal notification
-        other: Proposal notifications
+        one: "การแจ้งเตือนข้อเสนอ"
+        other: "การแจ้งเตือนข้อเสนอ"
       sdg/goal:
-        one: goal
-        other: goals
+        one: "จุดมุ่งหมาย"
+        other: "จุดมุ่งหมาย"
       sdg/local_target:
-        one: local target
-        other: local targets
+        one: "เป้าหมายในท้องถิ่น"
+        other: "เป้าหมายในท้องถิ่น"
       sdg/manager:
-        one: SDG manager
-        other: SDG managers
+        one: "ผู้จัดการเอสดีจี"
+        other: "ผู้จัดการเอสดีจี"
       sdg/target:
-        one: target
-        other: targets
+        one: "เป้าหมาย"
+        other: "เป้าหมาย"
       site_customization/content_block:
-        one: Custom content block
-        other: Custom content blocks
+        one: "บล็อคเนื้อหาที่กำหนดเอง"
+        other: "บล็อคเนื้อหาที่กำหนดเอง"
       site_customization/image:
-        one: Custom image
-        other: Custom images
+        one: "ภาพที่กำหนดเอง"
+        other: "ภาพที่กำหนดเอง"
       site_customization/page:
-        one: Custom page
-        other: Custom pages
+        one: "หน้าที่กำหนดเอง"
+        other: "หน้าที่กำหนดเอง"
       tag:
-        one: Tag
-        other: Tags
+        one: "แท็ก"
+        other: "แท็ก"
       topic:
-        one: Topic
-        other: Topics
+        one: "ชื่อเรื่อง"
+        other: "ชื่อเรื่อง"
       user:
-        one: User
-        other: Users
+        one: "ผู้ใช้งาน"
+        other: "ผู้ใช้งาน"
       valuator:
-        one: Valuator
-        other: Valuators
+        one: "ผู้ประเมิน"
+        other: "ผู้ประเมิน"
       valuator_group:
-        one: Valuator group
-        other: Valuator groups
+        one: "กลุ่มผู้ประเมิน"
+        other: "กลุ่มผู้ประเมิน"
       vote:
-        one: Vote
-        other: Votes
+        one: "โหวต"
+        other: "โหวต"
   attributes:
-    advanced_stats_enabled: Show advanced stats
-    description: Description
-    email: Email
-    geozone_id: Scope of operation
-    name: Name
-    related_sdg_list: Goals and Targets
-    results_enabled: Show results
-    stats_enabled: Show stats
+    advanced_stats_enabled: "แสดงสถิติขั้นสูง"
+    description: "คำอธิบาย"
+    email: "อีเมล"
+    geozone_id: "ขอบเขตการดำเนินงาน"
+    name: "ชื่อ"
+    related_sdg_list: "จุดมุ่งหมายและเป้าหมาย"
+    results_enabled: "แสดงผลลัพธ์"
+    stats_enabled: "แสดงสถิติ"

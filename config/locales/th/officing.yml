@@ -3,88 +3,88 @@ th:
   officing:
     booth:
       new:
-        title: Choose your booth
+        title: "เลือกบูธของคุณ"
     dashboard:
       index:
-        info: Here you can validate user documents and store voting results
-        no_shifts: You don't have officing shifts today.
-        title: Poll officing
+        info: "คุณสามารถตรวจสอบเอกสารผู้ใช้และจัดเก็บผลการลงคะแนนได้ที่นี่"
+        no_shifts: "วันนี้คุณไม่มีกะที่ทำงาน"
+        title: "สำนักงานสำรวจความคิดเห็น"
     header:
-      title: Polling
+      title: "การสำรวจความคิดเห็น"
     menu:
-      total_recounts: Total recounts and results
-      voters: Validate document
+      total_recounts: "การนับอีกและผลลัพธ์ทั้งหมด"
+      voters: "ตรวจสอบเอกสาร"
     poll_budgets:
       index:
-        ballot_sheet: Ballot sheet %{id}
-        ballot_sheet_author: Author
-        ballot_sheet_creation_date: Creation date
-        ballot_sheet_name: Name
-        empty_results: There are no ballot sheets for this poll yet
-        title: "%{poll_budget} - Ballot sheets list"
+        ballot_sheet: "บัตรลงคะแนน %{id}"
+        ballot_sheet_author: "ผู้แต่ง"
+        ballot_sheet_creation_date: "วันที่สร้าง"
+        ballot_sheet_name: "ชื่อ"
+        empty_results: "ยังไม่มีใบลงคะแนนสำหรับแบบสำรวจนี้"
+        title: "รายการบัตรลงคะแนน"
       new:
-        booth: Booth
-        csv_data: CSV data
-        select_booth: Select booth
-        submit: Save
-        title: "%{poll_budget} - New ballot sheet"
-      see_ballot_sheets: See ballot sheets list
+        booth: "บูธ"
+        csv_data: "ข้อมูลซีเอสวี"
+        select_booth: "เลือกบูธ"
+        submit: "เซฟ"
+        title: "%{poll_budget} - ใบลงคะแนนใหม่"
+      see_ballot_sheets: "ดูรายชื่อบัตรลงคะแนน"
       show:
-        author: Author
-        created_at: Creation date
-        data: CSV data
+        author: "ผู้แต่ง"
+        created_at: "วันที่สร้าง"
+        data: "ข้อมูลซีเอสวี"
     polls:
       final:
-        add_results: Add results
-        no_polls: You are not officing final recounts in any active poll
-        select_poll: Select poll
-        title: Polls ready for final recounting
+        add_results: "เพิ่มผลลัพธ์"
+        no_polls: "คุณไม่ได้ทำการนับครั้งสุดท้ายในแบบสำรวจความเห็นใด ๆ ที่ใช้งานอยู่"
+        select_poll: "เลือกแบบสำรวจ"
+        title: "แบบสำรวจพร้อมสำหรับการนับครั้งสุดท้าย"
     residence:
       flash:
-        create: Document verified with Census
-        not_allowed: You don't have officing shifts today
+        create: "เอกสารยืนยันด้วยการสำรวจประชากร"
+        not_allowed: "วันนี้คุณไม่มีกะที่ทำงาน"
       new:
-        error_verifying_census: The Census was unable to verify this document.
-        form_errors: prevented the verification of this document
-        submit: Validate document
-        title: Validate document
+        error_verifying_census: "สำมะโนไม่สามารถตรวจสอบเอกสารนี้ได้"
+        form_errors: "ถูกขัดขวางการตรวจสอบเอกสารนี้"
+        submit: "ตรวจสอบเอกสาร"
+        title: "ตรวจสอบเอกสาร"
     results:
       flash:
-        create: Results saved
-        error_create: Results NOT saved. Error in data.
-        error_wrong_booth: Wrong booth. Results NOT saved.
+        create: "บันทึกผลลัพธ์แล้ว"
+        error_create: "ไม่ได้บันทึกผลลัพธ์ เกิดข้อผิดพลาดในข้อมูล"
+        error_wrong_booth: "ผิดบูธ. ผลลัพธ์ไม่ถูกบันทึก"
       index:
-        no_results: No results
-        results: Results
-        table_answer: Answer
-        table_nulls: Invalid ballots
-        table_total: Valid ballots
-        table_votes: Votes
-        table_whites: Totally blank ballots
+        no_results: "ไม่มีผลลัพธ์"
+        results: "ผลลัพธ์"
+        table_answer: "คำตอบ"
+        table_nulls: "บัตรลงคะแนนไม่ถูกต้อง"
+        table_total: "บัตรลงคะแนนที่ถูกต้อง"
+        table_votes: "โหวต"
+        table_whites: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
       new:
-        ballots_null: Invalid ballots
-        ballots_total: Valid ballots
-        ballots_white: Totally blank ballots
-        booth: Booth
-        date: Date
-        not_allowed: You are not allowed to add results for this poll
-        results_list: Your results
-        see_results: See results
-        select_booth: Select booth
-        submit: Save
-        title: "%{poll} - Add results"
+        ballots_null: "บัตรลงคะแนนไม่ถูกต้อง"
+        ballots_total: "บัตรลงคะแนนที่ถูกต้อง"
+        ballots_white: "บัตรลงคะแนนเปล่าทั้งหมด"
+        booth: "บูธ"
+        date: "วันที่"
+        not_allowed: "คุณไม่ได้รับอนุญาตให้เพิ่มผลลัพธ์สำหรับการสำรวจความคิดเห็นนี้"
+        results_list: "ผลลัพธ์ของคุณ"
+        see_results: "ดูผลลัพธ์"
+        select_booth: "เลือกบูธ"
+        submit: "บันทึก"
+        title: "%{poll} - เพิ่มผลลัพธ์"
     voters:
       can_vote:
-        submit_disable_with: Wait, confirming vote...
+        submit_disable_with: "รอ ยืนยันการโหวต..."
       new:
-        not_to_vote: The person has decided not to vote at this time
-        table_actions: Actions
-        table_poll: Poll
-        table_status: Polls status
-        title: Polls
+        not_to_vote: "คนที่ตัดสินใจที่จะไม่ลงคะแนนในขณะนี้"
+        table_actions: "การกระทำ"
+        table_poll: "การสำรวจความคิด"
+        table_status: "สถานะการสำรวจความคิด"
+        title: "การสำรวจความคิด"
       show:
-        can_vote: Can vote
-        cannot_vote: The person cannot vote because they are not registered in the district(s) where the voting takes place.
-        error_already_voted: Has already participated in this poll
-        submit: Confirm vote
-        success: Vote introduced!
+        can_vote: "โหวตได้"
+        cannot_vote: "คนที่ไม่สามารถลงคะแนนได้เนื่องจากไม่ได้ลงทะเบียนในเขตที่มีการลงคะแนน"
+        error_already_voted: "ได้เข้าร่วมการสำรวจนี้แล้ว"
+        submit: "ยืนยันการโหวต"
+        success: "โหวตแนะนำ!"

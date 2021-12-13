@@ -3,148 +3,148 @@ th:
   legislation:
     annotations:
       comments:
-        cancel: Cancel
+        cancel: "ยกเลิก"
         comments_count:
-          one: "%{count} comment"
-          other: "%{count} comments"
-        publish_comment: Publish Comment
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+        publish_comment: "เผยแพร่ความคิดเห็น"
         replies_count:
-          one: "%{count} reply"
-          other: "%{count} replies"
-        see_all: See all
-        see_complete: See complete
+          one: "%{count} ตอบกลับ"
+          other: "%{count} ตอบกลับ"
+        see_all: "ดูทั้งหมด"
+        see_complete: "ดูแบบเต็ม"
       form:
-        phase_not_open: This phase is not open
+        phase_not_open: "เฟสนี้ไม่เปิด"
       index:
-        comments_about: Comments about
+        comments_about: "ความคิดเห็นเกี่ยวกับ"
         comments_count:
-          one: "%{count} comment"
-          other: "%{count} comments"
-        see_in_context: See in context
-        title: Comments
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+        see_in_context: "ดูในบริบท"
+        title: "ความคิดเห็น"
       show:
-        title: Comment
+        title: "ความคิดเห็น"
       version_chooser:
-        see_text: See text draft
-        seeing_version: Commments for version
+        see_text: "ดูร่างข้อความ"
+        seeing_version: "ความคิดเห็นสำหรับเวอร์ชั่น"
     draft_versions:
       changes:
-        see_text: See text draft
-        seeing_changelog_version: Revision changes summary
-        title: Changes
+        see_text: "ดูข้อความแบบร่าง"
+        seeing_changelog_version: "สรุปการแก้ไขการเปลี่ยนแปลง"
+        title: "การเปลี่ยนแปลง"
       show:
-        loading_comments: Loading comments
-        see_changes: see changes summary
-        see_comments: See all comments
-        seeing_version: You're seeing draft version
-        select_draft_version: Select draft
-        select_version_submit: see
-        text_body: Text
-        text_comments: Comments
-        text_toc: Table of contents
-        updated_at: updated at %{date}
+        loading_comments: "กำลังโหลดความคิดเห็น"
+        see_changes: "ดูสรุปการเปลี่ยนแปลง"
+        see_comments: "ดูความคิดเห็นทั้งหมด"
+        seeing_version: "คุณกำลังดูเวอร์ชันร่าง"
+        select_draft_version: "เลือกแบบร่าง"
+        select_version_submit: "ดู"
+        text_body: "ข้อความ"
+        text_comments: "ความคิดเห็น"
+        text_toc: "สารบัญ"
+        updated_at: "อัปเดตเมื่อ %{date}"
     processes:
       debate:
-        empty_questions: There aren't any questions
-        participate: Participate in the debate
+        empty_questions: "ไม่มีคำถามใดๆ"
+        participate: "เข้าร่วมการอภิปราย"
       header:
-        additional_info: Additional information
-        description: Description
-        more_info: More information and context
+        additional_info: "ข้อมูลเพิ่มเติม"
+        description: "คำอธิบาย"
+        more_info: "ข้อมูลเพิ่มเติมและบริบท"
       index:
-        filter: Filter
+        filter: "ตัวกรอง"
         filters:
-          open: Open processes
-          past: Past
-        no_open_processes: There aren't open processes
-        no_past_processes: There aren't past processes
+          open: "เปิดกระบวนการ"
+          past: "อดีต"
+        no_open_processes: "ไม่มีกระบวนการที่เปิดอยู่"
+        no_past_processes: "ไม่มีกระบวนการที่ผ่านมา"
         section_footer:
-          description: Participate in the debates and processes prior to the approval of new regulations or strategies. Your opinion will be considered.
-          title: Help about collaborative legislation
+          description: "เข้าร่วมในการอภิปรายและกระบวนการก่อนที่จะได้รับการอนุมัติกฎระเบียบหรือกลยุทธ์ใหม่ ความคิดเห็นของคุณจะได้รับการพิจารณา"
+        title: "ควาสช่วยเหลือเกี่ยวกับกฎหมายความร่วมมือ"
         section_header:
-          help: Help about collaborative legislation
-          icon_alt: Collaborative legislation icon
-          title: Collaborative legislation
+          help: "ความช่วยเหลือเกี่ยวกับความร่วมมือด้านกฎหมาย"
+          icon_alt: "สัญลักษณ์ของกฎหมายความร่วมมือ"
+          title: "ทางกฎหมายความร่วมมือ"
       phase_empty:
-        empty: Nothing published yet
+        empty: "ยังไม่มีการเผยแพร่"
       phase_not_open:
-        not_open: This phase is not open yet
+        not_open: "ช่วงเวลานี้ยังไม่เปิด"
       process:
-        see_latest_comments: See latest comments
-        see_latest_comments_title: Comment on this process
+        see_latest_comments: "ดูความคิดเห็นล่าสุด"
+        see_latest_comments_title: "แสดงความคิดเห็นในกระบวนการนี้"
       proposals:
-        empty_proposals: There are no proposals
+        empty_proposals: "ไม่มีข้อเสนอ"
         filters:
-          random: Random
-          winners: Selected
+          random: "สุ่ม"
+          winners: "เลือกแล้ว"
       shared:
-        allegations_dates: Comments
-        debate_dates: Debate
-        draft_publication_date: Draft publication
-        homepage: Homepage
-        key_dates: Participation phases
-        milestones_date: Following
-        proposals_dates: Proposals
-        result_publication_date: Final result publication
+        allegations_dates: "ความคิดเห็น"
+        debate_dates: "อภิปราย"
+        draft_publication_date: "สิ่งตีพิมพ์ฉบับร่าง"
+        homepage: "หน้าแรก"
+        key_dates: "ขั้นตอนการเข้าร่วม"
+        milestones_date: "กำลังติดตาม"
+        proposals_dates: "ข้อเสนอ"
+        result_publication_date: "ผลสุดท้ายสิ่งพิมพ์"
     proposals:
       form:
-        tags_label: Categories
-      not_verified: For vote proposals %{verify_account}.
-      process_title: Collaborative legislation process
+        tags_label: "หมวดหมู่"
+      not_verified: "สำหรับข้อเสนอการโหวต %{verify_account}"
+      process_title: "กระบวนการทางกฎหมายร่วมกัน"
     questions:
       comments:
-        comment_button: Publish answer
-        comments_closed: Closed phase
-        comments_title: Open answers
+        comment_button: "เผยแพร่คำตอบ"
+        comments_closed: "ปิดช่วงเวลา"
+        comments_title: "เปิดคำตอบ"
         form:
-          leave_comment: Leave your answer
+          leave_comment: "ฝากคำตอบของคุณเอาไว้"
       participation:
-        debate_phase_not_open: Debate phase has finished and answers are not accepted anymore
-        organizations: Organisations are not permitted to participate in the debate
-        phase_not_open: This phase is not open
-        unauthenticated: You must %{signin} or %{signup} to participate.
-        verified_only: Only verified users can participate, %{verify_account}.
+        debate_phase_not_open: "ช่วงเวลาการอภิปรายจบลงแล้วและไม่ได้รับคำตอบอีกต่อไป"
+        organizations: "ไม่อนุญาตให้องค์กรเข้าร่วมการอภิปราย"
+        phase_not_open: "ช่วงเวลานี้ไม่เปิด"
+        unauthenticated: "คุณต้อง %{signin} หรือ %{signup} เพื่อเข้าร่วม"
+        verified_only: "เฉพาะผู้ใช้ที่ได้รับการยืนยันเท่านั้นที่สามารถเข้าร่วม %{verify_account}"
       question:
         comments:
-          one: "%{count} comment"
-          other: "%{count} comments"
-          zero: No comments
-        debate: Debate
+          one: "%{count} ความคิดเห็น"
+          other: "%{count} ความคิดเห็น"
+          zero: "ไม่แสดงความคิดเห็น"
+        debate: "อภิปราย"
       show:
-        answer_question: Submit answer
-        first_question: First question
-        next_question: Next question
-        share: Share
-        title: Collaborative legislation process
+        answer_question: "ส่งคำตอบ"
+        first_question: "คำถามแรก"
+        next_question: "คำถามต่อไป"
+        share: "แบ่งปัน"
+        title: "การร่วมกันในกระบวนการทางกฎหมาย"
     shared:
-      share: Share
-      share_comment: Comment on %{version_name} from process draft %{process_name}
+      share: "แบ่งปัน"
+      share_comment: "ความคิดเห็นเกี่ยวกับ %{version_name} จากร่างกระบวนการ %{process_name}"
     summary:
-      allegations_phase: Comments phase
+      allegations_phase: "ระยะเวลาในการแดสงความคิดเห็น"
       comments:
-        one: "%{count} comment"
-        other: "%{count} comments"
-        zero: No comments
-      debate_phase: Debate phase
+        one: "%{count} ความคิดเห็น"
+        other: "%{count} ความคิดเห็น"
+        zero: "ไม่มีความคิดเห็น"
+      debate_phase: "ช่วงเวลาการอภิปราย"
       debates:
-        one: "%{count} debate"
-        other: "%{count} debates"
-        zero: No debates
-      download: Download summary
-      most_voted_comments: Most voted comments
-      no_allegation: There are no comments
-      process_empty: This process didn't have any participation phases
+        one: "%{count} อภิปราย"
+        other: "%{count} อภิปราย"
+        zero: "ไม่มีการอภิปราย"
+      download: "สรุปการดาวน์โหลด"
+      most_voted_comments: "ความคิดเห็นที่ถูกโหวตมากที่สุด"
+      no_allegation: "ไม่มีความคิดเห็น"
+      process_empty: "กระบวนการนี้ไม่มีขั้นตอนการมีส่วนร่วม"
       proposals:
-        one: "%{count} proposal"
-        other: "%{count} proposals"
-        zero: No proposals
-      proposals_phase: Proposals phase
-      title: Summary
+        one: "%{count} ข้อเสนอ"
+        other: "%{count} ข้อเสนอ"
+        zero: "ไม่มีข้อเสนอ"
+      proposals_phase: "ช่วงเวลาของข้อเสนอ"
+      title: "สรุป"
       top_comments:
-        one: "%{count} comment"
-        other: Top comments
-        zero: No comments
+        one: "%{count} ความคิดเห็น"
+        other: "ความคิดเห็นยอดนิยม"
+        zero: "ไม่แสดงความคิดเห็น"
       votes:
-        one: "%{count} vote"
-        other: "%{count} votes"
-        zero: "%{count} votes"
+        one: "%{count} โหวต"
+        other: "%{count} โหวต"
+        zero: "%{count} โหวต"

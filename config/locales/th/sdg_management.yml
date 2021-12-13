@@ -2,50 +2,50 @@
 th:
   sdg_management:
     actions:
-      edit: Manage goals and targets
+      edit: "จัดการจุดมุ่งหมายและเป้าหมาย"
     header:
-      title: SDG content
+      title: "เนื้อหาเอสดีจี"
     homepage:
-      create_card: Create %{phase} card
+      create_card: "สร้างการ์ด %{phase} ใบ"
       header:
-        create: Create header
-        no_cards: There is no header
-        title: Header
-      no_cards: There are no cards for this phase
-      title: Homepage configuration
+        create: "สร้างหัวเรื่อง"
+        no_cards: "ไม่มีหัวเรื่อง"
+        title: "หัวเรื่อง"
+      no_cards: "ไม่มีการ์ดสำหรับช่วงเวลานี้"
+      title: "การกำหนดค่าหน้าแรก"
     local_targets:
       create:
-        notice: Local target created successfully
+        notice: "สร้างเป้าหมายท้องถิ่นสำเร็จแล้ว"
       destroy:
-        notice: Local target deleted successfully
+        notice: "ลบเป้าหมายในเครื่องเรียบร้อยแล้ว"
       edit:
-        title: Edit local target
+        title: "แก้ไขเป้าหมายในพื้นที่"
       form:
-        code: Code must start with the selected target code followed by a dot
-        description: This description will be shown as help to users.
+        code: "รหัสต้องเริ่มต้นด้วยรหัสเป้าหมายที่เลือกตามด้วยจุด"
+        description: "คำอธิบายนี้จะแสดงเพื่อช่วยผู้ใช้"
       index:
-        new: Create local target
+        new: ": สร้างเป้าหมายในพื้นที่"
       new:
-        title: New local target
+        title: "เป้าหมายท้องถิ่นใหม่"
       update:
-        notice: Local target updated successfully
+        notice: "ป้าหมายท้องถิ่นอัปเดตสำเร็จแล้ว"
     menu:
-      budget_investments: Participatory budgets
-      debates: Debates
-      legislation_processes: Legislation processes
-      legislation_proposals: Legislation proposals
-      polls: Polls
-      proposals: Proposals
-      sdg_content: Goals and Targets
-      sdg_homepage: SDG homepage
+      budget_investments: "งบประมาณแบบมีส่วนร่วม"
+      debates: " อภิปราย"
+      legislation_processes: "กระบวนการทางกฎหมาย"
+      legislation_proposals: "ข้อเสนอกฎหมาย"
+      polls: "โพล"
+      proposals: "ข้อเสนอ"
+      sdg_content: "จุดมุ่งหมายและเป้าหมาย"
+      sdg_homepage: "หน้าแรกของเอสดีจี"
     relations:
       index:
-        filter: Filter
+        filter: "ตัวกรอง"
         filters:
-          all: All
-          pending_sdg_review: Pending
-          sdg_reviewed: Marked as reviewed
+          all: "ทั้งหมด"
+          pending_sdg_review: "กำลังดำเนินการ"
+          sdg_reviewed: "ทำเครื่องหมายว่าตรวจทานแล้ว"
       update:
-        notice: "%{relatable} updated successfully"
+        notice: "อัปเดต %{relatable} สำเร็จแล้ว"
       update_and_review:
-        notice: "%{relatable} updated successfully and marked as reviewed"
+        notice: "ประกาศ: %{relatable} อัปเดตสำเร็จและทำเครื่องหมายว่าตรวจทานแล้ว"

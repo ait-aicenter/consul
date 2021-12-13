@@ -2,53 +2,53 @@
 th:
   community:
     show:
-      author: Author
-      back: Back to %{community} %{proposal}
+      author: "ผู้แต่ง"
+      back: "กลับไปที่ %{community} %{proposal}"
       create_first_community_topic:
-        first_theme: Create the first community topic
-        first_theme_not_logged_in: No issue available, participate creating the first one.
-        sub_first_theme: To create a theme you must %{sign_in} or %{sign_up}.
+        first_theme: "สร้างหัวข้อแรกในชุมชน"
+        first_theme_not_logged_in:  "ไม่มีปัญ, ให้เข้าร่วมสร้างอันแรก"
+        sub_first_theme: "ในการสร้างธีม คุณต้องมี %{sign_in} หรือ %{sign_up}"
       description:
-        investment: Participate in the community of this budget investment. An active community can help to improve the content of the budget investment and boost its dissemination to get more support.
-        proposal: Participate in the community of this proposal. An active community can help to improve the content of the proposal and boost its dissemination to get more support.
+        investment: "เข้าร่วมชุมชนเพื่อพัฒนาร่างงบประมาณ การอภิปรายเชิงรุกอาจนำไปสู่การปรับปรุงข้อเสนอ เผยแพร่ให้มากขึ้น และเพิ่มการสนับสนุน"
+        proposal: "มีส่วนร่วมในชุมชนเพื่อพัฒนา การอภิปรายเชิงรุกอาจนำไปสู่การปรับปรุงข้อเสนอ เผยแพร่ให้มากขึ้น และเพิ่มการสนับสนุน"
       sidebar:
-        new_topic: Create topic
-        participate: Participate
+        new_topic: "สร้างหัวข้อ"
+        participate: "มีส่วนร่วม"
       tab:
-        participants: Participants
+        participants: "ผู้เข้าร่วม"
       title:
-        investment: Budget Investment community
-        proposal: Proposal community
+        investment: "ประชาคมร่างงบประมาณ"
+        proposal: "ข้อเสนอชุมชน"
       topic:
         comments:
-          one: 1 comment
-          other: "%{count} comments"
-          zero: No comments
-        destroy: Delete topic
-        edit: Edit topic
+          one: "1 ความคิดเห็น"
+          other: "%{count}ความคิดเห็น"
+          zero: "ไม่มีความคิดเห็น"
+        destroy: "ลบหัวข้อ"
+        edit: "แก้ไขหัวข้อ"
     sidebar:
-      button_to_access: Access the community
+      button_to_access: "เข้าร่วมชุมชน"
       description:
-        investment: Participate in the user community of this investment.
-        proposal: Participate in the user community of this proposal.
-      title: Community
+        investment: "เข้าร่วมชุมชนในการลงทุน"
+        proposal: "มีส่วนร่วมในชุมชนของข้อเสนอนี้"
+      title: "ชุมชน"
     topic:
-      create: Create a topic
-      edit: Edit Topic
+      create: "สร้างหัวข้อ"
+      edit: "แก้ไขหัวข้อ"
       form:
         create:
-          submit_button: Create topic
+          submit_button: "สร้างหัวข้อ"
         edit:
-          submit_button: Edit topic
+          submit_button: "แก้ไขหัวข้อ"
         new:
-          submit_button: Create topic
+          submit_button: "สร้างหัวข้อ"
         update:
-          submit_button: Update topic
+          submit_button: "อัปเดตหัวข้อ"
       show:
         tab:
-          comments_tab: Comments
+          comments_tab: "ความคิดเห็น"
       sidebar:
-        recommendation_one: Do not write the topic title or whole sentences in capital letters. On the internet that is considered shouting. And no one likes to be yelled at.
-        recommendation_three: Enjoy this space, the voices that fill it, it's yours too.
-        recommendation_two: Any topic or comment that implies an illegal action will be eliminated, also those that intend to sabotage the spaces of the subject, everything else is allowed.
-        recommendations_title: Recommendations to create a topic
+        recommendations_title: "คำแนะนำสำหรับการสร้างหัวข้อ"
+        recommendation_one: "อย่าใช้อักษรตัวพิมพ์ใหญ่ในหัวเรื่องหรือในประโยคทั้งหมดในคำอธิบาย บนอินเทอร์เน็ตจะถูกตีความเมื่อคุณกรีดร้องและไม่มีใครชอบเมื่อมีคนตะโกนใส่พวกเขา"
+        recommendation_two: "หัวข้อหรือความคิดเห็นที่สนับสนุนการกระทำที่ผิดกฎหมายหรือพยายามก่อวินาศกรรมการสนทนาจะถูกลบ ทุกอย่างอื่นได้รับอนุญาต"
+        recommendation_three: "นี่คือที่ของคุณ เสียงของคุณจะเติมเต็มและมันเป็นของคุณเช่นกันห"
