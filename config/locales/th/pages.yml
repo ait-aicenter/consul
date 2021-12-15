@@ -6,9 +6,9 @@ th:
         description: "ทุกหน้าของเว็บไซต์นี้สอดคล้องกับ <strong>แนวทางการเข้าถึง</strong> หรือหลักการทั่วไปของการออกแบบที่เข้าถึงได้ซึ่งกำหนดโดยคณะทำงาน <abbr title='Web Accessibility Initiative' lang='en'>WAI</abbr> ที่เป็นของ W3C."
         title: "ความเข้ากันได้กับมาตรฐานและการออกแบบภาพ"
       description: |-
-        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental) .
+        การเข้าถึงเว็บหมายถึงความเป็นไปได้ในการเข้าถึงเว็บและเนื้อหาโดยทุกคน โดยไม่คำนึงถึงความทุพพลภาพ (ทางกายภาพ ทางปัญญา หรือทางเทคนิค) ที่อาจเกิดขึ้นหรือจากสิ่งเหล่านั้นที่เกิดจากบริบทของการใช้งาน (เทคโนโลยีหรือสิ่งแวดล้อม)
 
-        When websites are designed with accessibility in mind, all users can access content in equal conditions, for example:
+        เมื่อเว็บไซต์ได้รับการออกแบบโดยคำนึงถึงการช่วยสำหรับการเข้าถึง ผู้ใช้ทุกคนสามารถเข้าถึงเนื้อหาได้ในเงื่อนไขที่เท่าเทียมกัน เช่น:
       examples:
       - การให้ข้อความแสดงแทนแก่รูปภาพ ผู้ใช้ที่ตาบอดหรือผู้พิการทางสายตาสามารถใช้โปรแกรมอ่านพิเศษในการเข้าถึงข้อมูลได้
       - เมื่อวิดีโอมีคำบรรยาย ผู้ใช้ที่มีปัญหาทางการได้ยินสามารถเข้าใจได้อย่างเต็มที่
@@ -38,17 +38,17 @@ th:
           page_header: "หน้า"
           rows:
           - key_column: 0
-            page_column: Homepage
+            page_column: หน้าแรก
           - key_column: 1
-            page_column: Debates
+            page_column: การปภิปราย
           - key_column: 2
-            page_column: Proposals
+            page_column: ข้อเสนอ
           - key_column: 3
-            page_column: Votes
+            page_column: การลงคะแนน
           - key_column: 4
-            page_column: Participatory budgets
+            page_column: งบประมาณการมีส่วนร่วม
           - key_column: 5
-            page_column: Legislative processes
+            page_column: กระบวนการทางกฎหมาย
         title: "แป้นพิมพ์ลัด"
       textsize:
         browser_settings_table:
@@ -104,9 +104,9 @@ th:
       guide: "คู่มือนี้จะอธิบายว่าแต่ละส่วน %{org} มีไว้เพื่ออะไรและทำงานอย่างไร"
       how_to_use:
         text: |-
-          Use it in your local government or help us to improve it, it is free software.
+          ใช้ในหน่วยงานท้องถิ่นของคุณหรือช่วยเราปรับปรุง มันเป็นซอฟต์แวร์ฟรี
 
-          This Open Government Portal use the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+          ระบบพอร์ทัลแบบเปิดของรัฐบาลนี้ใช้ [แอป CONSUL](https://github.com/consul/consul 'consul github') ซึ่งเป็นซอฟต์แวร์ฟรีพร้อม [licence AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu' ) นั่นหมายถึงในคำง่ายๆ ที่ทุกคนสามารถใช้โค้ดได้อย่างอิสระเช่น การคัดลอก ดูรายละเอียด ปรับเปลี่ยน และแจกจ่ายไปยังทั่วโลกด้วยการปรับปลี่ยนที่พวกเขาต้องการ (อนุญาตให้ผู้อื่นสามารถทำได้เช่นกัน). เพราะเราคิดว่าวัฒนธรรมจะดีขึ้นและสมบูรณ์ยิ่งขึ้นเมื่อได้เผยแพร่ออกไป
 
           หากคุณเป็นโปรแกรมเมอร์ คุณสามารถดูโค้ดและช่วยเราปรับปรุงได้ที่ [แอป CONSUL](https://github.com/consul/consul 'consul github')
       menu:
