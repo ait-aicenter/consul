@@ -104,11 +104,11 @@ th:
       guide: "คู่มือนี้จะอธิบายว่าแต่ละส่วน %{org} มีไว้เพื่ออะไรและทำงานอย่างไร"
       how_to_use:
         text: |-
-          Use it in your local government or help us to improve it, it is free software.
+          ใช้ในหน่วยงานท้องถิ่นของคุณหรือช่วยเราปรับปรุง มันเป็นซอฟต์แวร์ฟรี
 
-          This Open Government Portal use the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+          ระบบพอร์ทัลแบบเปิดของรัฐบาลนี้ใช้ [แอป CONSUL](https://github.com/consul/consul 'consul github') ซึ่งเป็นซอฟต์แวร์ฟรีพร้อม [licence AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu' ) นั่นหมายถึงในคำง่ายๆ ที่ทุกคนสามารถใช้โค้ดได้อย่างอิสระเช่น การคัดลอก ดูรายละเอียด ปรับเปลี่ยน และแจกจ่ายไปยังทั่วโลกด้วยการปรับปลี่ยนที่พวกเขาต้องการ (อนุญาตให้ผู้อื่นสามารถทำได้เช่นกัน). เพราะเราคิดว่าวัฒนธรรมจะดีขึ้นและสมบูรณ์ยิ่งขึ้นเมื่อได้เผยแพร่ออกไป
 
-          If you are a programmer, you can see the code and help us to improve it at [CONSUL app](https://github.com/consul/consul 'consul github').
+          หากคุณเป็นโปรแกรมเมอร์ คุณสามารถดูโค้ดและช่วยเราปรับปรุงได้ที่ [แอป CONSUL](https://github.com/consul/consul 'consul github')
       menu:
         budgets: "งบประมาณการมีส่วนร่วม"
         debates: "อภิปราย"
