@@ -24,7 +24,7 @@ th:
         title: "รายการบัตรลงคะแนน"
       new:
         booth: "บูธ"
-        csv_data: "ข้อมูลซีเอสวี"
+        csv_data: "ข้อมูล CSV"
         select_booth: "เลือกบูธ"
         submit: "เซฟ"
         title: "%{poll_budget} - ใบลงคะแนนใหม่"
@@ -32,7 +32,7 @@ th:
       show:
         author: "ผู้แต่ง"
         created_at: "วันที่สร้าง"
-        data: "ข้อมูลซีเอสวี"
+        data: "ข้อมูล CSV"
     polls:
       final:
         add_results: "เพิ่มผลลัพธ์"
