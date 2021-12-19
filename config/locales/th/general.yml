@@ -202,7 +202,7 @@ th:
     progress:
       group_by_date: "รายวัน"
       group_by_month: "รายเดือน"
-      group_by_week: "เวคโควิส"
+      group_by_week: "รายสัปดาห์"
       new_action: "ใหม่"
       progress: "หลักสูตรในอุดมคติ"
       success: "หลักสูตรในอุดมคติ"
