@@ -235,12 +235,12 @@ th:
         title: "คำถาม"
       poll/question/answer:
         description: "คำอธิบาย"
-        title: "คำถาม"
+        title: "คำตอบ"
       poll/question/answer/translation:
-        title: "คำถาม"
+        title: "คำตอบ"
         description: "คำอธิบาย"
       poll/question/answer/video:
-        title: "ชื่อเรื่อง"
+        title: "คำตอบ"
         url: "วิดิโอภายนอก"
       poll/question/translation:
         title: "คำถาม"
