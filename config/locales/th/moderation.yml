@@ -107,6 +107,6 @@ th:
       index:
         hidden: "ถูกบล็อก"
         hide: "บล็อก"
-        search_placeholder: email or name of user
+        search_placeholder: "อีเมลหรือชื่อของผู้ใช้"
         title: "บล็อกผู้ใช้"
-      notice_hide: User blocked. All of this user's debates and comments have been hidden.
+      notice_hide: "ผู้ใช้ถูกบล็อค. การแสดงความคิดเห็นและการอภิปรายของผู้ใช้รายนี้จะถูกซ่อนทั้งหมด"

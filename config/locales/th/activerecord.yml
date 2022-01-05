@@ -111,7 +111,7 @@ th:
         source: "แหล่งที่มา"
         user: "ดำเนินการโดย"
       debate:
-        author: "ผู้แต่ง"
+        author: "ผู้เขียน"
         description: "ความคิดเห็น"
         tag_list: "หัวข้อ"
         terms_of_service: "เงื่อนไขการให้บริการ"
@@ -235,12 +235,12 @@ th:
         title: "คำถาม"
       poll/question/answer:
         description: "คำอธิบาย"
-        title: "คำถาม"
+        title: "คำตอบ"
       poll/question/answer/translation:
-        title: "คำถาม"
+        title: "คำตอบ"
         description: "คำอธิบาย"
       poll/question/answer/video:
-        title: "ชื่อเรื่อง"
+        title: "คำตอบ"
         url: "วิดิโอภายนอก"
       poll/question/translation:
         title: "คำถาม"
@@ -258,7 +258,7 @@ th:
         primary: "หลัก"
         secondary: "รอง"
       proposal:
-        author: "ผู้แต่ง"
+        author: "ผู้เขียน"
         title: "ชื่อเรื่อง"
         question: "คำถาม"
         description: "คำอธิบาย"
@@ -287,9 +287,9 @@ th:
         description: "คำอธิบาย"
         title: "ชื่อเรื่อง"
       sdg/phase/kind:
-        monitoring: "การสังเกตการณ์"
+        monitoring: "การติดตามการดำเนินการ"
         planning: "การวางแผน"
-        sensitization: "ความไวต่อความรู้สึก(เซนสิทิเซชั่น)"
+        sensitization: "ริเริ่มสร้างข้อเสนอโครงการ"
       sdg/target:
         code: "โค้ด"
         title: "ชื่อเรื่อง"

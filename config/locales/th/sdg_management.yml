@@ -4,7 +4,7 @@ th:
     actions:
       edit: "จัดการจุดมุ่งหมายและเป้าหมาย"
     header:
-      title: "เนื้อหาเอสดีจี"
+      title: "เนื้อหา SDG"
     homepage:
       create_card: "สร้างการ์ด %{phase} ใบ"
       header:

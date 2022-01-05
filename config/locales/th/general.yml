@@ -19,7 +19,7 @@ th:
       user_permission_title: "การมีส่วนร่วม"
       user_permission_verify: "ยืนยันบัญชีของคุณเพื่อเข้าถึงคุณสมบัติทั้งหมด"
       user_permission_verify_info: "* สำหรับผู้ใช้ที่เขียนในเมืองเท่านั้น"
-      user_permission_votes: "มีส่วนร่วมในการโหวตครั้งสุดท้าย"
+      user_permission_votes: "มีส่วนร่วมในการลงคะแนนครั้งสุดท้าย"
       verified_account: "บัญชีได้รับการยืนยันแล้ว"
       verify_my_account: "ยืนยันบัญชีของฉัน"
   admin/widget:
@@ -56,16 +56,16 @@ th:
         other: "%{count} ตอบกลับ (ซ่อน)"
       user_deleted: "ผู้ใช้ถูกลบ"
       votes:
-        one: "1 โหวต"
-        other: "%{count} โหวต"
-        zero: "ไม่โหวต"
+        one: "1 คะแนนเสียง"
+        other: "%{count} คะแนนเสียง"
+        zero: "ไม่มีคะแนนเสียง"
     comments_closed: "การแสดงความคิดเห็นถูกปิด"
     form:
       comment_as_admin: "แสดงความคิดเห็นในฐานะผู้ดูแลระบบ"
       comment_as_moderator: "แสดงความคิดเห็นในฐานะผู้ดูแล"
       leave_comment: "ความคิดเห็น"
     orders:
-      most_voted: "โหวตมากที่สุด"
+      most_voted: "คะแนนเสียงมากที่สุด"
       newest: "ล่าสุดก่อน"
       oldest: "เก่าสุดก่อน"
       most_commented: "แสดงควาามคิดเห็นมากสุด"
@@ -190,7 +190,7 @@ th:
         footer: "<strong>เยี่ยมชม %{link} และสนับสนุนข้อเสนอนี้</strong> ยิ่งมาก ยิ่งดี มาทำส่วนของเรากันเถอะ ขอบคุณ!"
         intro_text: "<strong>ฉันเข้าร่วม %{org}</strong> ด้วยข้อเสนอพลเมืองของฉันเอง และด้วยการสนับสนุนของคุณเท่านั้น เราจะสร้างเมืองที่เราทุกคนต้องการ"
         poster_subtitle: "สนับสนุนฉันที! ;)"
-        poster_title: "อย่าเอาแต่มอง"
+        poster_title: "อย่าเพิ่งข้าม,"
         proposal_code: "รหัสข้อเสนอ: %{code}"
         support: "สนับสนุนข้อเสนอของฉัน"
         title: "ตัวอย่างโปสเตอร์"
@@ -202,7 +202,7 @@ th:
     progress:
       group_by_date: "รายวัน"
       group_by_month: "รายเดือน"
-      group_by_week: "เวคโควิส"
+      group_by_week: "รายสัปดาห์"
       new_action: "ใหม่"
       progress: "หลักสูตรในอุดมคติ"
       success: "หลักสูตรในอุดมคติ"
@@ -239,13 +239,13 @@ th:
         other: "%{count} แสดงความเห็น"
       votes:
         zero: "ไม่มีคะแนน"
-        one: "1 โหวต"
-        other: "%{count} โหวต"
+        one: "1 คะแนนเสียง"
+        other: "%{count} คะแนนเสียง"
     edit:
       editing: "การแก้ไขการอธิบาย"
       form:
         submit_button: "บันทึกการเปลี่ยนแปลง"
-      show_link: "แสดงการ"
+      show_link: "แสดงการอภิปราย"
     form:
       tags_instructions: "แท็กการอภิปราย"
       tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
@@ -254,7 +254,7 @@ th:
       orders:
         confidence_score: "เป็นที่นิยม"
         created_at: "ล่าสุด"
-        hot_score: "แอคทีฟมากที่สุด"
+        hot_score: "ข้อเสนอที่กำลังดำเนินการ"
         most_commented: "แสดงความคิดเห็นมากที่สุด"
         recommendations: "คำแนะนำ"
         relevance: "ความเกี่ยวข้อง"
@@ -273,14 +273,14 @@ th:
         one: "มี <strong> '%{search_term}' </strong>"
         other: "มี <strong> '%{search_term}' </strong>"
       section_footer:
-        title: "ช่วยอภิปราย"
+        title: "คำอธิบายเกี่ยวกับการอภิปราย"
         description:  "เริ่มการอภิปรายเพื่อหารือเกี่ยวกับประเด็นที่คุณสนใจ"
-        help_text_1: "พื้นที่สำหรับการอภิปรายของพลเมืองมุ่งเป้าไปที่ใครก็ตามที่ต้องการแจ้งปัญหาที่เกี่ยวข้องกับพวกเขาและพวกเขาต้องการพูดคุยกับผู้อื่น"
-        help_text_2: "หากต้องการเริ่มการอภิปราย คุณต้องลงทะเบียนที่ %{org} ผู้ใช้ยังสามารถแสดงความคิดเห็นในการอภิปรายแบบเปิดและให้คะแนนด้วยปุ่ม \"ฉันยอมรับ\" หรือ \"ฉันไม่เห็นด้วย\""
+        help_text_1: "พื้นที่สำหรับการอภิปรายของประชาชน โดยมีเป้าหมายเพื่อแจ้งปัญหาและแลกเปลี่ยนความคิดเห็น"
+        help_text_2: "หากต้องการเริ่มการอภิปรายจะต้องลงทะเบียนที่ %{org} ผู้ใช้สามารถแสดงความคิดเห็นในการอภิปรายแบบเปิดและให้คะแนนด้วยปุ่ม \"เห็นด้วย\" หรือ \"ไม่เห็นด้วย\""
       section_header:
-        help: "ช่วยอภิปราย"
+        help: "คำอธิบายเกี่ยวกับการอภิปราย"
         icon_alt: "ไอคอนอภิปราย"
-        title: "ช่วยอภิปราย"
+        title: "การอภิปราย"
       start_debate: "เริ่มการอภิปราย"
       title: "การอภิปราย"
     new:
@@ -377,19 +377,19 @@ th:
       consul_url: https://github.com/consul/consul
       contact_us: "สำหรับการสนับสนุนทางเทคนิค ไปที่"
       copyright: CONSUL, %{year}
-      description: "ไซต์นี้ใช ้%{consul} ซึ่งเป็น %{open_source}"
-      open_source: "แพลตฟอร์มโอเพ่นซอร์ส"
+      description: "เว็บไซต์นี้ใช้แอปพลิเคชัน %{consul} ซึ่งเป็น %{open_source}"
+      open_source: "แพลตฟอร์มสาธารณะ"
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: "ตัดสินใจว่าจะสร้างเมืองที่คุณต้องการอยู่อย่างไร"
       participation_title: "การมีส่วนร่วม"
       privacy: "นโยบายความเป็นส่วนตัว"
     header:
-      administration: "หารบริหาร"
+      administration: "การจัดการระบบ"
       administration_menu: "ผู้ดูแลระบบ"
-      budgets: "งบประมาณประชาชน"
-      collaborative_legislation: "บทสนทนา"
+      budgets: "การจัดทำงบประมาณแบบมีส่วนร่วม"
+      collaborative_legislation: "การแสดงความคิดเห็นต่อร่างกฎหมายและข้อบังคับ"
       debates: "อภิปราย"
-      help: "ช่วยเหลือ"
+      help: "คำอธิบายวิธีการใช้งาน"
       locale: "ภาษา:"
       management: "การจัดการผู้ใช้"
       moderation: "การกลั่นกรอง"
@@ -403,9 +403,9 @@ th:
         notifications: "การแจ้งเตือน"
       officing: "เจ้าหน้าที่"
       open_gov: "รัฐบาลเปิด"
-      poll_questions: "โหวต"
+      poll_questions: "การลงคะแนน"
       proposals: "ข้อเสนอ"
-      sdg: "เอสดีจี"
+      sdg: "พิจารณาจากเป้าหมายการพัฒนาอย่างยั่งยืน"
       valuation: "การคำนวนต้นทุน"
   links:
     form:
@@ -457,7 +457,7 @@ th:
       sign_up: "ลงทะเบียนด้วย Google"
     info:
       sign_in: "เข้าสู่ระบบด้วย:"
-      sign_up: "ลงทะเบียนโดย:"
+      sign_up: "ลงทะเบียนด้วย:"
     or_fill: "หรือกรอกแบบฟอร์มต่อไปนี้:"
     twitter:
       name: Twitter
@@ -469,8 +469,8 @@ th:
       sign_up: "ลงทะเบียนด้วย Wordpress"
   poll_questions:
     show:
-      vote_answer: "โหวตให้ %{answer}"
-      vote: "คุณโหวตให ้%{answer}"
+      vote_answer: "ลงคะแนนให้ %{answer}"
+      vote: "คุณลงคะแนนให ้%{answer}"
   polls:
     all: "ทั้งหมด"
     dates: "จาก %{open_at} ถึง %{closed_at}"
@@ -489,12 +489,12 @@ th:
       participate_button: "เข้าร่วมการสำรวจความคิดเห็นนี้"
       participate_button_expired: "การสำรวจความคิดเห็นจบลง"
       section_footer:
-        description: "การสำรวจความคิดเห็นของพลเมืองเป็นกลไกการมีส่วนร่วมโดยที่พลเมืองที่มีสิทธิออกเสียงสามารถตัดสินใจได้โดยตรง"
-        title: "ช่วยเกี่ยวกับการโหวต"
+        description: "การลงคะแนนเสียงของประชาชนส่งผลต่อการตัดสินใจดำเนินการในเรื่องต่าง ๆ ของพื้นที่"
+        title: "คำอธิบายเกี่ยวกับการลงคะแนนเสียง"
       section_header:
-        help: "ช่วยเกี่ยวกับการโหวต"
-        icon_alt: "ไอคอนโหวต"
-        title: "การโหวต"
+        help: "คำอธิบายเกี่ยวกับการลงคะแนนเสียง"
+        icon_alt: "ไอคอนลงคะแนน"
+        title: "การลงคะแนนเสียง"
       title: "การสำรวจความคิดเห็น"
       unverified: "คุณต้องยืนยันบัญชีของคุณเพื่อเข้าร่วม"
     no_dates: "ไม่ได้เลือกวันที่"
@@ -502,9 +502,9 @@ th:
       back_to_proposal: "กลับไปที่ข้อเสนอ"
     show:
       already_voted_in_booth: "คุณได้ลงคะแนนในหน่วยเลือกตั้งจริง คุณไม่สามารถลงคะแนนได้อีก"
-      already_voted_in_web: "คุณได้เข้าร่วมการสำรวจความคิดเห็นนี้แล้ว หากคุณโหวตอีกครั้ง การโหวตครั้งก่อนของคุณจะถูกเขียนทับ"
+      already_voted_in_web: "คุณได้เข้าร่วมการสำรวจความคิดเห็นนี้แล้ว หากคุณลงคะแนนอีกครั้ง การลงคะแนนครั้งก่อนของคุณจะถูกเขียนทับ"
       back: "กลับไปที่โพล"
-      cant_answer_expired: "สิ้นสุดการโหวต"
+      cant_answer_expired: "สิ้นสุดการลงคะแนน"
       cant_answer_not_logged_in: "คุณต้องการ %{signin} หรือ %{signup} เพื่อเข้าร่วม"
       cant_answer_verify: "คุณต้อง %{verify_link} เพื่อตอบกลับ"
       cant_answer_wrong_geozone: "คำถามนี้ไม่มีในพื้นที่ของคุณ"
@@ -517,15 +517,15 @@ th:
       results:
         most_voted_answer: "คำตอบที่มีคะแนนสูงสุด: "
         title: "คำถาม"
-      results_menu: "ผลการโหวต"
+      results_menu: "ผลการลงคะแนน"
       stats:
         booth: "บูธ"
         mail: "เมล"
         null_votes: "ไม่ถูกต้อง"
         total: "ทั้งหมด"
-        total_votes: "จำนวนโหวตทั้งหมด"
+        total_votes: "จำนวนการลงคะแนนทั้งหมด"
         valid: "ถูกต้อง"
-        votes: "โหวต"
+        votes: "การลงคะแนน"
         web: "เว็บ"
         white: "เต็มไปด้วยความว่างปล่าว"
       stats_menu: "สถิติการเข้าร่วม"
@@ -568,13 +568,13 @@ th:
       tags_label: "แท็ก"
       tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
     index:
-      archived_proposals: "ข้อเสนอที่เก็บถาวร"
+      archived_proposals: "ข้อเสนอที่รวมรวมไว้"
       featured_proposals: "เลือกแล้ว"
       orders:
         archival_date: "เก็บถาวร"
         confidence_score: "เป็นที่นิยม"
         created_at: "ล่าสุด"
-        hot_score: "แอคทีฟมากที่สุด"
+        hot_score: "การอภิปรายที่กำลังดำเนินการ"
         most_commented: "แสดงความคิดเห็นมากที่สุด"
         recommendations: "คำแนะนำ"
         relevance: "ความเกี่ยวข้อง"
@@ -594,7 +594,7 @@ th:
         done: "เสร็จสิ้น"
         other: "อื่นๆ"
       retired_proposals: "ข้อเสนอเกษียณ"
-      retired_proposals_link: "ข้อเสนอที่ออกโดยผู้แต่ง"
+      retired_proposals_link: "ข้อเสนอจากประชาชน"
       search_form:
         button: "ค้นหา"
         placeholder: "คำแนะนำการค้นหา ..."
@@ -603,26 +603,26 @@ th:
         one: "มี <strong> '%{search_term}' </strong>"
         other: "มี <strong> '%{search_term}' </strong>"
       section_footer:
-        description: "ข้อเสนอของพลเมืองเป็นโอกาสสำหรับเพื่อนบ้านและสมาคมต่างๆ ในการตัดสินใจโดยตรงว่าพวกเขาต้องการเมืองของตนอย่างไร โดยรวบรวมการสนับสนุนข้อเสนอและชนะการโหวต"
-        title: "ช่วยด้วยคำแนะนำ"
+        description: "ข้อเสนอของพลเมืองเป็นโอกาสสำหรับเพื่อนบ้านและส่วนรวม/กลุ่มต่าง ๆ ในการตัดสินใจโดยตรงว่าพวกเขาต้องการให้ชุมชน/พื้นที่ของตนเป็นอย่างไร โดยรวบรวมการสนับสนุนข้อเสนอที่ได้รับการลงคะแนนเสียงมากที่สุด"
+        title: "คำอธิบายเกี่ยวกับข้อเสนอ"
       section_header:
-        help: "ช่วยด้วยคำแนะนำ"
+        help: "คำอธิบายเกี่ยวกับข้อเสนอ"
         icon_alt: "ไอคอนคำแนะนำ"
         title: "ข้อเสนอ"
       select_order_long: "คุณแสดงคำแนะนำตาม:"
-      selected_proposals: "ข้อเสนอที่เลือก"
-      selected_proposals_link: "ดูคำแนะนำที่เลือก"
+      selected_proposals: "ข้อเสนอที่ได้รับการคัดเลือก"
+      selected_proposals_link: "ดูรายละเอียดข้อเสนอที่ได้รับการคัดเลือก"
       start_proposal: "สร้างข้อเสนอ"
       title: "ข้อเสนอ"
       top: "ข้อเสนอยอดนิยมประจำสัปดาห์นี้"
-      top_link_proposals: "คำแนะนำยอดนิยมจากแต่ละหมวดหมู่"
+      top_link_proposals: "ข้อเสนอที่ได้รับการสนับสนุนมากที่สุดตามหมวดหมู่"
     new:
       form:
         submit_button: "เริ่มการอภิปราย"
       more_info: "ข้อมูลเพิ่มเติม"
-      recommendation_one: "อย่าใช้อักษรตัวพิมพ์ใหญ่ในชื่อเรื่องของโพสต์การอภิปรายหรือในประโยคทั้งหมดในคำอธิบาย บนอินเทอร์เน็ตจะถูกตีความเมื่อคุณกรีดร้องและไม่มีใครชอบเมื่อมีคนตะโกนใส่พวกเขา"
+      recommendation_one: "อย่าใช้อักษรตัวพิมพ์ใหญ่ในชื่อเรื่องของโพสต์การอภิปรายหรือในประโยคทั้งหมดในคำอธิบาย บนอินเทอร์เน็ต อักษรตัวพิมพ์ใหญ่จะถูกใช้เมื่อคุณกำลังตะโกน และไม่มีใครชอบเมื่อมีใครตะโกนใส่พวกเขา"
       recommendation_three: "ยินดีต้อนรับการวิจารณ์โดยประมาท พื้นที่นี้มีไว้สำหรับการอภิปรายและไตร่ตรอง แต่เราขอแนะนำให้คุณรักษาการสนทนาให้เรียบร้อยและชาญฉลาด โลกจะน่าอยู่ขึ้นถ้าเราทุกคนคิดถึงมัน"
-      recommendation_two: "โพสต์อภิปรายหรือความคิดเห็นที่สนับสนุนการกระทำที่ผิดกฎหมายหรือพยายามก่อวินาศกรรมการสนทนาจะถูกลบ ทุกอย่างอื่นได้รับอนุญาต"
+      recommendation_two: "โพสต์อภิปรายหรือความคิดเห็นที่สนับสนุนการกระทำที่ผิดกฎหมายหรือพยายามก่อความไม่สงบในการสนทนาจะถูกลบออกจากระบบ"
       recommendations_title: "คำแนะนำสำหรับโพสต์อภิปราย"
       start_new: "เริ่มการอภิปราย"
     notice:
@@ -632,8 +632,8 @@ th:
       already_supported: "คุณสนับสนุนคำแนะนำนี้แล้ว แบ่งปัน!"
       archived: "ข้อเสนอถูกเก็บถาวรและไม่สามารถรองรับได้อีกต่อไป"
       comments:
-        one: "1 โหวต"
-        other: "%{count} โหวต"
+        one: "1 คะแนนเสียง"
+        other: "%{count} คะแนนเสียง"
         zero: "ไม่มีคะแนน"
       created: "คุณได้สร้างข้อเสนอ!"
       reason_for_supports_necessary: "เหตุผลในการสนับสนุนที่จำเป็น"
@@ -652,9 +652,9 @@ th:
       supports_necessary: "%{number} รองรับความต้องการ"
       total_percent: 100%
       votes:
-        one: "1 โหวต"
-        other: "%{count} โหวต"
-        zero: "ไม่โหวต"
+        one: "1 คะแนนเสียง"
+        other: "%{count} คะแนนเสียง"
+        zero: "ไม่มีคะแนนเสียง"
     retire_form:
       retired_explanation_placeholder: "อธิบายสั้นๆ ว่าทำไมคุณถึงคิดว่าข้อเสนอนี้ไม่ควรได้รับการสนับสนุนมากกว่านี้"
       retired_reason_blank: "เลือกเหตุผล"
@@ -731,13 +731,13 @@ th:
       date_range_blank: "เลือกวันที่"
       from: "จาก"
       general: "ด้วยข้อความ"
-      goal: "โดนเอสดีจี"
+      goal: "เป้าหมายการพัฒนาที่ยั่งยืิน"
       goal_blank: "เลือกเป้าหมาย"
       search: "ตัวกรอง"
       target: "ต่อเป้าหมายย่อย"
       target_blank: "เลือกเป้าหมาย"
       title: "การค้นหาขั้นสูง"
-      to: "จน"
+      to: "จนถึง"
     author_info:
       author_deleted: "ผู้ใช้ถูกลบ"
       email_deleted: "ลบอีเมลแล้ว"
@@ -806,7 +806,7 @@ th:
         see_all: "แสดงทั้งหมด"
     tags_cloud:
       categories: "หมวดหมู่"
-      districts: "ย่าน"
+      districts: "ตำแหน่งทางภูมิศาสตร์"
       districts_list: "รายชื่อย่าน"
       tags: "ยอดนิยม"
     target_blank: " (ลิงก์เปิดในหน้าต่างใหม่)"
@@ -834,16 +834,16 @@ th:
     instagram: "%{org} บน Instagram"
   stats:
     index:
-      comment_votes: "โหวตความคิดเห็น"
+      comment_votes: "ลงคะแนนความคิดเห็น"
       comments: "ความคิดเห็น"
-      debate_votes: "โหวตในการอภิปราย"
+      debate_votes: "ลงคะแนนการอภิปราย"
       debates: "อภิปราย"
-      proposal_votes: "โหวตข้อเสนอ"
+      proposal_votes: "ลงคะแนนข้อเสนอ"
       proposals: "ข้อเสนอ"
       unverified_users: "ผู้ใช้ที่ไม่ได้รับการยืนยัน"
       verified_users: "ผู้ใช้ที่ยืนยันแล้ว"
       visits: "เข้าชม"
-      votes: "จำนวนโหวตทั้งหมด"
+      votes: "จำนวนการลงคะแนนทั้งหมด"
   tags:
     list:
       filter:
@@ -905,7 +905,7 @@ th:
     verify_account: "ยืนยันบัญชีของคุณ"
   votes:
     agree: "ฉันเห็นด้วย"
-    anonymous: "คะแนนโหวตที่ไม่ระบุชื่อมากเกินไปที่จะอนุมัติการโหวต %{verify_account}"
+    anonymous: "มีคะแนนเสียงที่ไม่ระบุตัวตนมากเกินไปที่จะทำการลงคะแนนเสียงได้ %{verify_account}"
     budget_investments:
       different_heading_assigned:
         one: "คุณสามารถสนับสนุนข้อเสนองบประมาณใน %{count} เขตเท่านั้น คุณสนับสนุนข้อเสนองบประมาณใน %{supported_headings} แล้ว"
@@ -915,7 +915,7 @@ th:
       not_voting_allowed: "ขั้นตอนการลงคะแนนสิ้นสุดลง"
       organization: "องค์กรไม่สามารถลงคะแนนได้"
       unfeasible: "ไม่สามารถสนับสนุนข้อเสนองบประมาณที่ไม่สามารถทำได้"
-    comment_unauthenticated: "คุณต้องการ %{signin} หรือ %{signup} เพื่อโหวต"
+    comment_unauthenticated: "คุณต้องการ %{signin} หรือ %{signup} เพื่อลงคะแนนเสียง"
     disagree: "ฉันไม่เห็นด้วย"
     organizations: "องค์กรไม่สามารถลงคะแนนได้"
     supports: "รองรับ"
@@ -926,17 +926,17 @@ th:
     feed:
       most_active:
         debates: "การอภิปรายที่มีความเคลื่อนไหวมากที่สุด"
-        proposal: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
-        process: "กระบวนการต่อเนื่อง"
+        proposals: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
+        processes: "กระบวนการต่อเนื่อง"
       no_items:
         debates: "ไม่มีการโต้วาทีในขณะนี้"
-        proposal: "ขณะนี้ยังไม่มีข้อเสนอ"
+        proposals: "ขณะนี้ยังไม่มีข้อเสนอ"
         processes: "ไม่มีกระบวนการที่เปิดอยู่ในขณะนี้"
       process_label: "กระบวนการ"
       see_all:
         debates: "ดูการอภิปรายทั้งหมด"
-        proposal: "ดูข้อเสนอทั้งหมด"
-        process: "ดูกระบวนการทั้งหมด"
+        proposals: "ดูข้อเสนอทั้งหมด"
+        processes: "ดูกระบวนการทั้งหมด"
       see_process: "ดูกระบวนการ"
     recommended:
       budget_investments:
@@ -966,4 +966,4 @@ th:
       user_permission_verify: "ยืนยันบัญชีของคุณเพื่อเข้าถึงคุณลักษณะทั้งหมด"
       user_permission_verify_info: "* สำหรับผู้ใช้ที่เขียนในเมืองเท่านั้น"
       user_permission_verify_my_account: "ยืนยันบัญชีของฉัน"
-      user_permission_votes: "มีส่วนร่วมในการโหวตครั้งสุดท้าย"
+      user_permission_votes: "มีส่วนร่วมในการลงคะแนนครั้งสุดท้าย"

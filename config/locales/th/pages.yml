@@ -6,14 +6,14 @@ th:
         description: "ทุกหน้าของเว็บไซต์นี้สอดคล้องกับ <strong>แนวทางการเข้าถึง</strong> หรือหลักการทั่วไปของการออกแบบที่เข้าถึงได้ซึ่งกำหนดโดยคณะทำงาน <abbr title='Web Accessibility Initiative' lang='en'>WAI</abbr> ที่เป็นของ W3C."
         title: "ความเข้ากันได้กับมาตรฐานและการออกแบบภาพ"
       description: |-
-        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental) .
+        การเข้าถึงเว็บหมายถึงความเป็นไปได้ในการเข้าถึงเว็บและเนื้อหาโดยทุกคน โดยไม่คำนึงถึงความทุพพลภาพ (ทางกายภาพ ทางปัญญา หรือทางเทคนิค) ที่อาจเกิดขึ้นหรือจากสิ่งเหล่านั้นที่เกิดจากบริบทของการใช้งาน (เทคโนโลยีหรือสิ่งแวดล้อม)
 
-        When websites are designed with accessibility in mind, all users can access content in equal conditions, for example:
+        เมื่อเว็บไซต์ได้รับการออกแบบโดยคำนึงถึงการช่วยสำหรับการเข้าถึง ผู้ใช้ทุกคนสามารถเข้าถึงเนื้อหาได้ในเงื่อนไขที่เท่าเทียมกัน เช่น:
       examples:
-      - การให้ข้อความแสดงแทนแก่รูปภาพ ผู้ใช้ที่ตาบอดหรือผู้พิการทางสายตาสามารถใช้โปรแกรมอ่านพิเศษในการเข้าถึงข้อมูลได้
-      - เมื่อวิดีโอมีคำบรรยาย ผู้ใช้ที่มีปัญหาทางการได้ยินสามารถเข้าใจได้อย่างเต็มที่
-      - หากเนื้อหานั้นเขียนด้วย a ภาษาที่เรียบง่ายและมีภาพประกอบ ผู้ใช้ที่มีปัญหาในการเรียนรู้สามารถเข้าใจพวกเขาได้ดีขึ้น
-      - หากผู้ใช้มีปัญหาด้านการเคลื่อนไหวและใช้งานเมาส์ได้ยาก แป้นพิมพ์ลัดจะช่วยในการนำทางได
+        - การให้ข้อความแสดงแทนแก่รูปภาพ ผู้ใช้ที่ตาบอดหรือผู้พิการทางสายตาสามารถใช้โปรแกรมอ่านพิเศษในการเข้าถึงข้อมูลได้
+        - เมื่อวิดีโอมีคำบรรยาย ผู้ใช้ที่มีปัญหาทางการได้ยินสามารถเข้าใจได้อย่างเต็มที่
+        - หากเนื้อหานั้นเขียนด้วย a ภาษาที่เรียบง่ายและมีภาพประกอบ ผู้ใช้ที่มีปัญหาในการเรียนรู้สามารถเข้าใจพวกเขาได้ดีขึ้น
+        - หากผู้ใช้มีปัญหาด้านการเคลื่อนไหวและใช้งานเมาส์ได้ยาก แป้นพิมพ์ลัดจะช่วยในการนำทางได
       keyboard_shortcuts:
         browser_table:
           browser_header: "เบราว์เซอร์"
@@ -21,34 +21,34 @@ th:
           description: "ขึ้นอยู่กับระบบปฏิบัติการและเบราว์เซอร์ที่ใช้ คีย์ผสมจะเป็นดังนี้:"
           key_header: "คีย์ผสม"
           rows:
-          - browser_column: Explorer
-            key_column: ALT + shortcut then ENTER
-          - browser_column: Firefox
-            key_column: ALT + CAPS + shortcut
-          - browser_column: Chrome
-            key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
-          - browser_column: Safari
-            key_column: ALT + shortcut (CMD + shortcut for MAC)
-          - browser_column: Opera
-            key_column: CAPS + ESC + shortcut
+            - browser_column: Explorer
+              key_column: ALT + shortcut then ENTER
+            - browser_column: Firefox
+              key_column: ALT + CAPS + shortcut
+            - browser_column: Chrome
+              key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
+            - browser_column: Safari
+              key_column: ALT + shortcut (CMD + shortcut for MAC)
+            - browser_column: Opera
+              key_column: CAPS + ESC + shortcut
         navigation_table:
           caption: "แป้นพิมพ์ลัดสำหรับเมนูการนำทาง"
           description: "เพื่อให้สามารถไปยังส่วนต่างๆ ของเว็บไซต์นี้ในลักษณะที่เข้าถึงได้ มีการตั้งโปรแกรมกลุ่มคีย์การเข้าถึงด่วนที่รวบรวมส่วนหลักๆ ของความสนใจทั่วไปในการจัดระเบียบเว็บไซต์"
           key_header: "คีย์"
           page_header: "หน้า"
           rows:
-          - key_column: 0
-            page_column: Homepage
-          - key_column: 1
-            page_column: Debates
-          - key_column: 2
-            page_column: Proposals
-          - key_column: 3
-            page_column: Votes
-          - key_column: 4
-            page_column: Participatory budgets
-          - key_column: 5
-            page_column: Legislative processes
+            - key_column: 0
+              page_column: หน้าแรก
+            - key_column: 1
+              page_column: การปภิปราย
+            - key_column: 2
+              page_column: ข้อเสนอ
+            - key_column: 3
+              page_column: การลงคะแนน
+            - key_column: 4
+              page_column: งบประมาณแบบมีส่วนร่วม
+            - key_column: 5
+              page_column: กระบวนการทางกฎหมาย
         title: "แป้นพิมพ์ลัด"
       textsize:
         browser_settings_table:
@@ -56,23 +56,23 @@ th:
           browser_header: "เบราว์เซอร์"
           description: "การออกแบบที่เข้าถึงได้ของเว็บไซต์นี้ทำให้ผู้ใช้สามารถเลือกขนาดของข้อความที่เหมาะกับเขา การดำเนินการนี้สามารถทำได้หลายวิธีขึ้นอยู่กับเบราว์เซอร์ที่ใช้"
           rows:
-          - browser_column: Explorer
-            action_column: View > Text size
-          - browser_column: Firefox
-            action_column: View > Size
-          - browser_column: Chrome
-            action_column: Settings (icon) > Options > Advanced > Web Content > Text size
-          - browser_column: Safari
-            action_column: View > Zoom In/Zoom out
-          - browser_column: Opera
-            action_column: View > scale
+            - browser_column: Explorer
+              action_column: View > Text size
+            - browser_column: Firefox
+              action_column: View > Size
+            - browser_column: Chrome
+              action_column: Settings (icon) > Options > Advanced > Web Content > Text size
+            - browser_column: Safari
+              action_column: View > Zoom In/Zoom out
+            - browser_column: Opera
+              action_column: View > scale
         browser_shortcuts_table:
           description: "อีกวิธีหนึ่งในการปรับเปลี่ยนขนาดข้อความคือการใช้แป้นพิมพ์ลัดที่กำหนดไว้ในเบราว์เซอร์ โดยเฉพาะคีย์ผสม:"
           rows:
-          - shortcut_column: CTRL and + (CMD and + on MAC)
-            description_column: Increases text size
-          - shortcut_column: CTRL and - (CMD and - on MAC)
-            description_column: Decreases text size
+            - shortcut_column: CTRL and + (CMD and + on MAC)
+              description_column: Increases text size
+            - shortcut_column: CTRL and - (CMD and - on MAC)
+              description_column: Decreases text size
         title: "ขนาดตัวอักษร"
       title: "การช่วยสำหรับการเข้าถึง"
     conditions:
@@ -81,64 +81,64 @@ th:
       title: "เงื่อนไขการใช้งาน"
     help:
       budgets:
-        description: "ส่วน %{link} ช่วยให้ผู้คนตัดสินใจได้โดยตรงว่าจะใช้งบประมาณส่วนใดของเทศบาล"
-        figcaption: "ระยะ \"สนับสนุน\" และ \"ลงคะแนน\" ของงบประมาณแบบมีส่วนร่วม"
+        description: "ส่วน %{link} ช่วยให้ประชาชนตัดสินใจได้โดยตรงว่าจะใช้งบประมาณกับโครงการใด"
+        figcaption: "ขั้นตอน \"สนับสนุน\" และ \"ลงคะแนน\" ของงบประมาณแบบมีส่วนร่วม"
         image_alt: "ระยะต่างๆ ของงบประมาณแบบมีส่วนร่วม"
-        link: "งบประมาณการมีส่วนร่วม"
+        link: "งบประมาณแบบมีส่วนร่วม"
         title: "การจัดทำงบประมาณแบบมีส่วนร่วม"
       debates:
-        description: "ในส่วน %{link} คุณสามารถนำเสนอและแบ่งปันความคิดเห็นของคุณกับคนอื่นๆ ในประเด็นที่เกี่ยวข้องกับคุณเกี่ยวกับเมือง นอกจากนี้ยังเป็นสถานที่สร้างแนวคิดที่นำไปสู่การดำเนินการที่เป็นรูปธรรมโดยสภาเทศบาลเมืองผ่านส่วนอื่นๆ ของ %{org}"
-        feature: "คุณสามารถเปิดการอภิปราย แสดงความคิดเห็น และประเมินผลด้วย <strong>ฉันยอมรับ</strong> หรือ <strong>ฉันไม่เห็นด้วย</strong> เพื่อที่คุณจะต้อง %{link}"
+        description: "ในส่วน %{link} ทุกคนสามารถนำเสนอและแบ่งปันความคิดเห็นของตนเองกับคนอื่น ๆ ในประเด็นที่เกี่ยวข้องกับคุณเกี่ยวกับชุมชนในพื้นที่ที่คุณอาศัย นอกจากนี้ยังเป็นพื้นที่ที่สร้างแนวคิดที่นำไปสู่การดำเนินการที่เป็นรูปธรรมเทศบาลเมืองผ่านการทำงานส่วนอื่น ๆ ของแพลตฟอร์ม%{org}"
+        feature: "คุณสามารถเริ่มการอภิปราย แสดงความคิดเห็น และประเมินผลโดยการกดปุ่ม <strong>เห็นด้วย</strong> หรือ <strong>ฉันไม่เห็นด้วย</strong> ซึ่งคุณจะจำเป็นต้อง %{link} เพื่อเริ่มการอภิปราย"
         feature_link: "ลงทะเบียนใน %{org}"
         figcaption: "ปุ่ม \"ฉันเห็นด้วย\" และ \"ฉันไม่เห็นด้วย\" เพื่อให้คะแนนการอภิปราย"
         image_alt: "ปุ่มให้คะแนนการอภิปราย"
-        link: "การอภิปรายของพลเมือง"
+        link: "การอภิปรายของประชาชน"
         title: "อภิปราย"
       faq:
         button: "ดูคำถามที่พบบ่อย"
-        description: "อ่านคำถามที่พบบ่อยและแก้ไขคำถามของคุณ"
+        description: "คำถามและคำตอบที่พบบ่อย"
         page:
           description: "ใช้หน้านี้เพื่อแก้ไขคำถามที่พบบ่อยสำหรับผู้ใช้เว็บไซต์"
           title: "คำถามที่พบบ่อย"
         title: "ปัญหาทางเทคนิค?"
-      guide: "คู่มือนี้จะอธิบายว่าแต่ละส่วน %{org} มีไว้เพื่ออะไรและทำงานอย่างไร"
+      guide: "คำแนะนำนี้อธิบายว่าแต่ละส่วน %{org} มีวัตถุประสงค์เพื่ออะไรและทำงานอย่างไร"
       how_to_use:
         text: |-
-          Use it in your local government or help us to improve it, it is free software.
+          ใช้ในหน่วยงานท้องถิ่นของคุณหรือช่วยเราปรับปรุง มันเป็นซอฟต์แวร์ฟรี
 
-          This Open Government Portal use the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+          ระบบพอร์ทัลแบบเปิดของรัฐบาลนี้ใช้ [แอป CONSUL](https://github.com/consul/consul 'consul github') ซึ่งเป็นซอฟต์แวร์ฟรีพร้อม [licence AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu' ) นั่นหมายถึงในคำง่ายๆ ที่ทุกคนสามารถใช้โค้ดได้อย่างอิสระเช่น การคัดลอก ดูรายละเอียด ปรับเปลี่ยน และแจกจ่ายไปยังทั่วโลกด้วยการปรับปลี่ยนที่พวกเขาต้องการ (อนุญาตให้ผู้อื่นสามารถทำได้เช่นกัน). เพราะเราคิดว่าวัฒนธรรมจะดีขึ้นและสมบูรณ์ยิ่งขึ้นเมื่อได้เผยแพร่ออกไป
 
           หากคุณเป็นโปรแกรมเมอร์ คุณสามารถดูโค้ดและช่วยเราปรับปรุงได้ที่ [แอป CONSUL](https://github.com/consul/consul 'consul github')
       menu:
-        budgets: "งบประมาณการมีส่วนร่วม"
-        debates: "อภิปราย"
-        other: "ข้อมูลอื่นๆ ที่น่าสนใจ"
-        polls: "สำรวจความเห็น"
+        budgets: "งบประมาณแบบมีส่วนร่วม"
+        debates: "การอภิปราย"
+        other: "ข้อมูลอื่น ๆ ที่น่าสนใจ"
+        polls: "การสำรวจความเห็น"
         processes: "กระบวนการ"
         proposals: "ข้อเสนอ"
       other:
-        how_to_use: "ใช้ %{org_name} ในเมืองของคุณ"
-        sdg: "การช่วยเหลือเป้าหมายการพัฒนาที่ยั่งยืน"
+        how_to_use: "ใช้ %{org_name} ในจังหวัด/พื้นที่ของคุณ"
+        sdg: "คำอธิบายเกี่ยวกั้บเป้าหมายการพัฒนาที่ยั่งยืน"
         title: "ข้อมูลอื่นๆ ที่น่าสนใจ"
       polls:
-        description: "ส่วน %{link} จะเปิดใช้งานทุกครั้งที่ข้อเสนอได้รับการสนับสนุน 1% และเข้าสู่การลงคะแนนเสียง หรือเมื่อสภาเทศบาลเมืองเสนอประเด็นให้ผู้คนตัดสินใจ"
+        description: "%{link} จะเปิดใช้งานทุกครั้งที่ข้อเสนอได้รับการสนับสนุน 1% และเข้าสู่การลงคะแนนเสียง หรือเมื่อเทศบาลเมืองเสนอประเด็นให้ผู้คนตัดสินใจ"
         feature_1: "ในการเข้าร่วมโหวต คุณต้อง %{link} และยืนยันบัญชีของคุณ"
         feature_1_link: "ลงทะเบียนใน %{org_name}"
-        link: "สำรวจความเห็น"
-        title: "สำรวจความเห็น"
+        link: "การสำรวจความเห็น"
+        title: "การสำรวจความเห็น"
       processes:
-        description: "ในส่วน %{link} พลเมืองจะมีส่วนร่วมในการร่างและแก้ไขข้อบังคับที่มีผลกระทบต่อเมือง และสามารถให้ความเห็นเกี่ยวกับนโยบายของเทศบาลในการอภิปรายครั้งก่อน"
+        description: "ในส่วน %{link} ประชาชนจะมีส่วนร่วมในการร่างและแก้ไขข้อบังคับ/กฎหมาย/พระราชบัญญัติที่มีผลกระทบต่อชุมชน จังหวัด ประเทศ และสามารถให้ความเห็นเกี่ยวกับคำแถลง คำสั่ง ข้อบังคับ หรือคำวินิจฉัยที่รับรองและประกาศใช้อย่างเป็นทางการโดยเจ้าพนักงานปกครองส่วนท้องถิ่น ในการอภิปรายครั้งก่อน"
         feature: "ในการเข้าร่วมในกระบวนการ คุณต้อง %{link} และยืนยันบัญชีของคุณ"
         feature_link: "ลงทะเบียนใน %{org_name}"
-        link: "กระบวนการ"
-        title: "กระบวนการ"
+        link: "กระบวนการแสดงความคิดเห็นต่อร่างกฎหมายและข้อบังคับต่าง ๆ"
+        title: "กระบวนการแสดงความคิดเห็นต่อร่างกฎหมายและข้อบังคับต่าง ๆ"
       proposals:
-        description: "ในส่วน %{link} คุณสามารถยื่นข้อเสนอให้สภาเทศบาลเมืองดำเนินการได้ ข้อเสนอต้องได้รับการสนับสนุน และหากได้รับการสนับสนุนที่เพียงพอ ก็จะถูกเสนอให้ลงคะแนนเสียงต่อสาธารณะ ข้อเสนอที่ได้รับการอนุมัติในการลงคะแนนเสียงของประชาชนเหล่านี้ได้รับการยอมรับจากสภาเทศบาลเมืองและดำเนินการ"
+        description: "ในส่วน %{link} คุณสามารถยื่นข้อเสนอให้หน่วยงานดำเนินการได้ ข้อเสนอต้องได้รับการสนับสนุน และหากได้รับการสนับสนุนที่เพียงพอ ก็จะถูกเสนอให้ลงคะแนนเสียงต่อสาธารณะ ข้อเสนอที่ได้รับการอนุมัติในการลงคะแนนเสียงของประชาชนเหล่านี้ได้รับการยอมรับจากเทศบาลและถูกนำไปดำเนินการ"
         figcaption: "ปุ่ม \"สนับสนุน\" ข้อเสนอ"
         image_alt: "ปุ่มสนับสนุนข้อเสนอ"
-        link: "ข้อเสนอของพลเมือง"
+        link: "ข้อเสนอของประชาชน"
         title: "ข้อเสนอ"
-      title: "%{org} เป็นแพลตฟอร์มสำหรับการมีส่วนร่วมของพลเมือง"
+      title: "%{org} เป็นแพลตฟอร์มสำหรับสร้างการมีส่วนร่วมของประชาชน"
       titles:
         how_to_use: "ใช้ในรัฐบาลท้องถิ่นของคุณ"
     privacy:

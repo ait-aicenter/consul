@@ -1,4 +1,5 @@
-set :branch, ENV["branch"] || :master
+#set :branch, ENV["branch"] || :master
+ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 server deploysecret(:server1), user: deploysecret(:user), roles: %w[web app db importer cron background]
 #server deploysecret(:server2), user: deploysecret(:user), roles: %w(web app db importer cron background)
