@@ -31,7 +31,7 @@ th:
         notice: "ป้าหมายท้องถิ่นอัปเดตสำเร็จแล้ว"
     menu:
       budget_investments: "งบประมาณแบบมีส่วนร่วม"
-      debates: " อภิปราย"
+      debates: "หัวข้อการเสวนา"
       legislation_processes: "กระบวนการทางกฎหมาย"
       legislation_proposals: "ข้อเสนอกฎหมาย"
       polls: "โพล"

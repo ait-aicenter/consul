@@ -88,7 +88,7 @@ th:
     step_1: "เรสซิเดนซ์"
     step_2: "รหัสยืนยัน"
     step_3: "การยืนยันครั้งสุดท้าย"
-    user_permission_debates: "มีส่วนร่วมในการอภิปราย"
+    user_permission_debates: "มีส่วนร่วมในการเสวนา"
     user_permission_info: "กำลังตรวจสอบข้อมูลของคุณ คุณจะสามารถ..."
     user_permission_proposal: "สร้างข้อเสนอใหม่"
     user_permission_support_proposal: "ข้อเสนอการสนับสนุน*"

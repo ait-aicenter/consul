@@ -32,7 +32,7 @@ th:
       environment: "สิ่งแวดล้อม"
     budgets:
       budget: "งบประมาณแบบมีส่วนร่วม"
-      currency: "€"
+      currency: "฿"
       groups:
         all_city: "ทุกเมือง"
         districts: "อำเภอ"

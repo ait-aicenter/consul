@@ -32,7 +32,7 @@ en:
         sections_label: Sections where it will appear
         sections:
           homepage: Homepage
-          debates: Debates
+          debates: Dialogues
           proposals: Proposals
           budgets: Participatory budgeting
           help_page: Help page
@@ -60,7 +60,7 @@ en:
         filters:
           all: All
           on_comments: Comments
-          on_debates: Debates
+          on_debates: Dialogues
           on_proposals: Proposals
           on_users: Users
           on_system_emails: System emails
@@ -434,7 +434,7 @@ en:
           all: All
           with_confirmed_hide: Confirmed
           without_confirmed_hide: Pending
-        hidden_debate: Hidden debate
+        hidden_debate: Hidden dialogue
         hidden_proposal: Hidden proposal
         title: Hidden comments
         no_hidden_comments: There are no hidden comments.
@@ -500,7 +500,7 @@ en:
       index:
         id: ID
         author: Author
-        title: Debates
+        title: Dialogues
         no_debates: There are no debates.
     hidden_debates:
       index:
@@ -603,7 +603,7 @@ en:
           info: Information
           homepage: Homepage
           draft_versions: Drafting
-          questions: Debate
+          questions: Dialogue
           proposals: Proposals
           milestones: Following
       homepage:
@@ -752,7 +752,7 @@ en:
         information_texts: Custom information texts
         information_texts_menu:
           basic: "Basic customization"
-          debates: "Debates"
+          debates: "Dialogues"
           community: "Community"
           proposals: "Proposals"
           polls: "Polls"
@@ -775,7 +775,7 @@ en:
       dashboard: Proposals dashboard
       administrator_tasks: Resources requested
       dashboard_actions: Resources and actions
-      debates: "Debates"
+      debates: "Dialogues"
       comments: "Comments"
       local_census_records: Manage local census
       machine_learning: "AI / Machine learning"
@@ -1432,8 +1432,8 @@ en:
         summary:
           comment_votes: Comment votes
           comments: Comments
-          debate_votes: Debate votes
-          debates: Debates
+          debate_votes: Dialogue votes
+          debates: Dialogues
           proposal_votes: Proposal votes
           proposals: Proposals
           budgets: Open budgets
@@ -1454,7 +1454,7 @@ en:
         polls: Polls
         sdg: SDG
       graph:
-        debate_created: Debates
+        debate_created: Dialogues
         visit: Visits
         level_2_user: Level 2 users
         proposal_created: Citizen proposals
@@ -1500,7 +1500,7 @@ en:
           amount: "Approved amount"
           winners: "Winner investment projects"
           sent: "Investment projects sent"
-        debates: "Debates"
+        debates: "Dialogues"
         polls: "Polls"
         proposals: "Proposals"
         title: "Sustainable Development Goals - Stats"
@@ -1626,7 +1626,7 @@ en:
       no_cards: There are no cards.
       feeds:
         proposals: Proposals
-        debates: Debates
+        debates: Dialogues
         processes: Processes
       new:
         header_title: New header

@@ -31,19 +31,19 @@ en:
           pending_flag_review: Pending
           with_ignored_flag: Marked as viewed
         headers:
-          debate: Debate
+          debate: Dialogue
           moderate: Moderate
         hide: Hide debates
         ignore_flags: Mark as viewed
         orders:
           created_at: Newest
           flags: Most flagged
-        title: Debates
+        title: Dialogues
     header:
       title: Moderation
     menu:
       flagged_comments: Comments
-      flagged_debates: Debates
+      flagged_debates: Dialogues
       flagged_investments: Budget investments
       proposals: Proposals
       proposal_notifications: Proposals notifications

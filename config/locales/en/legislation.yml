@@ -54,7 +54,7 @@ en:
           winners: Selected
       debate:
         empty_questions: There aren't any questions
-        participate: Participate in the debate
+        participate: Participate in the dialogue
       index:
         filter: Filter
         filters:
@@ -68,7 +68,7 @@ en:
           help: Help about collaborative legislation
         section_footer:
           title: Help about collaborative legislation
-          description: Participate in the debates and processes prior to the approval of new regulations or strategies. Your opinion will be considered.
+          description: Participate in the dialogue and processes prior to the approval of new regulations or strategies. Your opinion will be considered.
       phase_not_open:
         not_open: This phase is not open yet
       phase_empty:
@@ -79,7 +79,7 @@ en:
       shared:
         key_dates: Participation phases
         homepage: Homepage
-        debate_dates: Debate
+        debate_dates: Dialogue
         draft_publication_date: Draft publication
         allegations_dates: Comments
         result_publication_date: Final result publication
@@ -97,7 +97,7 @@ en:
           zero: No comments
           one: "%{count} comment"
           other: "%{count} comments"
-        debate: Debate
+        debate: Dialogue
       show:
         answer_question: Submit answer
         next_question: Next question
@@ -106,10 +106,10 @@ en:
         title: Collaborative legislation process
       participation:
         phase_not_open: This phase is not open
-        organizations: Organisations are not permitted to participate in the debate
+        organizations: Organisations are not permitted to participate in the dialogue
         unauthenticated: You must %{signin} or %{signup} to participate.
         verified_only: Only verified users can participate, %{verify_account}.
-        debate_phase_not_open: Debate phase has finished and answers are not accepted anymore
+        debate_phase_not_open: Dialogue phase has finished and answers are not accepted anymore
     shared:
       share: Share
       share_comment: Comment on %{version_name} from process draft %{process_name}
@@ -124,13 +124,13 @@ en:
         zero: "%{count} votes"
         one: "%{count} vote"
         other: "%{count} votes"
-      debate_phase: "Debate phase"
+      debate_phase: "Dialogue phase"
       proposals_phase: "Proposals phase"
       allegations_phase: "Comments phase"
       debates:
-        zero: "No debates"
-        one: "%{count} debate"
-        other: "%{count} debates"
+        zero: "No dialogues"
+        one: "%{count} dialogue"
+        other: "%{count} dialogues"
       proposals:
         zero: "No proposals"
         one: "%{count} proposal"
