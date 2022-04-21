@@ -50,19 +50,19 @@ th:
           pending_flag_review: "กำลังดำเนินการ"
           with_ignored_flag: "ทำเครื่องหมายว่าดูแล้ว"
         headers:
-          debate: "อภิปราย"
+          debate: "เสวนา"
           moderate: "ปานกลาง"
         hide: "ซ่อนความคิดเห็น"
         ignore_flags: "ทำเครื่องหมายว่าดูแล้ว"
         orders:
           created_at: "ใหม่ล่าสุด"
           flags: "ถูกจับตามองมากที่สุด"
-        title: "อภิปราย"
+        title: "เสวนา"
     header:
       title: "การกลั่นกรอง"
     menu:
       flagged_comments: "ความคิดเห็น"
-      flagged_debates: "อภิปราย"
+      flagged_debates: "เสวนา"
       flagged_investments: "การลงทุนด้านงบประมาณ"
       proposal_notifications: "การแจ้งเตือนข้อเสนอ"
       proposals: "ข้อเสนอ"
@@ -109,4 +109,4 @@ th:
         hide: "บล็อก"
         search_placeholder: "อีเมลหรือชื่อของผู้ใช้"
         title: "บล็อกผู้ใช้"
-      notice_hide: "ผู้ใช้ถูกบล็อค. การแสดงความคิดเห็นและการอภิปรายของผู้ใช้รายนี้จะถูกซ่อนทั้งหมด"
+      notice_hide: "ผู้ใช้ถูกบล็อค. การแสดงความคิดเห็นและการเสวนาของผู้ใช้รายนี้จะถูกซ่อนทั้งหมด"

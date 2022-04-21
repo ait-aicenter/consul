@@ -35,7 +35,7 @@ th:
         filters:
           all: "ทั้งหมด"
           on_comments: "ความคิดเห็น"
-          on_debates: "อภิปราย"
+          on_debates: "เสวนา"
           on_proposals: "ข้อเสนอแนะ"
           on_system_emails: "อีเมลจากระบบ"
           on_users: "ผู้ใช้งาน"
@@ -126,7 +126,7 @@ th:
       banner:
         sections:
           budgets: "งบประมาณแบบมีส่วนร่วม"
-          debates: "การอภิปราย"
+          debates: "การเสวนา"
           help_page: "หน้าสำหรับช่วยเหลือ"
           homepage: "หน้าหลัก"
           proposals: "ข้อเสนอ"
@@ -532,8 +532,8 @@ th:
       index:
         author: "ผู้เขียน"
         id: "ไอดี"
-        no_debates: "ไม่มีการอภิปราย"
-        title: "การอภิปราย"
+        no_debates: "ไม่มีการเสวนา"
+        title: "การเสวนา"
     documents:
       create:
         success_notice: "อัพโหลดเอกสารเรียบร้อยแล้ว"
@@ -596,7 +596,7 @@ th:
           all: "ทั้งหมด"
           with_confirmed_hide: "ยืนยันแล้ว"
           without_confirmed_hide: "กำลังดำเนินการ"
-        hidden_debate: "การอภิปรายที่ซ่อนอยู่"
+        hidden_debate: "การเสวนาที่ซ่อนอยู่"
         hidden_proposal: "ข้อเสนอที่ซ่อนอยู่"
         no_hidden_comments: "ไม่มีความคิดเห็นที่ซ่อนอยู่"
         title: "ความคิดเห็นที่ซ่อนอยู่"
@@ -607,8 +607,8 @@ th:
           all: "ทั้งหมด"
           with_confirmed_hide: "ยืนยันแล้ว"
           without_confirmed_hide: "กำลังดำเนินการ"
-        no_hidden_debates: "ไม่มีการอภิปรายที่ซ่อนอยู่"
-        title: "การอภิปรายที่ซ่อนอยู่"
+        no_hidden_debates: "ไม่มีการเสวนาที่ซ่อนอยู่"
+        title: "การเสวนาที่ซ่อนอยู่"
     hidden_proposal_notifications:
       index:
         filter: "ตัวกรอง"
@@ -653,7 +653,7 @@ th:
         submit_card: "บันทึกการ์ด"
         submit_header: "บันทึกหัวเรื่อง"
       feeds:
-        debates: "การอภิปราย"
+        debates: "การเสวนา"
         processes: "กระบวนการ"
         proposals: "ข้อเสนอ"
       header_title: "หัวเรื่อง"
@@ -724,7 +724,7 @@ th:
         form:
           allegations_phase: "แสดงความคิดเห็นในช่วงเวลา"
           banner_title: "สีส่วนหัว"
-          debate_phase: "ระยะอภิปราย"
+          debate_phase: "ระยะเสวนา"
           draft_phase: "ร่างระยะเวลา"
           draft_phase_description: "หากช่วงนี้ใช้งานอยู่ กระบวนการจะไม่ปรากฏในดัชนีกระบวนการ อนุญาตให้ดูตัวอย่างกระบวนการและสร้างเนื้อหาก่อนเริ่มต้น"
           enabled: "เปิดใช้งาน"
@@ -762,7 +762,7 @@ th:
           info: "ข้อมูล"
           milestones: "กำลังติดตาม"
           proposals: "ข้อเสนอ"
-          questions: "อภิปราย"
+          questions: "เสวนา"
         update:
           error: "ไม่สามารถอัปเดตกระบวนการได้"
           notice: "อัปเดตกระบวนการเรียบร้อยแล้ว <a href='%{link}'>คลิกเพื่อเข้าชม</a>"
@@ -912,7 +912,7 @@ th:
       comments: "ความคิดเห็น"
       dashboard: "ข้อเสนอแดชบอร์ด"
       dashboard_actions: "ทรัพยากรและการดำเนินการ"
-      debates: "การอภิปราย"
+      debates: "การเสวนา"
       emails_download: "ดาวน์โหลดอีเมล"
       geozones: "จัดการเขตภูมิศาสตร์"
       hidden_budget_investments: "การลงทุนงบประมาณที่ซ่อนอยู่"
@@ -953,7 +953,7 @@ th:
         information_texts_menu:
           basic: "การปรับแต่งพื้นฐาน"
           community: "ชุมชน"
-          debates: "การอภิปราย"
+          debates: "การเสวนา"
           layouts: "เลย์เอาต์"
           machine_learning: "AI / การเรียนรู้ของเครื่อง"
           mailers: "อีเมล"
@@ -1381,7 +1381,7 @@ th:
         label:
           Booths: "ค้นหาบูธตามชื่อหรือสถานที่"
           budget_investments: "ค้นหาการลงทุนตามชื่อ คำอธิบาย หรือหัวข้อ"
-          debates: "ค้นหาการอภิปรายตามชื่อเรื่องหรือคำอธิบาย"
+          debates: "ค้นหาการเสวนาตามชื่อเรื่องหรือคำอธิบาย"
           legislation_processes: "ค้นหากระบวนการตามชื่อหรือคำอธิบาย"
           legislation_proposals: "ค้นหาข้อเสนอตามชื่อเรื่องหรือคำอธิบาย"
           local_census_records: "ค้นหาจากเลขที่เอกสาร"
@@ -1536,7 +1536,7 @@ th:
         total: "ทั้งหมด"
         users_who_have_sent_message: "ผู้ใช้ที่ส่งข้อความส่วนตัว"
       graph:
-        debate_created: "การอภิปราย"
+        debate_created: "การเสวนา"
         level_2_user: "ผู้ใช้ระดับ 2"
         proposal_created: "ข้อเสนอพลเมือง"
         visit: "เยี่ยมชม"
@@ -1561,7 +1561,7 @@ th:
           amount: "จำนวนเงินที่ได้รับอนุมัติ"
           sent: "ส่งโครงการลงทุน"
           winners: "โครงการลงทุนผู้ชนะ"
-        debates: "การอภิปราย"
+        debates: "การเสวนา"
         polls: "สถานที่เลือกตั้ง"
         proposals: "ข้อเสนอ"
         title: "เป้าหมายการพัฒนาที่ยั่งยืน - สถิติ"
@@ -1579,8 +1579,8 @@ th:
           budgets: "เปิดงบประมาณ"
           comment_votes: "การแสดงความคิดเห็นต่อการลงคะแนน"
           comments: "ความคิดเห็น"
-          debate_votes: "โหวตการอภิปราย"
-          debates: "การอภิปราย"
+          debate_votes: "โหวตการเสวนา"
+          debates: "การเสวนา"
           proposal_votes: "โหวตข้อเสนอ"
           proposals: "ข้อเสนอ"
           unverified_users: "ผู้ใช้ที่ไม่ได้รับการยืนยัน"

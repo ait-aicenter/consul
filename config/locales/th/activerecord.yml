@@ -117,8 +117,8 @@ th:
         terms_of_service: "เงื่อนไขการให้บริการ"
         title: "ชื่อเรื่อง"
       debate/translation:
-        description: "ข้อความอภิปรายเบื้อต้น"
-        title: "หัวข้ออภิปราย"
+        description: "ข้อความเบื้องต้น"
+        title: "หัวข้อหารือ"
       direct_message:
         body: "ข้อความ"
         title: "ชื่อเรื่อง"
@@ -331,7 +331,7 @@ th:
         current_password: "รหัสผ่านปัจจุบัน"
         email: "อีเมล"
         email_digest: "ได้รับคำแจ้งเตือนเกี่ยวกับการสรุปข้อเสนอ"
-        email_on_comment: "แจ้งเตือนฉันทางอีเมลหากมีใครแสดงความคิดเห็นบนข้อเสนอหรือการอภิปรายของฉัน"
+        email_on_comment: "แจ้งเตือนฉันทางอีเมลหากมีใครแสดงความคิดเห็นบนข้อเสนอหรือการเสวนาของฉัน"
         email_on_comment_reply: "แจ้งเตือนฉันในอีเมลเมื่อมีใครตอบกลับความคิดเห็น"
         email_on_direct_message: "ได้รับอีเมลเกี่ยวกับข้อความโดยตรง"
         login: "อีเมลหรือชื่อผู้ใช้"
@@ -344,7 +344,7 @@ th:
         phone_number: "เบอร์โทรศัพท์"
         public_activity: "เก็บรายการกิจกรรมของฉันไว้เป็นสาธารณะ"
         public_interests: "เก็บองค์ประกอบที่ฉันติดตามไว้เป็นสาธารณะ"
-        recommended_debates: "แสดงการอภิปรายที่แนะนำ"
+        recommended_debates: "แสดงการเสวนาที่แนะนำ"
         recommended_proposals: "แสดงข้อเสนอที่แนะนำ"
         redeemable_code: "รหัสยืนยันที่ได้รับทางอีเมล"
         username: "ชื่อผู้ใช้"
@@ -408,7 +408,7 @@ th:
             allegations_end_date:
               invalid_date_range: "ต้องอยู่ภายในวันที่เริ่มความคิดเห็นเป็นต้นไป"
             debate_end_date:
-              invalid_date_range: "ต้องอยู่ภายในวันที่การอภิปรายเริ่มเป็นต้นไป"
+              invalid_date_range: "ต้องอยู่ภายในวันที่การเสวนาเริ่มเป็นต้นไป"
             draft_end_date:
               invalid_date_range: "ต้องอยู่ภายในหรือหลังวันที่เริ่มต้นฉบับร่างเป็นต้นไป"
             end_date:
@@ -484,8 +484,8 @@ th:
         one: "งาน"
         other: "งาน"
       debate:
-        one: "อภิปราย"
-        other: "อภิปราย"
+        one: "เสวนา"
+        other: "เสวนา"
       document:
         one: "เอกสาร"
         other: "เอกสาร"

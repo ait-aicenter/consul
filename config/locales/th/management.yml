@@ -88,7 +88,7 @@ th:
       users: "การจัดการผู้ใช้"
     permissions:
       create_proposals: "สร้างข้อเสนอ"
-      debates: "มีส่วนร่วมในการอภิปราย"
+      debates: "มีส่วนร่วมในการเสวนา"
       support_proposals: "สนับสนุนข้อเสนอ"
       vote_proposals: "โหวตข้อเสนอ"
     print:

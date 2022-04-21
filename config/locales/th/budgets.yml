@@ -22,8 +22,8 @@ th:
           knapsack: "ใช้งานได้ <span>%{count}</span>"
         amount_limit:
           approval:
-            one: "สามารถลงคะแนนได้ <span>1</span> โครงการ"
-            other: "คุณสามารถลงคะแนนใน <span>%{count}</span> โครงการ"
+            one: "คุณสามารถลงคะแนนได้ <span>1</span> โครงการ"
+            other: "คุณสามารถลงคะแนนได้ <span>%{count}</span> โครงการ"
           knapsack: "งบประมาณทั้งหมด <span>%{count}</span>"
         amount_progress: "%{amount_spent} / %{amount_limit}"
         amount_spent:
@@ -106,7 +106,7 @@ th:
           unselected: "ไม่ได้เลือก"
           winners: "ผู้ชนะ"
         orders:
-          random: "สุ่มลำดับ"
+          random: "จัดเรียงแบบสุ่ม"
           confidence_score: "เป็นที่นิยม"
           price: "ตามราคา"
         search_form:
@@ -131,7 +131,7 @@ th:
           voted_info:
             approval:
               one: "<strong>คุณได้ลงคะแนนแล้ว</strong>"
-              other: "<strong>คุณได้ลงคะแนนให้ %{count} ข้อเสนอแนะ</strong>"
+              other: "<strong>คุณได้ลงคะแนนให้ %{count} ข้อเสนอ</strong>"
             knapsack:
               one: "<strong>คุณลงคะแนนให้ข้อเสนอโดยมีค่าใช้จ่าย %{amount_spent}</strong>"
               other: "<strong> คุณลงคะแนนให้ %{count} ข้อเสนอในราคา %{amount_spent}</strong>"
@@ -170,7 +170,7 @@ th:
         unfeasibility_explanation: "อธิบายว่าเหตุใดจึงไม่สามารถทำได"
         votes: "ลงคะแนน"
       votes:
-        already_supported: "คุณสนับสนุนข้อเสนองบประมาณนี้แล้ว แบ่งปัน!"
+        already_supported: "คุณสนับสนุนข้อเสนองบประมาณนี้แล้ว แชร์เลย!"
         confirm_group:
           one: "คุณสามารถสนับสนุนข้อเสนองบประมาณได้เฉพาะใน %{count} เขต หากดำเนินการต่อ คุณจะไม่สามารถเปลี่ยนการเลือกเขตได้ คุณต้องการดำเนินการต่อหรือไม่?"
           other: "คุณสามารถสนับสนุนโครงการในละแวกใกล้เคียง %{count} แห่งเท่านั้น หากคุณดำเนินการต่อ คุณจะไม่สามารถเปลี่ยนการเลือกพื้นที่ใกล้เคียง คุณต้องการดำเนินการต่อหรือไม่?"
@@ -182,20 +182,20 @@ th:
     investments_list:
       investment:
         price: "ราคา"
-        read_more: "อ่านเพิ่มเติม"
+        read_more: "ดูข้อมูลเพ่ิมเติม"
         supports: "การสนับสนุน"
       see_all: "ดูการลงทุนทั้งหมด"
       title: "รายการการลงทุน"
     phase:
-      drafting: "ร่าง (ไม่ปรากฏต่อสาธารณะ)"
-      informing: "ข้อมูล"
-      accepting: "การส่งข้อเสนอ"
-      reviewing: "ทบทวนข้อเสนอ"
-      selecting: "การเลือก"
-      valuating: "การคำนวนต้นทุน"
+      drafting: "จัดทำร่างโครงการ (ร่างโครงการจะไม่ปรากฎต่อสาธารณะ)"
+      informing: "รวบรวมข้อมูล"
+      accepting: "รับร่างโครงการ"
+      reviewing: "พิจารณาโครงการ"
+      selecting: "คัดเลือกโครงการ"
+      valuating: "ประเมินราคาโครงการ"
       publishing_prices: "ค่าใช้จ่ายในการเผยแพร่"
-      balloting: "การลงคะแนนเสียง"
-      reviewing_ballots: "ทบทวนการลงคะแนน"
+      balloting: "ลงคะแนนเสียง"
+      reviewing_ballots: "ตรวจสอบคะแนนเสียง"
       finished: "งบประมาณที่เสร็จแล้ว"
     phases:
       errors:
@@ -203,28 +203,28 @@ th:
         prev_phase_dates_invalid: "วันที่เริ่มต้นต้องช้ากว่าวันที่เริ่มต้นของขั้นตอนที่เปิดใช้งานก่อนหน้านี้ (%{phase_name})"
         next_phase_dates_invalid: "วันที่สิ้นสุดต้องเร็วกว่าวันที่สิ้นสุดของขั้นตอนที่เปิดใช้งานถัดไป (%{phase_name})"
     results:
-      accepted: "ข้อเสนองบประมาณที่ได้รับอนุมัติ:"
+      accepted: "ข้อเสนองบประมาณที่ได้รับการอนุมัติ:"
       amount_available: "งบประมาณที่ใช้ได้"
-      ballot_lines_count: "เสียง"
+      ballot_lines_count: "คะแนนเสียง"
       discarded: "ข้อเสนองบประมาณที่ถูกปฏิเสธ:"
-      heading: "ผลงบประมาณของราษฎร"
+      heading: "ผลการพิจารณาข้อเสนองบประมาณแบบมีส่วนร่วม"
       heading_selection_title: "ตามพื้นที่ใกล้เคียง"
-      hide_discarded_link: "ซ่อนการปฏิเสธ"
+      hide_discarded_link: "ซ่อนรายการที่ถูกปฏิเสธ"
       incompatibles: "เข้ากันไม่ได้"
       investment_proyects: "รายการข้อเสนองบประมาณ"
       investment_title: "ชื่อโครงการ"
-      link: "ผลลัพธ์"
-      not_selected_investment_proyects: "รายการข้อเสนองบประมาณที่ยังไม่ได้ลงคะแนน"
+      link: "ผลการพิจารณา"
+      not_selected_investment_proyects: "รายการข้อเสนองบประมาณที่ไม่ถูกรับเลือกให้มีการลงคะแนน"
       page_title: "%{budget} - ผลลัพธ์"
       price: "ค่าใช้จ่าย"
       show_all_link: "แสดงทั้งหมด"
-      unfeasible_investment_proyects: "รายการข้อเสนองบประมาณที่ใช้การไม่ได้"
+      unfeasible_investment_proyects: "รายการข้อเสนองบประมาณที่ไม่สามารถจัดทำได้"
     show:
       see_results: "แสดงผล"
     supports_info:
-      different: "คุณสามารถสนับสนุนโครงการต่างๆ ได้มากเท่าที่คุณต้องการ"
-      next: "สนับสนุนโครงการที่คุณต้องการดำเนินการในขั้นต่อไป"
-      scrolling: "เลื่อนไปเรื่อย ๆ เพื่อดูแนวคิดทั้งหมด"
+      different: "คุณสามารถสนับสนุนโครงการต่าง ๆ ได้มากเท่าที่คุณต้องการ"
+      next: "สนับสนุนโครงการที่คุณต้องให้ดำเนินการต่อในขั้นตอนต่อไป"
+      scrolling: "เลื่อนต่อไปเพื่อดูแนวคิดทั้งหมด"
       share: "คุณสามารถแชร์โปรเจ็กต์ที่คุณสนับสนุนผ่านโซเชียลมีเดียและดึงดูดความสนใจและสนับสนุนพวกเขาได้มากขึ้น!"
       supported:
         one: "จนถึงตอนนี้ คุณได้สนับสนุน <strong>1 โครงการ</strong>"
