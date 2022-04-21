@@ -15,5 +15,6 @@ module Sluggable
 
   def generate_slug
     self.slug = name.to_s.parameterize
+    self.slug = URI.encode(name.to_s) if slug.blank?
   end
 end
