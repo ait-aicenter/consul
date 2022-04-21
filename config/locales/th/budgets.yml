@@ -193,7 +193,7 @@ th:
       reviewing: "พิจารณาโครงการ"
       selecting: "คัดเลือกโครงการ"
       valuating: "ประเมินราคาโครงการ"
-      publishing_prices: "ค่าใช้จ่ายในการเผยแพร่"
+      publishing_prices: "เผยแพร่งบประมาณ"
       balloting: "ลงคะแนนเสียง"
       reviewing_ballots: "ตรวจสอบคะแนนเสียง"
       finished: "งบประมาณที่เสร็จแล้ว"
