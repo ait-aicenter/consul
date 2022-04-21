@@ -286,7 +286,7 @@ th:
         no_admin_assigned: "ไม่มีผู้ดูแลระบบที่ได้รับมอบหมาย"
         no_budget_investments: "ไม่มีโครงการลงทุน"
         no_valuators_assigned: "ไม่มีผู้ประเมินราคาที่ไดด้รับมอบหมาย"
-        placeholder: "คนหาโครงการ"
+        placeholder: "ค้นหาโครงการ"
         see_results: "เจอผลลัพท์"
         select: "เลือก"
         selected: "เลือกแล้ว"
