@@ -182,7 +182,7 @@ th:
     investments_list:
       investment:
         price: "ราคา"
-        read_more: "ดูข้อมูลเพ่ิมเติม"
+        read_more: "ดูข้อมูลเพิ่มเติม"
         supports: "การสนับสนุน"
       see_all: "ดูการลงทุนทั้งหมด"
       title: "รายการการลงทุน"
