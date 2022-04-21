@@ -24,7 +24,8 @@ class Budget
 
     validates_translation :name, presence: true
     validates :budget_id, presence: true
-    validates :slug, presence: true, format: /\A[a-z0-9\-_]+\z/
+    # validates :slug, presence: true, format: /\A[a-z0-9\-_]+\z/
+    validates :slug, presence: true
 
     def self.sort_by_name
       all.sort_by(&:name)

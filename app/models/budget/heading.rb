@@ -29,7 +29,8 @@ class Budget
     validates_translation :name, presence: true
     validates :group_id, presence: true
     validates :price, presence: true
-    validates :slug, presence: true, format: /\A[a-z0-9\-_]+\z/
+    # validates :slug, presence: true, format: /\A[a-z0-9\-_]+\z/
+    validates :slug, presence: true
     validates :population, numericality: { greater_than: 0 }, allow_nil: true
     validates :latitude, length: { maximum: 22 }, allow_blank: true, \
               format: /\A(-|\+)?([1-8]?\d(?:\.\d{1,})?|90(?:\.0{1,6})?)\z/

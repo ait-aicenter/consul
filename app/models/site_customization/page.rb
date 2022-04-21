@@ -7,9 +7,11 @@ class SiteCustomization::Page < ApplicationRecord
   include Globalizable
 
   validates_translation :title, presence: true
+  # validates :slug, presence: true,
+  #                  uniqueness: { case_sensitive: false },
+  #                  format: { with: /\A[0-9a-zA-Z\-_]*\Z/, message: :slug_format }
   validates :slug, presence: true,
-                   uniqueness: { case_sensitive: false },
-                   format: { with: /\A[0-9a-zA-Z\-_]*\Z/, message: :slug_format }
+                   uniqueness: { case_sensitive: false }
   validates :status, presence: true, inclusion: { in: VALID_STATUSES }
 
   scope :published, -> { where(status: "published").sort_desc }
