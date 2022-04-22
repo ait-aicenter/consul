@@ -11,9 +11,9 @@ th:
       west_district: "เขตใต้"
       east_district: "เขตตะวันออก"
       central_district: "เขตกลาง"
-    organizations:
-      human_rights: "สิทธิมนุษยชน"
-      neighborhood_association: "สมาคมเพื่อนบ้าน"
+#    organizations:
+#      human_rights: "สิทธิมนุษยชน"
+#      neighborhood_association: "สมาคมเพื่อนบ้าน"
     categories:
       associations: "สมาคม"
       culture: "วัฒนธรรม"
