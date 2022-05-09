@@ -128,7 +128,7 @@ th:
       geozone:
         census_code: "รหัสข้อมูลประชากร (ทางเลือก)"
         external_code: "รหัสภายนอก (ทางเลือก)"
-        html_map_coordinates: "เฮชทีเอ็มแอล <map> พิกัด (ทางเลือก)"
+        html_map_coordinates: "พิกัด HTML <map> (ทางเลือก)"
         name: "ชื่อ"
       image:
         attachment: "เลือกภาพ"
