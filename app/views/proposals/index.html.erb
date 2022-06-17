@@ -103,7 +103,7 @@
         <%= paginate @proposals %>
 
         <% unless @search_terms || @advanced_search_terms %>
-          <div id="section_help" class="margin" data-magellan-target="section_help">
+          <div id="section_help" class="margin" data-magellan-target="section_help" style="display: none">
             <p class="lead">
               <strong><%= t("proposals.index.section_footer.title") %></strong>
             </p>
@@ -119,10 +119,10 @@
                     new_proposal_path,
                     class: "button expanded" %>
 
-        <div class="sidebar-divider"></div>
-        <h2 class="sidebar-title"><%= t("proposals.index.selected_proposals") %></h2>
+        <div class="sidebar-divider" style="display: none"></div>
+        <h2 class="sidebar-title" style="display: none"><%= t("proposals.index.selected_proposals") %></h2>
         <br>
-        <p class="small">
+        <p class="small" style="display: none">
           <%= link_to t("proposals.index.selected_proposals_link"), proposals_path(selected: "all") %>
         </p>
 

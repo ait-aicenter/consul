@@ -87,8 +87,10 @@
 
       &[aria-selected="true"],
       &.is-active {
-        background: $dark;
-        color: $white;
+        //background: $dark;
+        background: #e6e6e6;
+        //color: $white;
+        color: inherit;
         font-weight: normal;
       }
 

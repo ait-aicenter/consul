@@ -78,7 +78,7 @@ th:
         title: "งบประมาณของพลเมือง"
         help: "คำอธิบายเกี่ยวกับการจัดทำงบประมาณแบบมีส่วนร่วม"
       see_results: "แสดงผล"
-      title: "การจัดทำงบประมาณแบบมีส่วนร่วม"
+      title: "การจัดทำงบประมาณแบบมีส่วนร่วม<br>(Participatory Budgeting)"
     investments:
       form:
         map_location: "ตำแหน่งแผนที่"
